@@ -63,15 +63,14 @@ Rendering
 ---------
 
 Rendering a scene using the command-line interface is simple, assuming that
-you have set up the scene parameters and copied your scene files to the
-`~/.chunky/scenes` directory (or your equivalent scene directory).
+you have set up the scene parameters and copied your scene files to your directory (default=`~/.chunky/scenes`).
 
 The simplest way to render a scene is to just run the command
 
     chunky -render SceneName
 
 Replace `SceneName` with the name of your scene. Omitting the scene name prints
-a list of available scenes.
+a list of available scenes and the path to the current scene directory.
 
 Chunky will keep rendering until it reaches the target SPP or until the process
 is ended. You can terminate Chunky prematurely by hitting `Ctrl-C`. However,
@@ -86,3 +85,34 @@ command which takes the latest render dump and creates a snapshot from that:
     chunky -render SceneName snapshot.png
 
 The `snapshot.png` part of the command is the path to the Png file to create.
+
+Command-Line Options
+--------------------
+
+Run Chunky with the `-help` command to see a list of all available command-line
+options. Currently these options are available:
+
+* `-render <SCENE>`
+* `-texture <FILE>`
+* `-snapshot <SCENE> <PNG>`
+* `-scene-dir <DIR>`
+* `-benchmark`
+* `-threads <NUM>`
+* `-tile-width <NUM>`
+* `-target <NUM>`
+* `-set <NAME> <VALUE>`
+* `-set <NAME> <VALUE> <SCENE>`
+* `-reset <NAME>`
+* `-reset <NAME> <SCENE>`
+* `-download-mc <VERSION>`
+* `-help`
+
+The launcher accepts these commands:
+
+* `--update`
+* `--setup`
+* `--nolauncher`
+* `--launcher`
+* `--version`
+* `--verbose`
+
