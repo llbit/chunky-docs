@@ -1,0 +1,37 @@
+<project name="chunky-docs" default="build">
+
+	<!-- global project properties -->
+	<property name="docs.dir" location="${basedir}/docs"/>
+	<property name="tools.dir" location="${basedir}/tools"/>
+
+	<target name="build">
+		<mkdir dir="${docs.dir}"/>
+		<!-- filter the index file -->
+		<!--copy file="${help.dir}/index.md.in" toFile="${help.dir}/index.md"
+			overwrite="true">
+			<filterset>
+				<filter token="VERSION" value="${version}"/>
+				<filter token="BUILD_DATE" value="${build.date}"/>
+			</filterset>
+		</copy-->
+		<chainedmapper id="mdmapper">
+			<flattenmapper/>
+			<globmapper from="*.md" to="${docs.dir}${file.separator}*.html"/>
+		</chainedmapper>
+		<apply executable="perl" dest="${docs.dir}">
+			<arg value="${tools.dir}/Markdown.pl"/>
+			<srcfile/>
+			<fileset dir="${basedir}" includes="*.md"/>
+			<mapper refid="mdmapper"/>
+			<redirector>
+				<outputmapper refid="mdmapper"/>
+			</redirector>
+		</apply>
+		<!--delete>
+			<fileset dir="${help.dir}">
+				<include name="index.md"/>
+			</fileset>
+		</delete-->
+	</target>
+
+</project>
