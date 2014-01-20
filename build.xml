@@ -3,43 +3,38 @@
 	<!-- global project properties -->
 	<property name="docs.dir" location="${basedir}/docs"/>
 	<property name="build.dir" location="${basedir}/out"/>
+	<property name="tmp.dir" location="${basedir}/tmp"/>
 	<property name="tools.dir" location="${basedir}/tools"/>
+	<property file="${basedir}/version.properties"/>
 
 	<target name="build">
-		<mkdir dir="${build.dir}"/>
-		<copy todir="${build.dir}">
-			<fileset dir="${docs.dir}">
-				<type type="dir"/>
-			</fileset>
-		</copy>
-		<!-- filter the index file -->
-		<!--copy file="${help.dir}/index.md.in" toFile="${help.dir}/index.md"
-			overwrite="true">
+		<mkdir dir="${tmp.dir}"/>
+		<copy todir="${tmp.dir}">
+			<fileset dir="${docs.dir}"/>
 			<filterset>
 				<filter token="VERSION" value="${version}"/>
+				<filter token="EXE_DL_LINK" value="${exe.dl.link}"/>
+				<filter token="ZIP_DL_LINK" value="${zip.dl.link}"/>
 				<filter token="BUILD_DATE" value="${build.date}"/>
 			</filterset>
-		</copy-->
+		</copy>
+		<mkdir dir="${build.dir}"/>
 		<globmapper id="mymapper"
 			from="*.md"
 			to="${build.dir}${file.separator}*.html"/>
 		<apply executable="perl" dest="${build.dir}">
 			<arg value="${tools.dir}/Markdown.pl"/>
 			<srcfile/>
-			<fileset dir="${docs.dir}" includes="**/*.md"/>
+			<fileset dir="${tmp.dir}" includes="**/*.md"/>
 			<mapper refid="mymapper"/>
 			<redirector>
 				<outputmapper refid="mymapper"/>
 			</redirector>
 		</apply>
-		<!--delete>
-			<fileset dir="${help.dir}">
-				<include name="index.md"/>
-			</fileset>
-		</delete-->
 	</target>
 
 	<target name="clean">
+		<delete dir="${tmp.dir}"/>
 		<delete dir="${build.dir}"/>
 	</target>
 
