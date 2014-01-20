@@ -2,10 +2,16 @@
 
 	<!-- global project properties -->
 	<property name="docs.dir" location="${basedir}/docs"/>
+	<property name="build.dir" location="${basedir}/out"/>
 	<property name="tools.dir" location="${basedir}/tools"/>
 
 	<target name="build">
-		<mkdir dir="${docs.dir}"/>
+		<mkdir dir="${build.dir}"/>
+		<copy todir="${build.dir}">
+			<fileset dir="${docs.dir}">
+				<type type="dir"/>
+			</fileset>
+		</copy>
 		<!-- filter the index file -->
 		<!--copy file="${help.dir}/index.md.in" toFile="${help.dir}/index.md"
 			overwrite="true">
@@ -14,17 +20,16 @@
 				<filter token="BUILD_DATE" value="${build.date}"/>
 			</filterset>
 		</copy-->
-		<chainedmapper id="mdmapper">
-			<flattenmapper/>
-			<globmapper from="*.md" to="${docs.dir}${file.separator}*.html"/>
-		</chainedmapper>
-		<apply executable="perl" dest="${docs.dir}">
+		<globmapper id="mymapper"
+			from="*.md"
+			to="${build.dir}${file.separator}*.html"/>
+		<apply executable="perl" dest="${build.dir}">
 			<arg value="${tools.dir}/Markdown.pl"/>
 			<srcfile/>
-			<fileset dir="${basedir}" includes="*.md"/>
-			<mapper refid="mdmapper"/>
+			<fileset dir="${docs.dir}" includes="**/*.md"/>
+			<mapper refid="mymapper"/>
 			<redirector>
-				<outputmapper refid="mdmapper"/>
+				<outputmapper refid="mymapper"/>
 			</redirector>
 		</apply>
 		<!--delete>
@@ -32,6 +37,10 @@
 				<include name="index.md"/>
 			</fileset>
 		</delete-->
+	</target>
+
+	<target name="clean">
+		<delete dir="${build.dir}"/>
 	</target>
 
 </project>
