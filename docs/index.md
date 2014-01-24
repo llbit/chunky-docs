@@ -41,4 +41,5 @@ Frequently Asked Questions
 Pages:
 
 * [Headless Rendering](headless.html)
+* [Scene Description Format](scene_format.html)
 
