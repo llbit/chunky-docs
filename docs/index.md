@@ -12,8 +12,9 @@ Download links for version [@VERSION@](release/@VERSION@/release_notes.html):
 * [Cross-platform binaries (Mac, Win, Linux)](@ZIP_DL_LINK@)
 * [Launcher only (Mac, Win, Linux)](http://chunkyupdate.llbit.se/ChunkyLauncher.jar)
 
-If you are new to Chunky you may want to look at the [Getting Started
-Guide!](getting_started.html)
+If you are new to Chunky you may want to look at the [Installation
+Instructions](install.html) and the [Getting Started
+Guide](getting_started.html).
 
 Useful links:
 
