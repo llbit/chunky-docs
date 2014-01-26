@@ -2,6 +2,7 @@
 
 	<!-- global project properties -->
 	<property name="docs.dir" location="${basedir}/docs"/>
+	<property name="images.dir" location="${basedir}/images"/>
 	<property name="build.dir" location="${basedir}/out"/>
 	<property name="tmp.dir" location="${basedir}/tmp"/>
 	<property name="tools.dir" location="${basedir}/tools"/>
@@ -9,6 +10,7 @@
 
 	<target name="build">
 		<mkdir dir="${tmp.dir}"/>
+		<echo message="Copying source files"/>
 		<copy todir="${tmp.dir}">
 			<fileset dir="${docs.dir}"/>
 			<filterset>
@@ -18,6 +20,7 @@
 				<filter token="BUILD_DATE" value="${build.date}"/>
 			</filterset>
 		</copy>
+		<echo message="Running Markdown"/>
 		<mkdir dir="${build.dir}"/>
 		<globmapper id="mymapper"
 			from="*.md"
@@ -31,6 +34,10 @@
 				<outputmapper refid="mymapper"/>
 			</redirector>
 		</apply>
+		<echo message="Copying images"/>
+		<copy todir="${build.dir}">
+			<fileset dir="${images.dir}"/>
+		</copy>
 	</target>
 
 	<target name="clean">

@@ -9,11 +9,25 @@ Download links for version [@VERSION@](release/@VERSION@/release_notes.html):
 * [Cross-platform binaries (Mac, Win, Linux)](@ZIP_DL_LINK@)
 * [Launcher only (Mac, Win, Linux)](http://chunkyupdate.llbit.se/ChunkyLauncher.jar)
 
+If you are new to Chunky you may want to look at the [Getting Started
+Guide!](getting_started.html)
+
 Useful links:
 
 * [GitHub Page](https://github.com/llbit/chunky)
 * [Issue Tracker](https://github.com/llbit/chunky/issues)
 * [Reddit Community](http://www.reddit.com/r/chunky)
+
+License & Copyright
+-------------------
+
+Chunky is free software and the source code is made available under the [Gnu
+General Public License, version 3](http://opensource.org/licenses/gpl-3.0.html).
+The source code is managed on [GitHub](https://github.com/llbit/chunky).
+
+Chunky is Copyright (c) 2010-2014, Jesper Öqvist. Additional contributors are
+listed in the relevant source files and in the credits. Copyright notices for
+third-party libraries used in Chunky are listed in the README file.
 
 Frequently Asked Questions
 --------------------------
