@@ -22,6 +22,10 @@ Useful links:
 * [Issue Tracker](https://github.com/llbit/chunky/issues)
 * [Reddit Community](http://www.reddit.com/r/chunky)
 
+Galleries:
+
+* [Reddpics Gallery](http://reddpics.com/r/chunky)
+
 License & Copyright
 -------------------
 
