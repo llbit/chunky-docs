@@ -49,7 +49,7 @@ Available!" window:
 
 ![Update Available! window](update-available.png)
 
-Click the "Update" button to start downloading the required files. When the
-download process has completed you can close the "Update Available!" by
-clicking "Close" and then, in the main launcher window, click "Launch" to start
-Chunky.
+Click the "Update to New Version" button to start downloading the required
+files. When the download process has completed you can close the "Update
+Available!" by clicking "Close" and then, in the main launcher window, click
+"Launch" to start Chunky.
