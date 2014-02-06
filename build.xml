@@ -2,7 +2,6 @@
 
 	<!-- global project properties -->
 	<property name="docs.dir" location="${basedir}/docs"/>
-	<property name="images.dir" location="${basedir}/images"/>
 	<property name="build.dir" location="${basedir}/out"/>
 	<property name="tmp.dir" location="${basedir}/tmp"/>
 	<property name="tools.dir" location="${basedir}/tools"/>
@@ -20,13 +19,19 @@
 				<filter token="BUILD_DATE" value="${build.date}"/>
 			</filterset>
 		</copy>
-		<echo message="Running Markdown"/>
+		<echo message="Creating output directory"/>
 		<mkdir dir="${build.dir}"/>
+		<copy todir="${build.dir}">
+			<fileset dir="${docs.dir}">
+				<type type="dir"/>
+			</fileset>
+		</copy>
+		<echo message="Running Markdown Wrapper"/>
 		<globmapper id="mymapper"
 			from="*.md"
 			to="${build.dir}${file.separator}*.html"/>
-		<apply executable="perl" dest="${build.dir}">
-			<arg value="${tools.dir}/Markdown.pl"/>
+		<apply executable="python" dest="${build.dir}">
+			<arg value="${tools.dir}/mdwrapper.py"/>
 			<srcfile/>
 			<fileset dir="${tmp.dir}" includes="**/*.md"/>
 			<mapper refid="mymapper"/>
@@ -36,7 +41,11 @@
 		</apply>
 		<echo message="Copying images"/>
 		<copy todir="${build.dir}">
-			<fileset dir="${images.dir}"/>
+			<fileset dir="${basedir}/images"/>
+		</copy>
+		<echo message="Copying stylesheet"/>
+		<copy todir="${build.dir}">
+			<fileset dir="${basedir}/style"/>
 		</copy>
 	</target>
 
