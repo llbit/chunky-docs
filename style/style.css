@@ -11,5 +11,9 @@ pre {
   border-radius: 3px;
   padding: 6px 10px;
   overflow: auto;
-  width: 800px;
+  width: 100%;
+}
+#content {
+  margin: 0px auto;
+  width: 600px;
 }

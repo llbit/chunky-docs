@@ -17,7 +17,11 @@ sys.stdout.write("""<!doctype html>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<div id="content">
+<header>
+<h1>Chunky Documentation</h1>
+</header>
 """ % text.split('\n', 1)[0])
 sys.stdout.write(markdown.markdown(text).encode('utf-8'))
-sys.stdout.write("</body></html>")
+sys.stdout.write("</div></body></html>")
 sys.stdout.flush()
