@@ -13,6 +13,14 @@ respective earliest contribution:
 * AEnterprise
 * Austin Bonander
 
+Wiki Editors
+------------
+
+* Hespook
+* TheRenderJunkie
+* Theudas
+* DaedalusYoung
+
 Special Thanks
 --------------
 
