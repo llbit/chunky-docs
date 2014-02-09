@@ -1,18 +1,19 @@
 ::selection {
-  background: #FFFF00;
+  background: #FF0;
 }
 a {
+  color: #844;
   font-weight: bold;
   text-decoration: none;
 }
 a:hover {
-  background: #FFFF44;
+  background: #FF4;
 }
 p code {
   background-color: #F8F8F8;
   border: 1px solid #CCC;
   border-radius: 3px;
-  padding: 0px 5px;
+  padding: 0 5px;
   white-space: nowrap;
 }
 pre {
@@ -26,8 +27,11 @@ pre {
 h1, h2, h3 {
   font-family: sans-serif;
 }
+body {
+  margin: 0;
+}
 #wrapper {
-  margin: 0px auto;
+  margin: 0 auto;
   border-collapse: collapse;
 }
 #logo {
@@ -38,7 +42,10 @@ h1, h2, h3 {
   width: 600px;
 }
 #header {
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid #555;
+}
+#title {
+  text-indent: 50px;
 }
 #title h1 {
   margin: 0 0 0.5rem;
