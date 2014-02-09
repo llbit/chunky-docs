@@ -1,7 +1,6 @@
 Chunky
-is a Minecraft mapping and rendering tool. Chunky can be used to render
-Minecraft worlds. Check out the [Chunky subreddit][15] to see examples of what
-people are using Chunky for!
+is a Minecraft mapping and rendering tool.  Check out [our subreddit][15] to
+see examples of what people are using Chunky for!
 
 Download links for [version @VERSION@][1]:
 
