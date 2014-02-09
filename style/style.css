@@ -45,7 +45,7 @@ body {
   border-bottom: 2px solid #555;
 }
 #title {
-  text-indent: 50px;
+  text-indent: -50px;
 }
 #title h1 {
   margin: 0 0 0.5rem;
