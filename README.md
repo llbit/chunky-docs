@@ -9,3 +9,5 @@ Requirements
 ------------
 
 Python and python-markdown are required to generate the documentation pages.
+
+    pip install python-markdown

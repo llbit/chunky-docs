@@ -32,5 +32,9 @@ You can select some chunks by clicking the left mouse button, or by holsing
 rectangle. Holding <kbd>Ctrl+Shift</kbd> while dragging whil deselect all
 chunks inside the rectangle.
 
+Creating a 3D Scene
+-------------------
+
 Once you have selected some Chunks, go to the "3D Render" tab in the right
-hand pane and click the "New Scene" button.
+hand pane of the main window and click the "New Scene" button.
+

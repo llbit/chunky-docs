@@ -1,2 +1,8 @@
 /out
 /tmp
+
+# local Node server
+/server.js
+
+# Vim
+*.swp

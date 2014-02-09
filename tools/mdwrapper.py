@@ -14,14 +14,24 @@ sys.stdout.write("""<!doctype html>
 <head>
 <meta charset="utf-8">
 <title>%s</title>
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="/style.css">
 </head>
 <body>
 <div id="content">
 <header>
-<h1>Chunky Documentation</h1>
+<h2 id="logo">
+  <a href="/">
+    <img alt="Chunky logo" src="/logo.png">
+  </a>
+</h2>
+<div id="title">
+  <h1>Chunky Documentation</h1>
+  <h2>Documentation of the Minecraft renderer</h2>
+</div>
 </header>
+<nav></nav>
+<div id="article">
 """ % text.split('\n', 1)[0])
 sys.stdout.write(markdown.markdown(text).encode('utf-8'))
-sys.stdout.write("</div></body></html>")
+sys.stdout.write("</div></div></body></html>")
 sys.stdout.flush()
