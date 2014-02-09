@@ -20,7 +20,7 @@ pre {
   border: 1px solid #CCC;
   border-radius: 3px;
   padding: 6px 10px;
-  overflow: auto;
+  overflow: scroll;
   width: 100%;
 }
 h1, h2, h3 {
@@ -28,12 +28,14 @@ h1, h2, h3 {
 }
 #wrapper {
   margin: 0px auto;
-  width: 600px;
   border-collapse: collapse;
 }
 #logo {
   width: 100px;
   height: 100px;
+}
+#article {
+  width: 600px;
 }
 #header {
   border-bottom: 2px solid black;

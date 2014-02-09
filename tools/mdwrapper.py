@@ -24,8 +24,8 @@ sys.stdout.write("""
     <a href="/"><img alt="Chunky logo" src="/logo.png"></a>
   </th>
   <th id="title">
-    <h1>Chunky Documentation</h1>
-    <h2>Documentation of the Minecraft renderer</h2>
+    <h1>Chunky</h1>
+    <h2>Minecraft world renderer</h2>
   </th>
 </tr>
 <tr id="content">
