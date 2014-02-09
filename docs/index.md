@@ -73,7 +73,7 @@ Pages:
 [7]: http://www.reddit.com/r/chunky
 [8]: http://reddpics.com/r/chunky
 [9]: https://github.com/llbit/chunky
-[10]: pathtracing.html
+[10]: path_tracing.html
 [11]: headless.html
 [12]: scene_format.html
 [13]: install.html

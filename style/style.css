@@ -1,3 +1,13 @@
+::selection {
+  background: #FFFF00;
+}
+a {
+  font-weight: bold;
+  text-decoration: none;
+}
+a:hover {
+  background: #FFFF44;
+}
 p code {
   background-color: #F8F8F8;
   border: 1px solid #CCC;
@@ -13,41 +23,28 @@ pre {
   overflow: auto;
   width: 100%;
 }
-#content {
+h1, h2, h3 {
+  font-family: sans-serif;
+}
+#wrapper {
   margin: 0px auto;
   width: 600px;
+  border-collapse: collapse;
 }
 #logo {
-  float: left;
   width: 100px;
   height: 100px;
 }
-#title {
-  float: left;
-  margin: 1rem;
-  bottom: 0;
+#header {
+  border-bottom: 2px solid black;
 }
-header {
-  font-family: sans-serif;
-}
-header h1 {
+#title h1 {
   margin: 0 0 0.5rem;
 }
-header h2 {
+#title h2 {
   margin: 0;
   font-style: italic;
   font-family: serif;
   font-size: 1rem;
   color: #666;
-}
-header {
-  border-bottom: 2px solid black;
-}
-#article {
-  padding-left: 100px;
-}
-header:after {
-  clear: both;
-  content: " ";
-  display: block;
 }
