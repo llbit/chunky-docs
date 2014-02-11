@@ -1,9 +1,12 @@
+<h1>Render Controls</h1>
+[Overview][0] | [General][1] | [Lighting][2] | [Sky][3] | [Camera][4] | [Post-Processing][5] | [Advanced][6] | [Global Settings][7] |  
+****
 |                   |                   |
 |:-----------------:|:------------------|
 |Load Scene         | Listes saved scene within the sctive directory.  Click the desired scene to start loading it. |
 |Open Scene Directory | Opens an explorer of the active scene directory where all current scenes are and will be saved to. |
 |Load Selected Chunks | Loads all chunks currently selected in the world overview. Be careful, as your current camera position will get reset to the center of the selected chunks every time you use this feature.|
-|Reload Chunks        | Reloads the chunks currently loaded in the renderer. |
+|Reload Chunks      | Reloads the chunks currently loaded in the renderer. |
 ****
 |                   |                   |
 |:-----------------:|:------------------|
@@ -20,3 +23,12 @@
 |Enable Biome Colors| Toggles the display of biome specific colors.|
 |Save dump once every x frames  | This option will cause Chunky to save a dump (frame, scene and biome colours) once every fiftieth, hundredth, five hundredth, or thousandth frame. Default is 500th. |
 |Save snapshot for each dump  | When checked this option will save a image file when chunky saves dump files. Useful if you don't want to clutter your scene directory folder with lots of intermediate image files. |
+
+[0]: overview.html
+[1]: general.html
+[2]: lighting.html
+[3]: sky.html
+[4]: camera.html
+[5]: postprocessing.html
+[6]: advanced.html
+[7]: globalsettings.html
