@@ -91,6 +91,7 @@ h1, h2, h3 {
 }
 #title{
 	text-align:center;
+	text-indent: -100px;
 }
 #content{
 	margin: 170px 0 0 200px;
