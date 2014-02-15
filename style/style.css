@@ -42,13 +42,15 @@ h1, h2, h3 {
 .title{
 	font-family:sans-serif;
 	font-size:42px;
+	margin-bottom: 0.5rem;
 }
 .subtitle{
+	margin-top: 0.5rem;
 	font-size:16px;
 	font-family: serif;
 	font-style: italic;
 	font-weight: 500;
-  	color: #666;
+	color: #666;
 }
 .menu-text{
 	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
@@ -71,53 +73,37 @@ h1, h2, h3 {
 /* CONTAINERS */
 #wrapper{
 	width: 800px;
-	margin: 0 auto;	
+	margin: 0 auto;
 	height:100%;
+	border-collapse: collapse;
 }
 #header{
-	position:absolute;
 	width:inherit;
 	height:150px;
 	margin-top: 20px;
 	background:white;
+	border-bottom: 2px solid hsla(51,13%,90%,1.00);
 }
 #logo{
-	float:left;	
 	padding: 30px;
 	text-indent:15px;
-	
+
 }
 #title{
-	position: absolute;
-	right:270px;
-	top:0px;
 	text-align:center;
 }
-#sub-title{
-	position: absolute;
-	width:200px;
-	top:65px;
-	right:-20px;	
-}
 #content{
-	position:absolute;
 	margin: 170px 0 0 200px;
-	padding: 0 5px 0 10px;
 	width:585px;
 	min-height:100%;
-	border-top-width: 2px;
-	border-left-width:0;
-	border-right-width:0;
-	border-bottom-width:0;
-	border-top-color:hsla(51,13%,90%,1.00);
-	border-style:solid;
 	background:white;
 }
 #menu{
-	position:absolute;
-	left:-200px;
-	top:0;
+	vertical-align: top;
 	width:200px;
 	height:100%;
 	background:hsla(51,13%,90%,1.00);
+}
+#article{
+	padding: 0 1rem;
 }
