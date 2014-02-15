@@ -57,7 +57,8 @@ sys.stdout.write("""
 	      </ul>
 	      <hr class="hr-padded"/>
 	      <ul class="menu-text">
-	      	<li><a href="credits.html">credits</a></li>
+		<li><a href="contributing.html">contributing</a></li>
+		<li><a href="credits.html">credits</a></li>
 	      </ul>
 	    </div><!--End Menu Div-->
 	    <!--Content goes here -->
