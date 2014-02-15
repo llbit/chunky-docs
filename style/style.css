@@ -20,7 +20,7 @@ pre {
   border: 1px solid #CCC;
   border-radius: 3px;
   padding: 6px 10px;
-  overflow: scroll;
+  overflow: auto;
   width: 100%;
 }
 /* GLOBALS */
