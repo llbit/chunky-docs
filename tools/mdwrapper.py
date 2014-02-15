@@ -18,7 +18,7 @@ sys.stdout.write("""
 	    </div>
 	    <div id="title">
 	    	<h1 class="title">Chunky</h1>
-	        <h2 class="subtitle">Minecraft World Renderer</h2>
+	        <h2 id="sub-title" class="subtitle">Minecraft World Renderer</h2>
 		</div>
 	       </div>
 	<div id="content">
