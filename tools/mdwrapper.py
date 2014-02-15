@@ -9,12 +9,20 @@ else:
 	with codecs.getreader('utf-8')(sys.stdin) as f:
 		text = f.read()
 
+title = text.split('\n', 1)[0]
 sys.stdout.write("""
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>%s</title>
+<link rel="stylesheet" href="/style.css">
+</head>
 <body>
 	<div id="wrapper">
 		<div id="header">
 	    <div id="logo">
-	    	<a href="index.html"><img src="images/logo.png" /></a>
+	    	<a href="index.html"><img src="logo.png" /></a>
 	    </div>
 	    <div id="title">
 	    	<h1 class="title">Chunky</h1>
@@ -23,7 +31,7 @@ sys.stdout.write("""
 	       </div>
 	<div id="content">
 		<div id="menu">
-	      <ul class="menu-text">	
+	      <ul class="menu-text">
 	        <li><a href="index.html">home</a></li>
 	        <li><a href="getting started.html">getting started</a></li>
 	            <ul class="menu-text-indented">
@@ -62,7 +70,7 @@ sys.stdout.write("""
 	      </ul>
 	    </div><!--End Menu Div-->
 	    <!--Content goes here -->
-""" % text.split('\n', 1)[0])
+""" % title)
 sys.stdout.write(markdown.markdown(text).encode('utf-8'))
 sys.stdout.write("""
        	</div>
