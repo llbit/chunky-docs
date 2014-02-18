@@ -9,17 +9,8 @@ Download links for [version @VERSION@][1]:
 * [Launcher only (Mac, Win, Linux)][4]
 
 If you are new to Chunky you may want to look at the [Installation
-Instructions][13] and the [Getting Started Guide][14].
+Instructions][13] and the [Getting Started Guide][14].  
 
-Useful links:
-
-* [GitHub Page][5]
-* [Issue Tracker][6]
-* [Reddit Community][7]
-
-Galleries:
-
-* [Reddpics Gallery][8]
 
 License & Copyright
 -------------------
@@ -58,9 +49,6 @@ Frequently Asked Questions
 
 Pages:
 
-* [Headless Rendering][11]
-* [Scene Description Format][12]
-
 [1]: release/@VERSION@/release_notes.html
 [2]: @EXE_DL_LINK@
 [3]: @ZIP_DL_LINK@
@@ -68,11 +56,8 @@ Pages:
 [5]: https://github.com/llbit/chunky
 [6]: https://github.com/llbit/chunky/issues
 [7]: http://www.reddit.com/r/chunky
-[8]: http://reddpics.com/r/chunky
 [9]: https://github.com/llbit/chunky
 [10]: path_tracing.html
-[11]: headless.html
-[12]: scene_format.html
 [13]: install.html
 [14]: getting_started.html
 [15]: http://www.reddit.com/r/chunky
