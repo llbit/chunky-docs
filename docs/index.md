@@ -45,9 +45,9 @@ Frequently Asked Questions
 
 * **Q: Is GPU rendering supported?**
   Not currently, but in the distant future Chunky may be able to render using
-  GPUs that support OpenCL.
+  GPUs that support OpenCL.  
 
-Pages:
+Question still not answered?  [Check the FAQs page.][8]
 
 [1]: release/@VERSION@/release_notes.html
 [2]: @EXE_DL_LINK@
@@ -56,6 +56,7 @@ Pages:
 [5]: https://github.com/llbit/chunky
 [6]: https://github.com/llbit/chunky/issues
 [7]: http://www.reddit.com/r/chunky
+[8]: faqs.html
 [9]: https://github.com/llbit/chunky
 [10]: path_tracing.html
 [13]: install.html
