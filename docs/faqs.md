@@ -1,10 +1,12 @@
 Frequently Asked Questions
 --------------------------
+Post any questions un-answered here to the [reddit community][0].  Any bugs please post to the [chunky github.][1]
+
 
 * **Q: Why do I get random dots in the render?**
   Torches and other small light sources cause a very random illumination and it
   t takes many samples per pixel to render such light smoothly. For more
-  information see the [Path Tracing][10] article! You can disable emitters
+  information see the [Path Tracing][2] article! You can disable emitters
   under the Lighting tab in the Render Controls dialog to remove the random
   bright dots. Note that rendering for a longer time will eventually remove the
   dots as the render approaches the expected value.
@@ -32,3 +34,8 @@ Frequently Asked Questions
 
 * **Where can I find Skymaps?**
   The Skymap page has some useful links for obtaining high quality skymaps.
+
+
+[0]:http://www.reddit.com/r/chunky
+[1]:https://github.com/llbit/chunky
+[2]:path_tracing.html
