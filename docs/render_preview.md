@@ -1,27 +1,27 @@
 Render Preview Window
 ==================
 
-image here...
+![Render Preview Window Example](Chunky_Render_Preview.png)
 
 
 * **Pan/Tilt**  
-_(mouse buttons)_`Left``Middle``Right`
+_(mouse buttons)_Left,Middle, or Right
 
 * **(Dolly)Forward**  
-_+Shift (for slower movement)_`W Key``Up Arrow Key``K Key (for quicker movement)`
+_+Shift (for slower movement)_ W Key, Up Arrow Key, K Key(for quicker movement)
 
 * **(Dolly) Back**  
-_+Shift (for slower movement)_`S Key``Down Arrow Key``J Key (for quicker movement)`
+_+Shift (for slower movement)_ S KeyDown, Arrow Key, J Key(for quicker movement)
 
 * **(Truck) Left**  
-`A Key``Left arrow`
+A Key, Left arrow
 
 * **(Truck) Right**  
-`D Key``Right Arrow`
+D Key, Right Arrow
 
 * **(Pedestal) Up**  
-`R Key`
+R Key
 
 * **(Pedestal) Down**  
-`F Key`
+F Key
 
