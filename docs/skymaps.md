@@ -9,10 +9,13 @@ It is recommended to a large skymap, in order to avoid the sky looking blurry. H
 Where to find skymaps
 -------------------
 
-* **http://www.wuala.com/Olson/Photos/Optikz_360_Skies/**
-* **http://www.cgskies.com/skies.php?hdronly=&sortby=rating&pagesize=**
-* **http://www.reddit.com/r/chunky/comments/17ts4b/some_more_skymaps/**
+* [**http://www.wuala.com/Olson/Photos/Optikz_360_Skies/**][1]
+* [**http://www.cgskies.com/skies.php?hdronly=&sortby=rating&pagesize=**][2]
+* [**http://www.reddit.com/r/chunky/comments/17ts4b/some_more_skymaps/**][3]
 
 You can also try searcing Google for [Panoramic Sky Texture][0]
 
 [0]: https://www.google.com/search?q=panoramic+sky+texture
+[1]: http://www.wuala.com/Olson/Photos/Optikz_360_Skies/
+[2]: http://www.cgskies.com/skies.php?hdronly=&sortby=rating&pagesize=
+[3]: http://www.reddit.com/r/chunky/comments/17ts4b/some_more_skymaps/
