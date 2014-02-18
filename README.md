@@ -12,7 +12,7 @@ Requirements
 
 Python and python-markdown are required to generate the documentation pages.
 
-    pip install python-markdown
+    pip install markdown
 
 
 [0]:http://docs.llbit.se/  
