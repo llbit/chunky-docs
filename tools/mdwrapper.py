@@ -38,7 +38,7 @@ sys.stdout.write("""
 				<li><a href="install.html">Installation</a></li>
 				<li>Tutorials</li>
 			</ul>
-		<li>FAQs</li>
+		<li><a href="faqs.html">FAQs</a></li>
 		<li>User Guides</li>
 			<ul class="menu-text-indented">
 			<li><a href="path_tracing.html">Path Tracing</a>
