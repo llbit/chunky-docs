@@ -3,8 +3,8 @@ Tips & Tutorials
 
 [TOC]
 
-#Tips
+Tips
 ----------------  
 
-##Tutorials  
+Tutorials  
 ----------------
