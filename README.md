@@ -5,7 +5,16 @@ This is the repository for the Chunky Documentation. Any help with keeping this
 documentation up to date is much appreciated. The simplest way to request a
 change or addition is to send me a pull request.
 
-New Site: [http://docs.llbit.se/][0]
+Temporary documentation site: [http://docs.llbit.se/][0] (will be moved to the
+current Wiki location)
+
+Editing
+-------
+
+You can edit any file easily right here on GitHub. All you need is a GitHub
+account. You can navigate to a file you want to edit via the file tree and
+click the `Edit` button after selecting a file. We use [Markdown syntax][3] for
+all documentation pages.
 
 Workflow
 --------
@@ -37,3 +46,4 @@ Python and python-markdown are required to generate the documentation pages.
 [0]:http://docs.llbit.se/
 [1]:http://ant.apache.org/
 [2]:http://stackoverflow.com/a/13635318
+[3]:http://daringfireball.net/projects/markdown/syntax
