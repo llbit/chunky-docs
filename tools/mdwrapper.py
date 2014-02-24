@@ -74,7 +74,7 @@ sys.stdout.write("""
 		<!--Content goes here -->
 		<td id="article">
 """ % title)
-sys.stdout.write(markdown.markdown(text).encode('utf-8'))
+sys.stdout.write(markdown.markdown(text, ['extra']).encode('utf-8'))
 sys.stdout.write("""
 		</td>
 		</tr>

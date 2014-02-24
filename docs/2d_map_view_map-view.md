@@ -14,10 +14,11 @@
 
 **Map View**
 :   Toggles different view modes to aid in picking a certain area.  
-* **Layer** - This defaults to the players y position.  Use the layer slider toward the bottom to change the layer.  
-* **Surface** - Default view mode of Chunky.  Shows a 2d overviewer of the world.  
-* **Caves** - Displays all caves.
-* **Biomes** - Similar to the Surface view mode.  Displays map in biome colors.  
+
+* Layer - *This defaults to the players y position.  Use the layer slider toward the bottom to change the layer.*  
+* Surface - *Default view mode of Chunky.  Shows a 2d overviewer of the world.*  
+* Caves - *Displays all caves.*  
+* Biomes - *Similar to the Surface view mode.  Displays map in biome colors.*  
 
 **Dimension**
 :   Displays the different dimensions of Minecraft if available.  

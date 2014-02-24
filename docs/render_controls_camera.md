@@ -35,7 +35,13 @@
 :   Moves the camera to any of the traditional isometric views and changes the projection mode to Parallel.  
 
 **Projection**
-:   Changes the path projection method to any of the possible projection modes: Parallel, Pinhole, Fisheye, Panoramic (equirectangular) and Panoramic (slot).
+:   Changes the path projection method to any of the possible projection modes: Parallel, Pinhole, Fisheye, Panoramic (equirectangular) and Panoramic (slot).  
+
+* *Pinhole* is default and makes Chunky work like a normal camera.  
+* *Parallel* removes all perspective, all blocks are the same size, regardless of distance to the camera.  
+* *Fisheye* makes Chunky work like a camera with extreme wide angle lens, and distorts the image.  
+* *Panoramic (equirectangular)* allows for wide angles, all angles are rendered as though the camera points in all directions at once, so there's less distortion than a wide angle in Pinhole mode.  
+* *Panoramic (slot)* ...
 
 **Field of View (zoom)**
 :   Controls the field of view in the virtual camera. Lower causes a narrower field of view (higher magnification) and high value will result in a wider field of view (low magnification).  70 is the default value, which corresponds with Minecraft's normal field of view.
