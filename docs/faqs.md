@@ -1,7 +1,7 @@
 Frequently Asked Questions
 --------------------------
-Post any questions un-answered here to the [reddit community][0].  Any bugs please post to the [chunky github.][1]
-
+Post any questions un-answered here to the [reddit community][0].
+Please post bugs on the [chunky GitHub page.][1]
 
 * **Q: Why do I get random dots in the render?**
   Torches and other small light sources cause a very random illumination and it
@@ -30,12 +30,13 @@ Post any questions un-answered here to the [reddit community][0].  Any bugs plea
   No, only Vanilla blocks. It is not likely that any mod blocks will be supported as there are far too many for it to be feasible.
 
 * **Why does the sky look so bad?**
-  No, only Vanilla blocks. It is not likely that any mod blocks will be supported as there are far too many for it to be feasible.
+  You might have a low resolution skymap, or it may be the wrong format.
 
 * **Where can I find Skymaps?**
-  The Skymap page has some useful links for obtaining high quality skymaps.
+  The [Skymap][3] page has some useful links for obtaining high quality skymaps.
 
 
 [0]:http://www.reddit.com/r/chunky
-[1]:https://github.com/llbit/chunky
+[1]:https://github.com/llbit/chunky/issues
 [2]:path_tracing.html
+[3]:skymaps.html
