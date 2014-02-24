@@ -16,7 +16,7 @@ p code {
   white-space: nowrap;
 }
 img{
-	max-width:600px;	
+  max-width:600px;
 }
 pre {
   background-color: #F8F8F8;
@@ -94,7 +94,9 @@ h1, h2, h3 {
 	border-bottom: 2px solid hsla(51,13%,90%,1.00);
 }
 #logo{
-	
+}
+#logo a:hover{
+  background: none;
 }
 #title{
 	text-align:center;
@@ -110,7 +112,7 @@ h1, h2, h3 {
 	background: hsla(51,13%,90%,1.00);
 }
 #article{
-	padding: 0 1rem;
+	padding: 0 2rem 4rem 2rem;
 	text-align:justify;
 	vertical-align: top;
 }
