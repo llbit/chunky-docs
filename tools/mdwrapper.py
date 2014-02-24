@@ -49,7 +49,7 @@ sys.stdout.write("""
 				</ul>
 			<li>UI Guides</li>
 				<ul class="menu-text-indented">
-				<li><a href="2d_map_view.html">2D Map Preview</a></li>
+				<li><a href="2d_map_view.html">2D Map View</a></li>
 				<li><a href="render_controls.html">Render Controls</a></li>
 				<li><a href="render_preview.html">Render Preview Window</a></li>
 				</ul>
