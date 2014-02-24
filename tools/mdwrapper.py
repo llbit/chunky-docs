@@ -16,14 +16,15 @@ sys.stdout.write("""
 <head>
 <meta charset="utf-8">
 <title>%s</title>
-<link href="css/layout_003.css" rel="stylesheet" type="text/css">
+<link href="style.css" rel="stylesheet" type="text/css">
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,800' rel='stylesheet' type='text/css'>
 </head>
+<a name="top"></a>
 <body>
 	<table id="wrapper">
 		<tr id="header">
 			<th id="logo">
-				<a href="index.html"><img src="images/logo.png"></a>
+				<a href="index.html"><img src="logo.png"></a>
 			</th>
 			<th id="title">
 				<h1 class="title">Chunky</h1>
@@ -48,7 +49,7 @@ sys.stdout.write("""
 				</ul>
 			<li>UI Guides</li>
 				<ul class="menu-text-indented">
-				<li>2D Map Preview</li>
+				<li><a href="2d_map_view.html">2D Map Preview</a></li>
 				<li><a href="render_controls.html">Render Controls</a></li>
 				<li><a href="render_preview.html">Render Preview Window</a></li>
 				</ul>

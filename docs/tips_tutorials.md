@@ -1,5 +1,4 @@
-Tips & Tutorials
-================  
+##Tips & Tutorials 
 
 ###General Render Tips  
 *Disable sunlight when rendering underground scenes or indoor scenes where there is no visible natural light. This will increase the average number of Samples Per Second (SPS) rendered.  

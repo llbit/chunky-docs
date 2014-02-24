@@ -43,13 +43,13 @@
 :   Sets the default canvas size of new scenes to the canvas size of current scene.
 
 ----
-**Still Water**  
+**Still Water**
 :   Toggles whether water has ripples or not.  
 
-**Clear Water**  
+**Clear Water**
 :   Toggles the "fog" which can be seen in water.  
 
-**Enable Biome Colors**  
+**Enable Biome Colors**
 :   Toggles the display of biome specific colors.
 
 **Save dump once every x frames**
