@@ -5,7 +5,7 @@ Render Preview Window
 
 
 * **Pan/Tilt**  
-_(mouse buttons)_Left, Middle, or Right
+_(mouse buttons)_ Left, Middle, or Right
 
 * **(Dolly)Forward**  
 _+Shift (for slower movement)_ W Key, Up Arrow Key, K Key(for quicker movement)

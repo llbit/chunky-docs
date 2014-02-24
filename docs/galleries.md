@@ -2,9 +2,9 @@
 
 ###External Galleries  
 
-*[Reddpics Gallery][0]  
-*[Renders by Oldshoes][1]  
-*[Render by Operation Infinite Ocean team (OIO)][2]  
+* [Reddpics Gallery][0]  
+* [Renders by Oldshoes][1]  
+* [Render by Operation Infinite Ocean team (OIO)][2]  
 
 
 [0]:http://reddpics.com/r/chunky

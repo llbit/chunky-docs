@@ -16,4 +16,6 @@
 :   Toggles highlights for the desired block using the selected color.  **Only Blocks in the current layer are highlighted!**  You can change the current layer from the [map view][10] panel.  
 
 **Change Color**
-:   Changes the highlight color.
+:   Changes the highlight color.  
+
+[10]:2d_map_view.html
