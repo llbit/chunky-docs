@@ -8,6 +8,12 @@ a {
 a:hover {
   background: #FF4;
 }
+a.download {
+  background-image:url(download.png);
+  background-repeat:no-repeat;
+  background-position-y:3px;
+  padding-left: 20px;
+}
 p code {
   background-color: #F8F8F8;
   border: 1px solid #CCC;
