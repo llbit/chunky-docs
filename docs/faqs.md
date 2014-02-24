@@ -5,7 +5,7 @@ Post any questions un-answered here to the [reddit community][0].  Any bugs plea
 
 * **Q: Why do I get random dots in the render?**
   Torches and other small light sources cause a very random illumination and it
-  t takes many samples per pixel to render such light smoothly. For more
+  takes many samples per pixel to render such light smoothly. For more
   information see the [Path Tracing][2] article! You can disable emitters
   under the Lighting tab in the Render Controls dialog to remove the random
   bright dots. Note that rendering for a longer time will eventually remove the
