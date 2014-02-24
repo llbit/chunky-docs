@@ -1,6 +1,4 @@
-Skymaps
-==================
-
+##Skymaps
 
 You can change the skymap under the "Sky" tab of the Render Controls dialog. You can also change the sun position relative to the skymap.  
 Chunky currently only accepts skymaps using equirectangular projection with the vertical angle clamped at horizon.  

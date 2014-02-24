@@ -38,10 +38,10 @@ body{
 	margin:0;
 	padding:0;
 	height:100%;
-	background:hsla(0,0%,93%,1.00);
+	background-image:url(site_background_tile.png);
 }
 h1, h2, h3 {
-  font-family: sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 /*-----------------------*/
@@ -61,13 +61,13 @@ h1, h2, h3 {
 	color: #666;
 }
 .menu-text{
-	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size:14px;
 	list-style-type:none;
 	padding-left:25px;
 }
 .menu-text-indented{
-	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: inherit;
 	font-size:13px;
 	color:hsla(0,0%,16%,1.00);
 	list-style-type:none;
@@ -81,33 +81,36 @@ h1, h2, h3 {
 /* CONTAINERS */
 /*-----------------------*/
 #wrapper{
-	width: 835px;
+	width: 860px;
 	margin: 20px auto;
 	border-collapse: collapse;
+	-webkit-box-shadow: 0px 0px 7px hsla(36,8%,53%,1.00);
+	box-shadow: 0px 0px 7px hsla(36,8%,53%,1.00);
 }
 #header{
-	width:inherit;
-	background:white;
+	width: inherit;
+	background: white;
+	height:140px;
 	border-bottom: 2px solid hsla(51,13%,90%,1.00);
 }
 #logo{
-	text-indent:15px;
-
+	
 }
 #title{
 	text-align:center;
-	text-indent: -105px;
+	text-indent: -75px;
 }
 #content{
-	margin: 170px 0 0 200px;
 	width:600px;
 	background:white;
 }
 #menu{
 	vertical-align: top;
-	width:200px;
-	background:hsla(51,13%,90%,1.00);
+	width: 200px;
+	background: hsla(51,13%,90%,1.00);
 }
 #article{
 	padding: 0 1rem;
+	text-align:justify;
+	vertical-align: top;
 }
