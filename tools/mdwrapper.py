@@ -1,6 +1,7 @@
 import sys
 import markdown
 import codecs
+import re
 
 if len(sys.argv) > 1 and sys.argv[1] == 'prepare':
     # create menu template
@@ -22,8 +23,8 @@ with codecs.open('tmp/menu-template.html', mode='r', encoding='utf-8') as f:
 	menu = f.read()
 
 title = text.split('\n', 1)[0]
-sys.stdout.write("""
-<!doctype html>
+title = re.match('#*(.+)', title).group(1)
+sys.stdout.write("""<!doctype html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
