@@ -27,6 +27,11 @@
 			</fileset>
 		</copy>
 		<echo message="Running Markdown Wrapper"/>
+		<!-- create menu template -->
+		<exec executable="python">
+			<arg value="${tools.dir}/mdwrapper.py"/>
+			<arg value="prepare"/>
+		</exec>
 		<globmapper id="mymapper"
 			from="*.md"
 			to="${build.dir}${file.separator}*.html"/>

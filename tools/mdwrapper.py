@@ -2,12 +2,24 @@ import sys
 import markdown
 import codecs
 
+if len(sys.argv) > 1 and sys.argv[1] == 'prepare':
+    # create menu template
+    with codecs.open('misc/menu.md', mode='r', encoding='utf-8') as f:
+        menu = f.read()
+    with codecs.open('tmp/menu-template.html', mode='w', encoding='utf-8') as f:
+        f.write(markdown.markdown(menu, ['extra']).encode('utf-8'))
+    sys.exit(0)
+
 if len(sys.argv) > 1:
 	with codecs.open(sys.argv[1], mode='r', encoding='utf-8') as f:
 		text = f.read()
 else:
 	with codecs.getreader('utf-8')(sys.stdin) as f:
 		text = f.read()
+
+# load menu template
+with codecs.open('tmp/menu-template.html', mode='r', encoding='utf-8') as f:
+	menu = f.read()
 
 title = text.split('\n', 1)[0]
 sys.stdout.write("""
@@ -33,48 +45,13 @@ sys.stdout.write("""
 		</tr>
 		<tr id="content">
 			<td id="menu">
-				<ul class="menu-text">
-					<li><a href="index.html">Home</a></li>
-					<li><a href="download.html" class="download">Download</a></li>
-					<li><a href="getting_started.html">Getting Started</a></li>
-						<ul class="menu-text-indented">
-							<li><a href="install.html">Installation</a></li>
-							<li><a href="tips_tutorials.html">Tips / Tutorials</a></li>
-						</ul>
-					<li><a href="faqs.html">FAQs</a></li>
-					<li>User Guides</li>
-						<ul class="menu-text-indented">
-							<li><a href="path_tracing.html">Path Tracing</a>
-							</li><li><a href="headless.html">Headless Rendering</a></li>
-							<li><a href="scene_format.html">Scene Discription Format</a></li>
-						</ul>
-					<li>UI Guides</li>
-						<ul class="menu-text-indented">
-							<li><a href="2d_map_view.html">2D Map View</a></li>
-							<li><a href="render_controls.html">Render Controls</a></li>
-							<li><a href="render_preview.html">Render Preview Window</a></li>
-						</ul>
-				</ul>
-				<hr class="hr-padded">
-				<ul class="menu-text">
-					<li><a href="http://github.com/llbit/chunky">GitHub Page</a></li>
-					<li><a href="http://github.com/llbit/chunky/issues">Issue Tracker</a></li>
-					<li><a href="http://www.reddit.com/r/chunky">Reddit Community</a></li>
-				</ul>
-				<hr class="hr-padded">
-				<ul class="menu-text">
-					<li><a href="galleries.html">Galleries</a></li>
-					<li><a href="skymaps.html">Skymaps</a></li>
-				</ul>
-				<hr class="hr-padded">
-				<ul class="menu-text">
-					<li><a href="contributing.html">Contributing</a></li>
-					<li><a href="credits.html">Credits</a></li>
-				</ul>
-			</td><!--End Menu Div-->
+""" % title)
+sys.stdout.write(menu)
+sys.stdout.write("""
+			</td>
 			<!--Content goes here -->
 			<td id="article">
-""" % title)
+""")
 sys.stdout.write(markdown.markdown(text, ['extra']).encode('utf-8'))
 sys.stdout.write("""
 			</td>

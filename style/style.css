@@ -66,13 +66,16 @@ h1, h2, h3 {
 	font-weight: 500;
 	color: #666;
 }
-.menu-text{
+#menu {
 	font-family: 'Open Sans', sans-serif;
 	font-size:14px;
+}
+#menu ul {
 	list-style-type:none;
 	padding-left:25px;
 }
-.menu-text-indented{
+#menu ul ul {
+	list-style-type:none;
 	font-family: inherit;
 	font-size:13px;
 	color:hsla(0,0%,16%,1.00);
