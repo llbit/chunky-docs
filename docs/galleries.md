@@ -7,11 +7,13 @@ Click the images to view a larger version:
 [![Broville](gallery/BrovilleDay_thumb.jpg)](gallery/BrovilleDay.png)
 [![Broville](gallery/BrovilleNight_thumb.jpg)](gallery/BrovilleNight.png)
 [![Broville](gallery/BrovilleFar_thumb.jpg)](gallery/BrovilleFar.png)
-[![Cornell Box](gallery/Cornell_thumb.jpg)](gallery/Cornell.png)
-[![Desert Port](gallery/DesertPort_thumb.jpg)](gallery/DesertPort.png)
+[![Cornell Box](gallery/Cornell_thumb.jpg)](gallery/Cornell.jpg)
+[![Desert Port](gallery/DesertPort_thumb.jpg)](gallery/DesertPort.jpg)
 [![Parallel Projection](gallery/ParallelProjection_thumb.jpg)](gallery/ParallelProjection.png)
-[![Winter Resort](gallery/WinterResort_thumb.jpg)](gallery/WinterResort.png)
-[![Voyage](gallery/Voyage_thumb.jpg)](gallery/Voyage.png)
+[![Winter Resort](gallery/WinterResort_thumb.jpg)](gallery/WinterResort.jpg)
+[![Voyage](gallery/Voyage_thumb.jpg)](gallery/Voyage.jpg)
+[![Nether](gallery/Nether_thumb.jpg)](gallery/Nether.jpg)
+[![Hidden Valley](gallery/HiddenValley_thumb.jpg)](gallery/HiddenValley.jpg)
 
 ###External Galleries
 
