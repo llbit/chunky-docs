@@ -2,6 +2,7 @@ import sys
 import markdown
 import codecs
 import re
+import os
 
 if len(sys.argv) > 1 and sys.argv[1] == 'prepare':
     # create menu template
@@ -12,9 +13,11 @@ if len(sys.argv) > 1 and sys.argv[1] == 'prepare':
     sys.exit(0)
 
 if len(sys.argv) > 1:
-	with codecs.open(sys.argv[1], mode='r', encoding='utf-8') as f:
+	filename = sys.argv[1]
+	with codecs.open(filename, mode='r', encoding='utf-8') as f:
 		text = f.read()
 else:
+	filename = 'stdin'
 	with codecs.getreader('utf-8')(sys.stdin) as f:
 		text = f.read()
 
@@ -55,9 +58,10 @@ sys.stdout.write("""
 """)
 sys.stdout.write(markdown.markdown(text, ['extra']).encode('utf-8'))
 sys.stdout.write("""
+			<div id="footer"><a href="https://github.com/llbit/chunky-docs/blob/master/docs/%s">Edit this page on GitHub.</a></div>
 			</td>
 		</tr>
 	</table>
 </body>
-</html>""")
+</html>""" % os.path.relpath(filename, 'tmp').replace('\\', '/'))
 sys.stdout.flush()

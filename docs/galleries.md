@@ -1,5 +1,7 @@
 ##Galleries
 
+Click the images to view a larger version:
+
 [![Atmosphere effects, curtesy of 04hockey](gallery/04hockey_thumb.jpg)](gallery/04hockey.png)
 [![Atmosphere effects](gallery/Sunbeam_thumb.jpg)](gallery/Sunbeam.png)
 [![Broville](gallery/BrovilleDay_thumb.jpg)](gallery/BrovilleDay.png)

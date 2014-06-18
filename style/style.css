@@ -125,3 +125,9 @@ h1, h2, h3 {
 	text-align:justify;
 	vertical-align: top;
 }
+#footer{
+	margin-top: 5rem;
+	padding-top: 0.5rem;
+	border-top: 1px solid black;
+	font-size: 1rem;
+}
