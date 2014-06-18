@@ -1,5 +1,5 @@
 * [Home](index.html)
-* [Download](download.html)
+* <a href="download.html" class="download">Download</a>
 * [Getting Started](getting_started.html)
     * [Installation](install.html)
     * [Tips & Tutorials](tips_tutorials.html)

@@ -78,7 +78,7 @@ h1, h2, h3 {
 	list-style-type:none;
 	font-family: inherit;
 	font-size:13px;
-	color:hsla(0,0%,16%,1.00);
+	color: #292929;
 	list-style-type:none;
 	padding-left:15px;
 	padding-bottom:5px;
@@ -93,14 +93,14 @@ h1, h2, h3 {
 	width: 860px;
 	margin: 20px auto;
 	border-collapse: collapse;
-	-webkit-box-shadow: 0px 0px 7px hsla(36,8%,53%,1.00);
-	box-shadow: 0px 0px 7px hsla(36,8%,53%,1.00);
+	-webkit-box-shadow: 0px 0px 7px #91897E;
+	box-shadow: 0px 0px 7px #91897E;
 }
 #header{
 	width: inherit;
 	background: white;
 	height:140px;
-	border-bottom: 2px solid hsla(51,13%,90%,1.00);
+	border-bottom: 2px solid #E9E8E2;
 }
 #logo{
 }
@@ -116,18 +116,23 @@ h1, h2, h3 {
 	background:white;
 }
 #menu{
+	padding-bottom: 7rem;
 	vertical-align: top;
 	width: 200px;
-	background: hsla(51,13%,90%,1.00);
+	background: #E9E8E2;
 }
 #article{
-	padding: 0 2rem 4rem 2rem;
+	padding: 0 2rem 7rem 2rem;
 	text-align:justify;
 	vertical-align: top;
+	position: relative;
 }
 #footer{
-	margin-top: 5rem;
+	position: absolute;
+	bottom: 0;
 	padding-top: 0.5rem;
-	border-top: 1px solid black;
+	padding-bottom: 1rem;
+	border-top: 0.2rem solid #E9E8E2;
+	width: 80%;
 	font-size: 1rem;
 }
