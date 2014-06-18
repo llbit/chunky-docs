@@ -67,7 +67,7 @@ sys.stdout.write("""
 """)
 sys.stdout.write(markdown.markdown(text, ['extra']).encode('utf-8'))
 sys.stdout.write("""
-			<div id="footer"><a href="https://github.com/llbit/chunky-docs/blob/master/docs/%s">Edit this page on GitHub.</a></div>
+			<div id="footer"><a href="https://github.com/llbit/chunky-docs/edit/master/docs/%s">Edit this page on GitHub.</a></div>
 			</td>
 		</tr>
 	</table>
