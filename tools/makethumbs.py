@@ -1,0 +1,12 @@
+from PIL import Image
+import os, sys
+
+for name in os.listdir('images/gallery'):
+	try:
+		out = name[:-4] + "_thumb.jpg"
+		img = Image.open(os.path.join('images/gallery/', name))
+		img.thumbnail((256, 256), Image.ANTIALIAS)
+		img.save(os.path.join('out/gallery/', out), 'JPEG')
+	except IOError as e:
+		print "failed to create thumbnail"
+		print e

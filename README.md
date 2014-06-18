@@ -42,8 +42,16 @@ Python and python-markdown are required to generate the documentation pages.
 
     pip install markdown
 
+The Python Imaging Library (PIL) is required to create thumbnail images for
+the gallery. PIL can be installed by the command
+
+    pip install pil
+
+Alternatively, for Windows users, you can download Pillow from [here][4].
+
 
 [0]:http://docs.llbit.se/
 [1]:http://ant.apache.org/
 [2]:http://stackoverflow.com/a/13635318
 [3]:http://daringfireball.net/projects/markdown/syntax
+[4]:http://www.lfd.uci.edu/~gohlke/pythonlibs/

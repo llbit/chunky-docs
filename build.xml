@@ -21,6 +21,7 @@
 		</copy>
 		<echo message="Creating output directory"/>
 		<mkdir dir="${build.dir}"/>
+		<mkdir dir="${build.dir}/gallery"/>
 		<copy todir="${build.dir}">
 			<fileset dir="${docs.dir}">
 				<type type="dir"/>
@@ -44,6 +45,9 @@
 				<outputmapper refid="mymapper"/>
 			</redirector>
 		</apply>
+		<exec executable="python">
+			<arg value="${tools.dir}/makethumbs.py"/>
+		</exec>
 		<echo message="Copying images"/>
 		<copy todir="${build.dir}">
 			<fileset dir="${basedir}/images"/>
