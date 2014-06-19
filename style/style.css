@@ -54,13 +54,13 @@ h1, h2, h3 {
 /* CLASSES */
 /*-----------------------*/
 .title{
-	font-family:sans-serif;
-	font-size:42px;
+	font-family: sans-serif;
+	font-size: 2.7rem;
 	margin-bottom: 0.5rem;
 }
 .subtitle{
 	margin-top: 0.5rem;
-	font-size:16px;
+	font-size: 1rem;
 	font-family: serif;
 	font-style: italic;
 	font-weight: 500;
@@ -68,23 +68,28 @@ h1, h2, h3 {
 }
 #menu {
 	font-family: 'Open Sans', sans-serif;
-	font-size:14px;
+	font-size: 1rem;
 }
 #menu ul {
 	list-style-type:none;
-	padding-left:25px;
+	padding: 0;
+}
+#menu>ul>li {
+	padding: 0.5rem 0.3rem 0.5rem 1.3rem;
 }
 #menu ul ul {
 	list-style-type:none;
 	font-family: inherit;
-	font-size:13px;
+	font-size: 0.9rem;
 	color: #292929;
 	list-style-type:none;
-	padding-left:15px;
-	padding-bottom:5px;
+	padding-left: 15px;
+	padding-bottom: 5px;
 }
 .hr-padded{
-	margin: 0 7px;
+	border-top: 2px solid #AFAFAF;
+	width: 90%;
+	margin: 0 0.5rem;
 }
 /*-----------------------*/
 /* CONTAINERS */
@@ -123,7 +128,6 @@ h1, h2, h3 {
 }
 #article{
 	padding: 0 2rem 7rem 2rem;
-	/*text-align:justify;*/
 	vertical-align: top;
 	position: relative;
 }
@@ -132,7 +136,7 @@ h1, h2, h3 {
 	bottom: 0;
 	padding-top: 0.5rem;
 	padding-bottom: 1rem;
-	border-top: 0.2rem solid #E9E8E2;
+	border-top: 2px solid #E9E8E2;
 	width: 80%;
 	font-size: 1rem;
 }

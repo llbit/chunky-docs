@@ -19,9 +19,13 @@
 				<filter token="BUILD_DATE" value="${build.date}"/>
 			</filterset>
 		</copy>
-		<echo message="Creating output directory"/>
+		<echo message="Creating output directories"/>
 		<mkdir dir="${build.dir}"/>
 		<mkdir dir="${build.dir}/gallery"/>
+		<echo message="Copying stylesheet"/>
+		<copy todir="${build.dir}">
+			<fileset dir="${basedir}/style"/>
+		</copy>
 		<copy todir="${build.dir}">
 			<fileset dir="${docs.dir}">
 				<type type="dir"/>
@@ -52,10 +56,6 @@
 		<echo message="Copying images"/>
 		<copy todir="${build.dir}">
 			<fileset dir="${basedir}/images"/>
-		</copy>
-		<echo message="Copying stylesheet"/>
-		<copy todir="${build.dir}">
-			<fileset dir="${basedir}/style"/>
 		</copy>
 	</target>
 
