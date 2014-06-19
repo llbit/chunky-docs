@@ -22,7 +22,7 @@
 
 <div class="hr-padded"></div>
 
-* [Galleries](galleries.html)
+* [Gallery](gallery.html)
 * [Skymaps](skymaps.html)
 
 <div class="hr-padded"></div>
