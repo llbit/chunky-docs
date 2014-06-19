@@ -45,6 +45,7 @@
 				<outputmapper refid="mymapper"/>
 			</redirector>
 		</apply>
+		<echo message="Creating thumbnails"/>
 		<exec executable="python">
 			<arg value="${tools.dir}/makethumbs.py"/>
 		</exec>
