@@ -123,7 +123,7 @@ h1, h2, h3 {
 }
 #article{
 	padding: 0 2rem 7rem 2rem;
-	text-align:justify;
+	/*text-align:justify;*/
 	vertical-align: top;
 	position: relative;
 }
@@ -135,4 +135,11 @@ h1, h2, h3 {
 	border-top: 0.2rem solid #E9E8E2;
 	width: 80%;
 	font-size: 1rem;
+}
+
+@media all and (max-width: 1024px) {
+	#wrapper{
+		width: 100%;
+		margin: 0;
+	}
 }
