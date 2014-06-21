@@ -1,8 +1,8 @@
 * [About](index.html)
-* [News](news.html)
-* <a href="download.html" class="download">Download</a>
-* [FAQ](faqs.html)
-* [Gallery](gallery.html)
+    * [News](news.html)
+    * <a href="download.html" class="download">Download</a>
+    * [FAQ](faqs.html)
+    * [Gallery](gallery.html)
 * [Getting Started](getting_started.html)
     * [Installation](install.html)
     * [Tips & Tutorials](tips_tutorials.html)
