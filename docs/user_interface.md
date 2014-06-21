@@ -13,10 +13,12 @@ select the chunks in your Minecraft world which you wish to render:
 
 When setting up a scene and rendering it, you use mainly the [Render Controls window][1].
 
-![(win) render controls general panel](render_controls_general.png)
+![Render Controls Window](render_controls.png)
 
 The [Render Preview window][2] is useful for composing a shot, and it also
 shows the current rendering progress.
+
+![Render Preview Window](render_preview.png)
 
 [0]: 2d_map_view.html
 [1]: render_controls.html
