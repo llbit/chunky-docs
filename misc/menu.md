@@ -16,7 +16,7 @@
 
 <div class="hr-padded"></div>
 
-* [GitHub Page](http://github.com/llbit/chunky)
+* [GitHub Page](https://github.com/llbit/chunky)
 * [Issue Tracker](http://github.com/llbit/chunky/issues)
 * [Reddit Community](http://www.reddit.com/r/chunky)
 

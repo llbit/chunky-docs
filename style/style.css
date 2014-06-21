@@ -147,3 +147,9 @@ h1, h2, h3 {
 		margin: 0;
 	}
 }
+
+a[href^="https://github.com/llbit/chunky"] {
+	background:url('github_mark.png') 0px 50% no-repeat transparent;
+	padding-left: 21px;
+}
+
