@@ -5,14 +5,14 @@
     * [Installation](install.html)
     * [Tips & Tutorials](tips_tutorials.html)
 * [FAQs](faqs.html)
-* User Guides
-    * [Path Tracing](path_tracing.html)
-    * [Headless Rendering](headless.html)
-    * [Scene Discription Format](scene_format.html)
 * User Interface
     * [2D Map View](2d_map_view.html)
     * [Render Controls](render_controls.html)
     * [Render Preview](render_preview.html)
+* Documentation
+    * [Headless Rendering](headless.html)
+    * [Path Tracing](path_tracing.html)
+    * [Scene Discription Format](scene_format.html)
 
 <div class="hr-padded"></div>
 
