@@ -86,11 +86,6 @@ h1, h2, h3 {
 	padding-left: 15px;
 	padding-bottom: 5px;
 }
-.hr-padded{
-	border-top: 2px solid #AFAFAF;
-	width: 90%;
-	margin: 0 0.5rem;
-}
 /*-----------------------*/
 /* CONTAINERS */
 /*-----------------------*/
@@ -139,6 +134,9 @@ h1, h2, h3 {
 	border-top: 2px solid #E9E8E2;
 	width: 80%;
 	font-size: 1rem;
+}
+#footer a{
+	color: #AFAFAF;
 }
 
 @media all and (max-width: 1024px) {
