@@ -14,10 +14,14 @@ if len(sys.argv) > 1 and sys.argv[1] == 'prepare':
 
 if len(sys.argv) > 1:
 	filename = sys.argv[1]
+	filename_relative = os.path.relpath(filename, 'tmp').replace('\\', '/')
+	filename_no_ext = os.path.splitext(filename_relative)[0]
 	with codecs.open(filename, mode='r', encoding='utf-8') as f:
 		text = f.read()
 else:
 	filename = 'stdin'
+	filename_relative = 'stdin'
+	filename_no_ext = 'stdin'
 	with codecs.getreader('utf-8')(sys.stdin) as f:
 		text = f.read()
 
@@ -34,6 +38,13 @@ sys.stdout.write("""<!doctype html>
 <title>%s</title>
 <link href="style.css" rel="stylesheet" type="text/css">
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,800' rel='stylesheet' type='text/css'>
+<style>
+#menu a[href="%s.html"] {
+  background:url('rarrow.png') 0px 50%% no-repeat transparent;
+  padding-left: 21px;
+  font-weight: bold;
+}
+</style>
 </head>
 <a name="top"></a>
 <body>
@@ -58,7 +69,7 @@ sys.stdout.write("""<!doctype html>
 		</tr>
 		<tr id="content">
 			<td id="menu">
-""" % title)
+""" % (title, filename_no_ext))
 sys.stdout.write(menu)
 sys.stdout.write("""
 			</td>
@@ -72,5 +83,5 @@ sys.stdout.write("""
 		</tr>
 	</table>
 </body>
-</html>""" % os.path.relpath(filename, 'tmp').replace('\\', '/'))
+</html>""" % filename_relative)
 sys.stdout.flush()
