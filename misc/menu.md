@@ -5,7 +5,7 @@
     * [Gallery](gallery.html)
 * [Getting Started](getting_started.html)
     * [Installation](install.html)
-    * [Tips & Tutorials](tips_tutorials.html)
+    * [Tips](tips.html)
 * [User Interface](user_interface.html)
     * [2D Map View](2d_map_view.html)
     * [Render Controls](render_controls.html)
