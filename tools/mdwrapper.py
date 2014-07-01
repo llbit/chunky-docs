@@ -36,6 +36,7 @@ sys.stdout.write("""<!doctype html>
 <head>
 <meta charset="utf-8">
 <title>%s</title>
+<link rel="icon" href="/favicon.ico" sizes="16x16 32x32 48x48 64x64" type="image/vnd.microsoft.icon">
 <link href="style.css" rel="stylesheet" type="text/css">
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,800' rel='stylesheet' type='text/css'>
 <style>
