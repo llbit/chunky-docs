@@ -7,7 +7,7 @@
     * [Installation](install.html)
     * [Tips](tips.html)
 * [User Interface](user_interface.html)
-    * [2D Map View](2d_map_view.html)
+    * [2D Map](2d_map.html)
     * [Render Controls](render_controls.html)
     * [Render Preview](render_preview.html)
 * Documentation
