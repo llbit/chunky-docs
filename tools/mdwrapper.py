@@ -37,7 +37,7 @@ sys.stdout.write("""<!doctype html>
 <meta charset="utf-8">
 <title>%s</title>
 <link rel="icon" href="/favicon.ico" sizes="16x16 32x32 48x48 64x64" type="image/vnd.microsoft.icon">
-<link href="style.css" rel="stylesheet" type="text/css">
+<link href="/style.css" rel="stylesheet" type="text/css">
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,800' rel='stylesheet' type='text/css'>
 <style>
 #menu a[href="%s.html"] {
@@ -61,7 +61,7 @@ sys.stdout.write("""<!doctype html>
 	<table id="wrapper">
 		<tr id="header">
 			<th id="logo">
-				<a href="index.html"><img src="logo.png"></a>
+				<a href="index.html"><img src="/logo.png"></a>
 			</th>
 			<th id="title">
 				<h1 class="title">Chunky</h1>
