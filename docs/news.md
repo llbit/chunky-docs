@@ -1,5 +1,10 @@
 #News
 
+##2014-07-13 Chunky 1.2.3 released
+
+[Chunky version 1.2.3](/release/1.2.3/release_notes.html) has been released!
+[Get it here.](/download.html)
+
 ##2014-06-19 New Website
 
 The Chunky Wiki has been replaced by a more static site, the one you are
