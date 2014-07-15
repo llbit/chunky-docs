@@ -11,7 +11,7 @@ Download links for [version @VERSION@][1]:
 * [Launcher only (Mac, Win, Linux)][4]
 
 If you are new to Chunky you may want to look at the [Installation
-Instructions][13] and the [Getting Started Guide][14].  
+Instructions][13] and the [Getting Started Guide][14].
 
 Frequently Asked Questions
 --------------------------
