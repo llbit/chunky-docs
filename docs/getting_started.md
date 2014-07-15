@@ -36,5 +36,6 @@ Creating a 3D Scene
 -------------------
 
 Once you have selected some Chunks, go to the "3D Render" tab in the right
-hand pane of the main window and click the "New Scene" button.
-
+hand pane of the main window and click the "New Scene" button. Alternatively,
+you can right-click in the 2D map then select "New 3D scene" option in the
+context menu.
