@@ -1,8 +1,8 @@
 Chunky
 ======
 
-Chunky is a Minecraft mapping and rendering tool.  Check out [our
-subreddit][15] to see examples of what people are using Chunky for!
+Chunky is a Minecraft mapping and rendering tool.  Check out [the gallery][15]
+to see what it is possible with Chunky!
 
 Download links for [version @VERSION@][1]:
 
@@ -12,19 +12,6 @@ Download links for [version @VERSION@][1]:
 
 If you are new to Chunky you may want to look at the [Installation
 Instructions][13] and the [Getting Started Guide][14].  
-
-
-License & Copyright
--------------------
-
-Chunky is free software and the source code is made available under the [Gnu
-General Public License, version 3][16].  The source code is managed on
-[GitHub][9].
-
-Chunky is Copyright (c) 2010-2014, Jesper &Ouml;qvist. Additional contributors
-are listed in the relevant source files and [on the credits page][17].
-Copyright notices for third-party libraries used in Chunky are listed in the
-README file.
 
 Frequently Asked Questions
 --------------------------
@@ -47,9 +34,21 @@ Frequently Asked Questions
 
 * **Q: Is GPU rendering supported?**
   Not currently, but in the distant future Chunky may be able to render using
-  GPUs that support OpenCL.  
+  GPUs that support OpenCL.
 
-Question still not answered?  [Check the FAQs page.][8]
+Question still not answered? [Check the FAQ page.][8]
+
+License & Copyright
+-------------------
+
+Chunky is free software and the source code is made available under the [GNU
+General Public License, version 3][16].  The source code is managed on
+[GitHub][9].
+
+Chunky is Copyright (c) 2010-2014, Jesper &Ouml;qvist. Additional contributors
+are listed in the relevant source files and [on the credits page][17].
+Copyright notices for third-party libraries used in Chunky are listed in the
+README file.
 
 [1]: release/@VERSION@/release_notes.html
 [2]: @EXE_DL_LINK@
@@ -63,6 +62,6 @@ Question still not answered?  [Check the FAQs page.][8]
 [10]: path_tracing.html
 [13]: install.html
 [14]: getting_started.html
-[15]: http://www.reddit.com/r/chunky
+[15]: gallery.html
 [16]: http://opensource.org/licenses/gpl-3.0.html
 [17]: credits.html
