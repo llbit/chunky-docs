@@ -41,8 +41,6 @@ sys.stdout.write("""<!doctype html>
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,800' rel='stylesheet' type='text/css'>
 <style>
 #menu a[href="%s.html"] {
-  background:url('rarrow.png') 0px 50%% no-repeat transparent;
-  padding-left: 21px;
   font-weight: bold;
 }
 </style>
