@@ -15,6 +15,7 @@ Where to find skymaps
 * [**http://www.wuala.com/Olson/Photos/Optikz_360_Skies/**][1]
 * [**CGSkies** - high quality skymaps for purchase][2]
 * [**http://www.reddit.com/r/chunky/comments/17ts4b/some_more_skymaps/**][3]
+* [**openfootage.net** - HDRI panoramas][4]
 
 You can also try searcing Google for [Panoramic Sky Texture][0]
 
@@ -22,3 +23,4 @@ You can also try searcing Google for [Panoramic Sky Texture][0]
 [1]: http://www.wuala.com/Olson/Photos/Optikz_360_Skies/
 [2]: http://www.cgskies.com/skies.php
 [3]: http://www.reddit.com/r/chunky/comments/17ts4b/some_more_skymaps/
+[4]: http://www.openfootage.net/?cat=15

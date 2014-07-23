@@ -70,6 +70,6 @@ communicate about what you are working on the better.
 
 [1]: https://github.com/llbit/chunky/issues
 [2]: https://github.com/llbit/chunky-docs
-[3]: https://help.github.com/articles/creating-and-editing-files-in-your-repository
+[3]: https://help.github.com/articles/editing-files
 [4]: https://help.github.com/articles/creating-a-pull-request
 [5]: http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html
