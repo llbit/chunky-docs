@@ -10,12 +10,30 @@ It is recommended to use a large skymap in order to avoid the sky looking
 blurry.  However, if the skymap is too large it will take a long time to load.
 
 Where to find skymaps
--------------------
+---------------------
 
-* [**http://www.wuala.com/Olson/Photos/Optikz_360_Skies/**][1]
-* [**CGSkies** - high quality skymaps for purchase][2]
-* [**http://www.reddit.com/r/chunky/comments/17ts4b/some_more_skymaps/**][3]
-* [**openfootage.net** - HDRI panoramas][4]
+These pages provide links to other pages, or downloads of non-HDR skymaps:
+
+* [http://www.wuala.com/Olson/Photos/Optikz_360_Skies/][1]
+* [http://www.reddit.com/r/chunky/comments/17ts4b/some_more_skymaps/][3]
+
+HDR Skymaps
+-----------
+
+HDR skymaps have the advantage that they can be used to provide most
+of the light for a scene. HDR skymap support is coming to Chunky shortly.
+If HDR is not required, it is possible to convert them to regular JPEG
+images.
+
+Most of sites provide paid-for skymaps, but most of them have a few free
+samples available:
+
+* [CGSkies][2]
+* [openfootage.net][4]
+* [HDRMill][5]
+* [nordicFX][6]
+* [HDRI-Hub.com**][7]
+* [sIBL Archive][8]
 
 You can also try searcing Google for [Panoramic Sky Texture][0]
 
@@ -24,3 +42,7 @@ You can also try searcing Google for [Panoramic Sky Texture][0]
 [2]: http://www.cgskies.com/skies.php
 [3]: http://www.reddit.com/r/chunky/comments/17ts4b/some_more_skymaps/
 [4]: http://www.openfootage.net/?cat=15
+[5]: http://www.hdrmill.com/Freebies.htm
+[6]: http://www.nordicfx.net/?works=hdri
+[7]: http://www.hdri-hub.com/free-samples
+[8]: http://www.hdrlabs.com/sibl/archive.html
