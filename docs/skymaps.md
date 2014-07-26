@@ -32,8 +32,9 @@ samples available:
 * [openfootage.net][4]
 * [HDRMill][5]
 * [nordicFX][6]
-* [HDRI-Hub.com**][7]
+* [HDRI-Hub.com][7]
 * [sIBL Archive][8]
+* [hdrmaps.com][8]
 
 You can also try searcing Google for [Panoramic Sky Texture][0]
 
@@ -46,3 +47,4 @@ You can also try searcing Google for [Panoramic Sky Texture][0]
 [6]: http://www.nordicfx.net/?works=hdri
 [7]: http://www.hdri-hub.com/free-samples
 [8]: http://www.hdrlabs.com/sibl/archive.html
+[9]: http://hdrmaps.com/freebies
