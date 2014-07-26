@@ -32,6 +32,18 @@ pre {
   overflow: auto;
   max-width:600px;
 }
+.button {
+  background-color: #0D95AC;
+  color: #FFF;
+  border-radius: 3px;
+  border-bottom: 5px solid #0F889A;
+  padding: .5rem;
+  margin: 2rem;
+  font-family: 'Open Sans', sans-serif;
+}
+.button:hover {
+  background-color: #0D95AC;
+}
 /*-----------------------*/
 /* GLOBALS */
 /*-----------------------*/

@@ -1,5 +1,10 @@
 #News
 
+##2014-07-26 New Blog Post
+
+There is a [new blog post](http://llbit.se/?p=2190) about upcoming sky
+rendering improvements.
+
 ##2014-07-13 Chunky 1.2.3 released
 
 [Chunky version 1.2.3](/release/1.2.3/release_notes.html) has been released!

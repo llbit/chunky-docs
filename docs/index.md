@@ -4,14 +4,10 @@ Chunky
 Chunky is a Minecraft mapping and rendering tool.  Check out [the gallery][15]
 to see what it is possible with Chunky!
 
-Download links for [version @VERSION@][1]:
+<a href="/download.html" class="button">Download version @VERSION@</a>
 
-* [Windows Installer][2]
-* [Cross-platform binaries (Mac, Win, Linux)][3]
-* [Launcher only (Mac, Win, Linux)][4]
-
-If you are new to Chunky you may want to look at the [Installation
-Instructions][13] and the [Getting Started Guide][14].
+New users are recommended to look at the [Installation Instructions][13] and
+the [Getting Started Guide][14].
 
 Frequently Asked Questions
 --------------------------
