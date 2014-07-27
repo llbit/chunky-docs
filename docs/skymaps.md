@@ -9,6 +9,16 @@ degree vertical field of view (clamped at horizon).
 It is recommended to use a large skymap in order to avoid the sky looking
 blurry.  However, if the skymap is too large it will take a long time to load.
 
+Vertical Resolution
+-------------------
+
+With a 90&deg; vertical resolution, the skymap will only cover the sky above
+the horizon. The skymap is mirrored at the horizon. If the skymap has 180&deg;
+vertical resolution the mirroring is not needed, the skymap will cover both sky
+and ground.
+
+![Skymap vertical resolution](skymap_vertical_resolution.png)
+
 Where to find skymaps
 ---------------------
 
