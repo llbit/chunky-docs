@@ -1,7 +1,7 @@
-Download Links
-==============
+Download Chunky
+===============
 
-Download links for [version @VERSION@][1]:
+Downloads for [version @VERSION@][1]:
 
 * [Windows Installer][2]
 * [Cross-platform binaries (Mac, Win, Linux)][3]

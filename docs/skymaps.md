@@ -1,4 +1,4 @@
-##Skymaps
+##Sky Maps
 
 You can change the skymap under the "Sky" tab of the Render Controls dialog.
 You can also change the sun position relative to the skymap.
