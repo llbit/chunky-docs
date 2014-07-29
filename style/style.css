@@ -8,12 +8,12 @@ a {
 a:hover {
   background-color: #FF4;
 }
-a.download {
+/*a.download {
   background-image:url(download.png);
   background-repeat:no-repeat;
   background-position-y:3px;
   padding-left: 20px;
-}
+}*/
 p code {
   background-color: #F8F8F8;
   border: 1px solid #CCC;
@@ -33,12 +33,13 @@ pre {
   max-width:600px;
 }
 .button {
+  display: inline-block;
   background-color: #0D95AC;
   color: #FFF;
   border-radius: 3px;
   border-bottom: 5px solid #0F889A;
-  padding: .5rem;
-  margin: 2rem;
+  padding: .6rem;
+  margin: 1rem 4rem;
   font-family: 'Open Sans', sans-serif;
 }
 .button:hover {
