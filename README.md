@@ -16,12 +16,19 @@ account. You can navigate to a file you want to edit via the file tree and
 click the `Edit` button after selecting a file. We use [Markdown syntax][3] for
 all documentation pages.
 
-Workflow
---------
+Dependencies
+------------
 
-The webpages can be generated in the local directory `out` using the
-[Apache Ant][1] build script in the project root. If you have Ant installed
-you only need to run Ant using a shell or command prompt in the project root.
+* [Apache Ant][1]
+* Python
+
+Testing
+-------
+
+The webpages can be generated in the local directory `out` using the [Apache
+Ant][1] build script in the project root. If you have Ant and the other
+dependencies installed you only need to run Ant using a text terminal in the
+project root. The script will do the rest.
 
 The build script runs a Python script named `tools/mdwrapper.py` on all
 Markdown files (`*.md`) in the `docs` directory. Before the python script is
@@ -30,8 +37,16 @@ in the `version.properties` file. The build script finally copies all files in
 the `images` and `style` directories into the output directory.
 
 After you have run the build script you will need a web server to serve the
-pages in the `out` directory. One simple way to do this is with a [small
-nodejs web server script][2].
+pages in the `out` directory in order to get them to render correctly in the
+web browser. One of the simplest ways to set this up, if you have NodeJS and
+NPM installed is to run the following commands:
+
+    $ npm install http-server -g
+    $ cd out
+    $ http-server -o --cors
+
+Another way to do this with nodejs is with your own [small nodejs web server
+script][2].
 
 Requirements
 ------------
