@@ -1,7 +1,7 @@
 Download Chunky
 ===============
 
-Downloads for [version @VERSION@][1]:
+Download options for [version @VERSION@][1]:
 
 * [Windows Installer][2]
 * [Cross-platform binaries (Mac, Win, Linux)][3]
