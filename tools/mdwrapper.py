@@ -56,31 +56,23 @@ sys.stdout.write("""<!doctype html>
   ga('create', 'UA-52069457-1', 'llbit.se');
   ga('send', 'pageview');
 </script>
-	<table id="wrapper">
-		<tr id="header">
-			<th id="logo">
-				<a href="index.html"><img src="/logo.png"></a>
-			</th>
-			<th id="title">
-				<h1 class="title">Chunky</h1>
-				<h2 class="subtitle">Minecraft World Renderer</h2>
-			</th>
-		</tr>
-		<tr id="content">
-			<td id="menu">
+  <table id="wrapper">
+    <tr id="content">
+      <td id="menu">
+        <a href="index.html" id="logo">Chunky</a>
 """ % (title, filename_no_ext))
 sys.stdout.write(menu)
 sys.stdout.write("""
-			</td>
-			<!--Content goes here -->
-			<td id="article">
+      </td>
+      <!--Content goes here -->
+      <td id="article">
 """)
 sys.stdout.write(markdown.markdown(text, ['extra']).encode('utf-8'))
 sys.stdout.write("""
-			<div id="footer"><a href="https://github.com/llbit/chunky-docs/edit/master/docs/%s">Edit page</a></div>
-			</td>
-		</tr>
-	</table>
+      <div id="footer"><a href="https://github.com/llbit/chunky-docs/edit/master/docs/%s">Edit page</a></div>
+      </td>
+    </tr>
+  </table>
 </body>
 </html>""" % filename_relative)
 sys.stdout.flush()

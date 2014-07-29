@@ -116,9 +116,19 @@ h1, h2, h3 {
 	border-bottom: 2px solid #E9E8E2;
 }
 #logo{
+	display: inline-block;
+	background-image: url('logo.png');
+	background-size: 64px 64px;
+	background-repeat: no-repeat;
+	font-size: 24px;
+	font-weight: 700;
+	margin: 10px;
+	padding-left: 70px;
+	padding-top: 30px;
+	color: #000;
 }
-#logo a:hover{
-  background: none;
+#logo:hover{
+  background-color: transparent;
 }
 #title{
 	text-align:center;
