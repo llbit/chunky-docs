@@ -14,6 +14,7 @@ Click the images to view a larger version:
 [![Voyage](gallery/Voyage_thumb.jpg)](gallery/Voyage.jpg)
 [![Nether](gallery/Nether_thumb.jpg)](gallery/Nether.jpg)
 [![Hidden Valley](gallery/HiddenValley_thumb.jpg)](gallery/HiddenValley.jpg)
+[![Vista](gallery/vista2.jpg)](gallery/vista2.jpg)
 
 ###External Galleries
 
