@@ -53,7 +53,7 @@ README file.
 [5]: https://github.com/llbit/chunky
 [6]: https://github.com/llbit/chunky/issues
 [7]: http://www.reddit.com/r/chunky
-[8]: faqs.html
+[8]: faq.html
 [9]: https://github.com/llbit/chunky
 [10]: path_tracing.html
 [13]: install.html

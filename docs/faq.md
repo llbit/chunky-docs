@@ -1,5 +1,6 @@
 Frequently Asked Questions
 --------------------------
+
 Post any questions un-answered here to the [reddit community][0].
 Please post bugs on the [chunky GitHub page.][1]
 

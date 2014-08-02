@@ -1,7 +1,7 @@
 * [About](index.html)
     * [News](news.html)
     * <a href="download.html" class="download">Download</a>
-    * [FAQ](faqs.html)
+    * [FAQ](faq.html)
     * [Gallery](gallery.html)
 * [Getting Started](getting_started.html)
     * [Installation](install.html)
