@@ -2,6 +2,7 @@
 
 Click the images to view a larger version:
 
+[![Vista](gallery/vista2_thumb.jpg)](gallery/vista2.png)
 [![Atmosphere effects, curtesy of 04hockey](gallery/04hockey_thumb.jpg)](gallery/04hockey.png)
 [![Atmosphere effects](gallery/Sunbeam_thumb.jpg)](gallery/Sunbeam.png)
 [![Broville](gallery/BrovilleDay_thumb.jpg)](gallery/BrovilleDay.png)
@@ -14,7 +15,6 @@ Click the images to view a larger version:
 [![Voyage](gallery/Voyage_thumb.jpg)](gallery/Voyage.jpg)
 [![Nether](gallery/Nether_thumb.jpg)](gallery/Nether.jpg)
 [![Hidden Valley](gallery/HiddenValley_thumb.jpg)](gallery/HiddenValley.jpg)
-[![Vista](gallery/vista2.jpg)](gallery/vista2.jpg)
 
 ###External Galleries
 
