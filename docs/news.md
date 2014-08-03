@@ -1,5 +1,10 @@
 #News
 
+##2014-08-03 Snapshot 1.3-alpha1
+
+A snapshot of the upcoming version 1.3 is now available [in the
+launcher](/snapshot.html).
+
 ##2014-07-26 New Blog Post
 
 There is a [new blog post](http://llbit.se/?p=2190) about upcoming sky
