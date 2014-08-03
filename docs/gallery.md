@@ -1,4 +1,5 @@
-##Gallery
+Gallery
+=======
 
 Click the images to view a larger version:
 
