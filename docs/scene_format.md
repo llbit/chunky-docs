@@ -81,3 +81,10 @@ An average scene description file may look like this:
         ]
       ]
     }
+
+SDF Versions
+------------
+
+* **2** 1.2.0 to 1.2.3
+* **3** 1.3-alpha1
+
