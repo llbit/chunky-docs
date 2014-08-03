@@ -7,8 +7,9 @@ selecting the `Download snapshots` check-box in the Chunky Launcher:
 
 ![Snapshot check-box](snapshot-checkbox.png)
 
-After enabling snapshots you check for an update to download the latest
-snapshot version, if one is available.
+After enabling snapshot downloads you may check if there is a snapshot
+available by clicking the "Check for Update" button. If a new snapshot is
+available you will see the "Update Available!" dialog.
 
 Warning
 -------
