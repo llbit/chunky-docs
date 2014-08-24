@@ -15,9 +15,9 @@
     * [Path Tracing](path_tracing.html)
     * [Scene Discription Format](scene_format.html)
 * Community
-    * [Reddit](http://www.reddit.com/r/chunky)
     * [GitHub](https://github.com/llbit/chunky)
     * [Issue Tracker](https://github.com/llbit/chunky/issues)
+    * [Reddit](http://www.reddit.com/r/chunky)
 * Resources
     * [Skymaps](skymaps.html)
     * [Contributing](contributing.html)

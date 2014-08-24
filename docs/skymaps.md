@@ -48,6 +48,32 @@ samples available:
 
 You can also try searcing Google for [Panoramic Sky Texture][0]
 
+Render a Sky Map with Chunky
+----------------------------
+
+Chunky can be used to render a sky map. You will need to follow these steps
+to set up the camera correctly to render a full 180-by-360 degree sky map:
+
+1. Go to the Camera tab in the Render Controls window.
+2. Enter `-90` into the second text field of the Direction values.
+3. Select `Panoramic (equirectangular)` from the Projection drop-down list.
+4. Set the field of view to 180 (max out the slider).
+5. Go to the General tab in the Render Controls window.
+6. You must set the canvas width to be twice the canvas height to ensure
+that the horizontal resolution is 360 degrees. This can be done by entering for
+example `800x400` in the canvas size text field and hitting `Enter`.
+
+This shows the Camera tab with correct values entered:
+
+![Camera setup for custom sky map](create_skymap.png)
+
+And this is what the resulting render should look like:
+
+![Custom sky map](custom_skymap.png)
+
+
+
+
 [0]: https://www.google.com/search?q=panoramic+sky+texture
 [1]: http://www.wuala.com/Olson/Photos/Optikz_360_Skies/
 [2]: http://www.cgskies.com/skies.php
