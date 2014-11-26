@@ -79,10 +79,10 @@ determined by the `dumpFrequency` scene setting, or when the render has
 completed.
 
 If you have rendered a scene for a while and just want to be able to create a
-snapshot without waiting for it to complete you can use the `--snapshot`
+snapshot without waiting for it to complete you can use the `-snapshot`
 command which takes the latest render dump and creates a snapshot from that:
 
-    chunky -render SceneName snapshot.png
+    chunky -snapshot SceneName snapshot.png
 
 The `snapshot.png` part of the command is the path to the Png file to create.
 
