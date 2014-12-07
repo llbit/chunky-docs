@@ -15,6 +15,7 @@ See Also
 
 * [Installation instructions][5]
 * [Getting started guide][6]
+* [Snapshots][7]
 
 [1]: release/@VERSION@/release_notes.html
 [2]: @EXE_DL_LINK@
@@ -22,3 +23,4 @@ See Also
 [4]: http://chunkyupdate.llbit.se/ChunkyLauncher.jar
 [5]: install.html
 [6]: getting_started.html
+[7]: /snapshot.html
