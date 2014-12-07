@@ -1,9 +1,13 @@
 #News
 
+##2014-12-07 Snapshot 1.3.2-alpha1
+
+A snapshot of an upcoming version is now available [in the launcher][1].
+
 ##2014-08-03 Snapshot 1.3-alpha1
 
 A snapshot of the upcoming version 1.3 is now available [in the
-launcher](/snapshot.html).
+launcher][1].
 
 ##2014-07-26 New Blog Post
 
@@ -34,3 +38,4 @@ over to this new site by TheRenderJunkie and myself.
 
 /Jesper
 
+[1]: /snapshot.html
