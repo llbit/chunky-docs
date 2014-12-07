@@ -12,7 +12,7 @@ the [Getting Started Guide][14].
 Frequently Asked Questions
 --------------------------
 
-* **Q: Why do I get random dots in the render?**
+* **Q: Why is there noise/grain/random dots in the render?**
   Torches and other small light sources cause a very random illumination and it
   t takes many samples per pixel to render such light smoothly. For more
   information see the [Path Tracing][10] article! You can disable emitters
