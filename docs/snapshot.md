@@ -3,7 +3,7 @@ Snapshot Versions
 
 Snapshots are **untested** versions of Chunky released sporadically in order to
 get feedback on upcoming features. You may choose to use snapshot versions by
-selecting the `Download snapshots` check-box in the Chunky Launcher:
+selecting the "Download snapshots" check-box in the [Chunky Launcher][1]:
 
 ![Snapshot check-box](snapshot-checkbox.png)
 
@@ -19,3 +19,5 @@ your scenes in order to avoid losing important data!
 
 Scenes created using snapshot versions of Chunky may be incompatible with
 other versions of Chunky, even later proper releases!
+
+[1]: http://chunkyupdate.llbit.se/ChunkyLauncher.jar
