@@ -1,4 +1,4 @@
-##Render Controls -- General
+#Render Controls &mdash; General
 
 **General** | [Lighting][1] | [Sky][2] | [Camera][3] | [Post-Processing][4] | [Advanced][5] | [Global][6]
 
