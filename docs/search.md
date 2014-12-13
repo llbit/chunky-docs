@@ -1,4 +1,4 @@
-##Search in Chunky Documentation
+##Search the Chunky Documentation
 
 <script>
   (function() {
