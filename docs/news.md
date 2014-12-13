@@ -1,5 +1,9 @@
 #News
 
+##2014-12-13 Version 1.3.2 released!
+
+Version 1.3.2 has been released. [Download it!][2]
+
 ##2014-12-07 Snapshot 1.3.2-alpha1
 
 A snapshot of an upcoming version is now available [in the launcher][1].
@@ -17,7 +21,7 @@ rendering improvements.
 ##2014-07-13 Chunky 1.2.3 released
 
 [Chunky version 1.2.3](/release/1.2.3/release_notes.html) has been released!
-[Get it here.](/download.html)
+[Get it here.][2]
 
 ##2014-06-19 New Website
 
@@ -39,3 +43,4 @@ over to this new site by TheRenderJunkie and myself.
 /Jesper
 
 [1]: /snapshot.html
+[2]: /download.html
