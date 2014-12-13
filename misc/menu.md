@@ -1,3 +1,4 @@
+* [Search Documentation](search.html)
 * [About](index.html)
     * [News](news.html)
     * <a href="download.html" class="download">Download</a>

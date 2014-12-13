@@ -180,3 +180,13 @@ h1, h2, h3 {
 	padding-left: 21px;
 }
 
+#menu a[href^="search.html"] {
+	background:url('search.png') 0px 50% no-repeat transparent;
+	padding-left: 21px;
+}
+
+#menu a[href^="search.html"]:hover {
+	background:url('search.png') 0px 50% no-repeat transparent;
+	background-color: #FF4;
+	padding-left: 21px;
+}
