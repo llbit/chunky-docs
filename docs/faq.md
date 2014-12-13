@@ -30,7 +30,7 @@ Please post bugs on the [chunky GitHub page.][1]
 * **Can Chunky render mod blocks?**
   No, only Vanilla blocks. It is not likely that any mod blocks will be supported as there are far too many for it to be feasible.
 
-* **Why does the sky look so bad?**
+* **Why does the sky look bad?**
   You might have a low resolution skymap, or it may be the wrong format.
 
 * **Where can I find Skymaps?**
