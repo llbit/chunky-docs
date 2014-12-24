@@ -31,12 +31,10 @@ These pages provide links to other pages, or downloads of non-HDR skymaps:
 HDR Skymaps
 -----------
 
-HDR skymaps have the advantage that they can be used to provide most
-of the light for a scene. HDR skymap support is coming to Chunky shortly.
-If HDR is not required, it is possible to convert them to regular JPEG
-images.
+HDR skymaps have the advantage that they can be used to provide realistic
+outdoor lighting for a scene.
 
-Most of sites provide paid-for skymaps, but most of them have a few free
+Most of these sites provide paid-for skymaps, but many of them have a few free
 samples available:
 
 * [CGSkies][2]
