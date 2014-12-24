@@ -1,10 +1,13 @@
-##Sky Maps
+Sky Maps
+========
 
 You can change the skymap under the "Sky" tab of the Render Controls dialog.
-You can also change the sun position relative to the skymap.
+There are several different types of sky map to choose from. Chunky supports a
+few different kinds of skymap projections, however "equirectangular" projection
+is the most common type of sky map.
 
-Chunky currently only accepts skymaps using equirectangular projection with 90
-degree vertical field of view (clamped at horizon).
+Equirectangular skymaps can have 90&deg; or 180&deg; vertical resolution. The
+difference is explained below.
 
 It is recommended to use a large skymap in order to avoid the sky looking
 blurry.  However, if the skymap is too large it will take a long time to load.
@@ -12,9 +15,9 @@ blurry.  However, if the skymap is too large it will take a long time to load.
 Vertical Resolution
 -------------------
 
-With a 90&deg; vertical resolution, the skymap will only cover the sky above
+With 90&deg; vertical resolution, the skymap will only cover the sky above
 the horizon. The skymap is mirrored at the horizon. If the skymap has 180&deg;
-vertical resolution the mirroring is not needed, the skymap will cover both sky
+vertical resolution the mirroring is not needed: the skymap will cover both sky
 and ground.
 
 ![Skymap vertical resolution](skymap_vertical_resolution.png)
