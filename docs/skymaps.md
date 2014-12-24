@@ -6,19 +6,17 @@ There are several different types of sky map to choose from. Chunky supports a
 few different kinds of skymap projections, however "equirectangular" projection
 is the most common type of sky map.
 
-Equirectangular skymaps can have 90&deg; or 180&deg; vertical resolution. The
-difference is explained below.
-
 It is recommended to use a large skymap in order to avoid the sky looking
 blurry.  However, if the skymap is too large it will take a long time to load.
 
 Vertical Resolution
 -------------------
 
-With 90&deg; vertical resolution, the skymap will only cover the sky above
-the horizon. The skymap is mirrored at the horizon. If the skymap has 180&deg;
-vertical resolution the mirroring is not needed: the skymap will cover both sky
-and ground.
+Equirectangular skymaps can have 90&deg; or 180&deg; vertical resolution.  With
+90&deg; vertical resolution the skymap will only cover the sky above the
+horizon, so it is mirrored at the horizon. If the skymap has 180&deg; vertical
+resolution the mirroring is not needed: the skymap will cover both sky and
+ground.
 
 ![Skymap vertical resolution](skymap_vertical_resolution.png)
 
