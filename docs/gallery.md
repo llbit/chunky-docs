@@ -20,6 +20,7 @@ Click the images to view a larger version:
 ###External Galleries
 
 * [Reddpics Gallery][0]
+* [WoA Renders Gallery][3]
 * [Renders by Oldshoes][1]
 * [Render by Operation Infinite Ocean team (OIO)][2]
 
@@ -27,3 +28,4 @@ Click the images to view a larger version:
 [0]:http://reddpics.com/r/chunky
 [1]:http://oldshoes.tumblr.com/tagged/llbit
 [2]:http://www.minecraftforum.net/topic/1301576-operationinfinite-ocean-%E3%80%90news-previews%E3%80%91/
+[3]:http://renders.woa.pw/
