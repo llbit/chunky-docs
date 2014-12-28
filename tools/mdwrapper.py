@@ -59,7 +59,7 @@ sys.stdout.write("""<!doctype html>
   <table id="wrapper">
     <tr id="content">
       <td id="menu">
-        <a href="index.html" id="logo">Chunky</a>
+        <a href="/index.html" id="logo">Chunky</a>
 """ % (title, filename_no_ext))
 sys.stdout.write(menu)
 sys.stdout.write("""
