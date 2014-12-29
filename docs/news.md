@@ -1,8 +1,15 @@
 #News
 
+##2014-12-29 Version 1.3.4 released!
+
+Version 1.3.2 has been released. [Download it here!][2]
+
+This version improves water rendering with better performance and more
+settings.
+
 ##2014-12-13 Version 1.3.2 released!
 
-Version 1.3.2 has been released. [Download it!][2]
+Version 1.3.2 has been released. [Download it here!][2]
 
 ##2014-12-07 Snapshot 1.3.2-alpha1
 
