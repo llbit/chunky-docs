@@ -22,3 +22,4 @@ be rendered either. Here is a list of all things that Chunky does not render:
 * The flame and hovering crystal part of the ender crystal block
 * Boats
 * Mine carts
+* [Player heads](http://minecraft.gamepedia.com/Player_head)
