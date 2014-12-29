@@ -12,9 +12,10 @@
     * [Render Controls](/render_controls.html)
     * [Render Preview](/render_preview.html)
 * Documentation
-    * [Headless Rendering](/headless.html)
     * [Path Tracing](/path_tracing.html)
-    * [Scene Discription Format](/scene_format.html)
+    * [Headless Rendering](/headless.html)
+    * [Scene Format](/scene_format.html)
+    * [Minecraft Compatibility](/minecraft_compatibility.html)
 * Community
     * [GitHub](https://github.com/llbit/chunky)
     * [Issue Tracker](https://github.com/llbit/chunky/issues)
