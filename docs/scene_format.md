@@ -82,9 +82,15 @@ An average scene description file may look like this:
       ]
     }
 
-SDF Versions
-------------
+Version History
+---------------
 
-* **2** 1.2.0 to 1.2.3
-* **3** 1.3-alpha1
+* **Version 2** (Chunky 1.2.0 through 1.2.3)
+* **Version 3** (Chunky 1.3-alpha1 through 1.3.3)
+* **Version 4** (Chunky 1.3.4)
+    * removed clearWater
+    * added waterOpacity
+    * added waterVisibility
+    * added waterColor
+    * added useCustomWaterColor
 
