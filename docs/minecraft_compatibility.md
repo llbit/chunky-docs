@@ -11,6 +11,8 @@ Unsupported Blocks/Entities
 Entities are currently not rendered by Chunky, and some special blocks can not
 be rendered either. Here is a list of all things that Chunky does not render:
 
+* Mod blocks
+* Custom block models
 * Paintings
 * Item frames
 * Banners
