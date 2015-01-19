@@ -28,7 +28,7 @@ Please post bugs on the [chunky GitHub page.][1]
   Chunky cannot currently render entities. These are objects that are separate from the blocks that make up the Minecraft worlds, such as players, mobs, minecarts, projectiles, etc. Future support for rendering entities is planned, but there is no deadline for this feature yet, so stay tuned!
 
 * **Can Chunky render mod blocks?**
-  No, only Vanilla blocks. It is not likely that any mod blocks will be supported as there are far too many for it to be feasible.
+  No, only Vanilla blocks. It is not likely that any mod blocks will be supported as there are far too many for it to be feasible. Check out [this page][4] to read more about which blocks Chunky can render.
 
 * **Why does the sky look bad?**
   You might have a low resolution skymap, or it may be the wrong format.
@@ -41,3 +41,4 @@ Please post bugs on the [chunky GitHub page.][1]
 [1]:https://github.com/llbit/chunky/issues
 [2]:path_tracing.html
 [3]:skymaps.html
+[4]:minecraft_compatibility.html
