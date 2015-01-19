@@ -3,7 +3,7 @@
     * [News](/news.html)
     * [Download](/download.html)
     * [FAQ](/faq.html)
-    * [Gallery](/gallery.html)
+* [Gallery](/gallery.html)
 * [Getting Started](/getting_started.html)
     * [Installation](/install.html)
     * [Tips](/tips.html)
