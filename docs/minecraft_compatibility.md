@@ -13,15 +13,15 @@ be rendered either. Here is a list of all things that Chunky does not render:
 
 * Mod blocks
 * Custom block models
-* Paintings
+* Paintings (will be rendered in 1.3.5)
 * Item frames
 * Banners
-* Armor stands
+* [Armor Stands](http://minecraft.gamepedia.com/Armor_stand)
 * Players
-* Mobs (animals and monsters)
-* The book hovering over an enchanting table block
-* The Beam effect of a beacon block
-* The flame and hovering crystal part of the ender crystal block
+* [Mobs (animals and monsters)](http://minecraft.gamepedia.com/Mobs)
+* The book hovering over [Enchanting Tables](http://minecraft.gamepedia.com/Enchanting_table)
+* The Beam effect of [Beacons](http://minecraft.gamepedia.com/Beacon)
+* The flame and hovering crystal part of [Ender Crystals](http://minecraft.gamepedia.com/Ender_crystal)
 * Boats
 * Mine carts
 * [Player heads](http://minecraft.gamepedia.com/Player_head)
