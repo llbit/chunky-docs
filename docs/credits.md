@@ -36,7 +36,6 @@ Libraries Used
 
 Chunky uses the following libraries:
 
-* Apache log4j
 * Apache Commons Math
 * JOCL
 * MWC64X
