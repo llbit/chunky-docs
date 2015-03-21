@@ -43,7 +43,8 @@ samples available:
 * [nordicFX][6]
 * [HDRI-Hub.com][7]
 * [sIBL Archive][8]
-* [hdrmaps.com][8]
+* [hdrmaps.com][9]
+* [Light probes by Bernhard Vogl][10]
 
 You can also try searcing Google for [Panoramic Sky Texture][0]
 
@@ -83,3 +84,4 @@ And this is what the resulting render should look like:
 [7]: http://www.hdri-hub.com/free-samples
 [8]: http://www.hdrlabs.com/sibl/archive.html
 [9]: http://hdrmaps.com/freebies
+[10]: http://dativ.at/lightprobes/
