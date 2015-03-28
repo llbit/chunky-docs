@@ -89,8 +89,14 @@ Version History
 * **Version 3** (Chunky 1.3-alpha1 through 1.3.3)
 * **Version 4** (Chunky 1.3.4)
     * removed clearWater
-    * added waterOpacity
-    * added waterVisibility
-    * added waterColor
-    * added useCustomWaterColor
+    * added waterOpacity (`=float`)
+    * added waterVisibility (`=float`)
+    * added waterColor (`={"red"=float,"green"=float,"blue"=float}`)
+    * added useCustomWaterColor (`=bool`)
+* **Version 5** (Chunky 1.3.5-alpha5)
+    * - atmosphereEnabled
+    * - volumetricFogEnabled
+    * + fogDensity (`=float`)
+    * + fogColor (`={"red"=float,"green"=float,"blue"=float}`)
+
 
