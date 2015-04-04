@@ -12,13 +12,14 @@ the [Getting Started Guide][14].
 Frequently Asked Questions
 --------------------------
 
-* **Q: Why is there noise/grain/random dots in the render?**
-  Torches and other small light sources cause a very random illumination and it
-  t takes many samples per pixel to render such light smoothly. For more
-  information see the [Path Tracing][10] article! You can disable emitters
-  under the Lighting tab in the Render Controls dialog to remove the random
-  bright dots. Note that rendering for a longer time will eventually remove the
-  dots as the render approaches the expected value.
+* **Q: Why is there noise/grain/random bright dots in the render?**
+  This is not a bug, but an unfortunate effect of the rendering algorithm used
+  in Chunky. Torches and other small light sources cause a very random
+  illumination and it takes a long time to render such light nicely. For more
+  information please read the [Path Tracing][2] article. You can disable
+  emitters under the Lighting tab in the Render Controls dialog to remove most
+  of the random bright dots.  **Note that rendering for a longer time will
+  eventually remove the noise**, though it may take a very long time.
 
 * **Q: How long does it take to render an image?**
   There is no exact answer to this question. The main thing that affects render
