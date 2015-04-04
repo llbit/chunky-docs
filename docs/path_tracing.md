@@ -1,13 +1,12 @@
 Path Tracing
 ============
 
-Path Tracing is a rendering algorithm similar to [ray tracing][1] in that rays
-are cast from a virtual camera and traced through a simulated scene.
-Path tracing uses random sampling
-to incrementally compute a final image. The random sampling process makes it
-possible to render some complex phenomena which are not handled in regular
-ray tracing, but it generally takes longer time to produce a high quality
-path traced image.
+Path Tracing is a rendering algorithm similar to [ray tracing][1] in which rays
+are cast from a virtual camera and traced through a simulated scene.  Path
+tracing uses random sampling to incrementally compute a final image. The random
+sampling process makes it possible to render some complex phenomena which are
+not handled in regular ray tracing, but it generally takes longer time to
+produce a high quality path traced image.
 
 The random sampling in path tracing causes noise to appear in the rendered
 image. The noise is removed by letting the algorithm generate more samples,
