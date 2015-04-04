@@ -98,5 +98,6 @@ Version History
     * - volumetricFogEnabled
     * + fogDensity (`=float`)
     * + fogColor (`={"red"=float,"green"=float,"blue"=float}`)
+    * + fastFog (`=bool`)
 
 
