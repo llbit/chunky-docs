@@ -8,7 +8,7 @@ Please post bugs on the [chunky GitHub page.][1]
   This is not a bug, but an unfortunate effect of the rendering algorithm used
   in Chunky. Torches and other small light sources cause a very random
   illumination and it takes a long time to render such light nicely. For more
-  information please read the [Path Tracing][2] article. You can disable
+  information please read the [Path Tracing](/path_tracing.html) article. You can disable
   emitters under the Lighting tab in the Render Controls dialog to remove most
   of the random bright dots.  **Note that rendering for a longer time will
   eventually remove the noise**, though it may take a very long time.
@@ -18,7 +18,7 @@ Please post bugs on the [chunky GitHub page.][1]
   time is your CPU, the size of the image, and the lighting conditions in the
   scene you are rendering. It can take anywhere from an hour to a couple of
   days to render a nice image. You can reduce the size of the canvas or disable
-  emitters to speed up the convergence rate. See the Path Tracing article for
+  emitters to speed up the convergence rate. See the [Path Tracing](/path_tracing.html) article for
   more details.
 
 * **Q: Is GPU rendering supported?**
@@ -40,6 +40,5 @@ Please post bugs on the [chunky GitHub page.][1]
 
 [0]:http://www.reddit.com/r/chunky
 [1]:https://github.com/llbit/chunky/issues
-[2]:path_tracing.html
-[3]:skymaps.html
+[3]:/skymaps.html
 [4]:minecraft_compatibility.html

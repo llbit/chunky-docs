@@ -1,9 +1,9 @@
-* [Search Documentation](/search.html)
+* <a href="/search.html"><img src="search.png">&nbsp;Search Documentation</a>
 * [About](/index.html)
     * [News](/news.html)
     * [Download](/download.html)
     * [FAQ](/faq.html)
-* [Gallery](/gallery.html)
+* <a href="/gallery.html"><img src="gallery.png">&nbsp;Gallery</a>
 * [Getting Started](/getting_started.html)
     * [Installation](/install.html)
     * [Tips](/tips.html)

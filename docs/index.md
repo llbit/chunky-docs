@@ -16,7 +16,7 @@ Frequently Asked Questions
   This is not a bug, but an unfortunate effect of the rendering algorithm used
   in Chunky. Torches and other small light sources cause a very random
   illumination and it takes a long time to render such light nicely. For more
-  information please read the [Path Tracing][10] article. You can disable
+  information please read the [Path Tracing](/path_tracing.html) article. You can disable
   emitters under the Lighting tab in the Render Controls dialog to remove most
   of the random bright dots.  **Note that rendering for a longer time will
   eventually remove the noise**, though it may take a very long time.
@@ -26,7 +26,7 @@ Frequently Asked Questions
   time is your CPU, the size of the image, and the lighting conditions in the
   scene you are rendering. It can take anywhere from an hour to a couple of
   days to render a nice image. You can reduce the size of the canvas or disable
-  emitters to speed up the convergence rate. See the Path Tracing article for
+  emitters to speed up the convergence rate. See the [Path Tracing](/path_tracing.html) article for
   more details.
 
 * **Q: Is GPU rendering supported?**
@@ -47,18 +47,17 @@ are listed in the relevant source files and [on the credits page][17].
 Copyright notices for third-party libraries used in Chunky are listed in the
 README file.
 
-[1]: release/@VERSION@/release_notes.html
+[1]: /release/@VERSION@/release_notes.html
 [2]: @EXE_DL_LINK@
 [3]: @ZIP_DL_LINK@
 [4]: http://chunkyupdate.llbit.se/ChunkyLauncher.jar
 [5]: https://github.com/llbit/chunky
 [6]: https://github.com/llbit/chunky/issues
 [7]: http://www.reddit.com/r/chunky
-[8]: faq.html
+[8]: /faq.html
 [9]: https://github.com/llbit/chunky
-[10]: path_tracing.html
-[13]: install.html
-[14]: getting_started.html
-[15]: gallery.html
+[13]: /install.html
+[14]: /getting_started.html
+[15]: /gallery.html
 [16]: http://opensource.org/licenses/gpl-3.0.html
-[17]: credits.html
+[17]: /credits.html
