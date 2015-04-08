@@ -1,5 +1,11 @@
 #News
 
+##2015-04-08 Chunky User Platform Survey 2015
+
+We have a survey thing to see which platforms Chunky users use!
+Please answer [these two questions](http://goo.gl/forms/TRFg7Gy64S) if you use Chunky!
+The results are viewable after completing the survey.
+
 ##2014-12-29 Version 1.3.4 released!
 
 Version 1.3.4 has been released. [Download it here!][2]
