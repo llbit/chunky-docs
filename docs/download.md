@@ -4,11 +4,12 @@ Download Chunky
 Download options for [version @VERSION@][1]:
 
 * [Windows Installer][2]
+* [Mac Bundle](@DMG_DL_LINK@)
 * [Cross-platform binaries (Mac, Win, Linux)][3]
 * [Launcher only (Mac, Win, Linux)][4]
 
-Mac bundles are currently not provided due to lack of quality assurance for
-the Mac bundles. Mac bundles may be released again in the future.
+Mac bundles are only tested with the Oracle Java distribution, and may not work
+on all systems.
 
 See Also
 --------

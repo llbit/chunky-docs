@@ -1,5 +1,11 @@
 #News
 
+##2015-04-20 Version 1.3.5 released!
+
+Version 1.3.5 has been released. [Download it here!][2]
+
+Check out [this blog post for the release spotlights](http://llbit.se/?p=2493).
+
 ##2015-04-08 Chunky User Platform Survey 2015
 
 We have a survey thing to see which platforms Chunky users use!
