@@ -2,7 +2,7 @@ Chunky
 ======
 
 Chunky is a Minecraft mapping and rendering tool.  Check out [the gallery][15]
-to see what is possible to do with Chunky!
+for examples of what Chunky can do!
 
 <a href="/download.html" class="button">Download version @VERSION@</a>
 
