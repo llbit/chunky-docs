@@ -6,6 +6,7 @@ on your computer. [You can get Java here.](http://java.com)
 
 There are several different ways to install Chunky. If you are using Windows
 then the [Windows Installer](@EXE_DL_LINK@) is probably the best alternative.
+There is also a handy [Mac Bundle](@DMG_DL_LINK@) for Mac users.
 
 For other platforms you can [download the Chunky Launcher
 (ChunkyLauncher.jar)](http://chunkyupdate.llbit.se/ChunkyLauncher.jar). The
