@@ -11,6 +11,11 @@ Download options for [version @VERSION@][1]:
 Mac bundles are only tested with the Oracle Java distribution, and may not work
 on all systems.
 
+Release Notes
+-------------
+
+[Click here to go to the release notes][1] for version @VERSION@.
+
 See Also
 --------
 
