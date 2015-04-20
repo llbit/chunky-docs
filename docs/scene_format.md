@@ -94,10 +94,10 @@ Version History
     * added waterColor (`={"red"=float,"green"=float,"blue"=float}`)
     * added useCustomWaterColor (`=bool`)
 * **Version 5** (Chunky 1.3.5-alpha5)
-    * - atmosphereEnabled
-    * - volumetricFogEnabled
-    * + fogDensity (`=float`)
-    * + fogColor (`={"red"=float,"green"=float,"blue"=float}`)
-    * + fastFog (`=bool`)
+    * removed atmosphereEnabled
+    * removed volumetricFogEnabled
+    * added fogDensity (`=float`)
+    * added fogColor (`={"red"=float,"green"=float,"blue"=float}`)
+    * added fastFog (`=bool`)
 
 
