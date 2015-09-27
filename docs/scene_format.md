@@ -82,6 +82,33 @@ An average scene description file may look like this:
       ]
     }
 
+Scripting
+---------
+
+A simple way to process scene files is by using a scripting language like Python. As an example, here is a Python script that generates individual scenes for each chunk in a square grid of chunks. The script uses an original scene as template for the new scenes.
+
+    import json
+    import os.path
+
+    original_scene = 'D:\Users\Jesper\.chunky\scenes\shore-sun.json'
+    scene_dir = os.path.abspath(os.path.join(original_scene, os.pardir))
+
+    with open(original_scene, 'r') as f:
+    	scene = json.load(f)
+
+    for x in range(-10, 1):
+    	for z in range(110, 119):
+    		scene_name = 'chunk_%dx_%dz' % (x, z)
+    		scene['name'] = scene_name
+    		scene['chunkList'] = [ [ x, z ] ]
+    		scene['spp'] = 0
+    		scene['renderTime'] = 0
+    		new_scene = os.path.join(scene_dir, scene_name + '.json')
+    		print 'Writing scene file %s' % new_scene
+    		with open(new_scene, 'w') as f:
+    			json.dump(scene, f)
+
+
 Version History
 ---------------
 
