@@ -13,7 +13,6 @@ be rendered either. Here is a list of all things that Chunky does not render:
 
 * Mod blocks
 * Custom block models
-* Paintings (will be rendered in 1.3.5)
 * Item frames
 * Banners
 * [Armor Stands](http://minecraft.gamepedia.com/Armor_stand)
@@ -24,4 +23,5 @@ be rendered either. Here is a list of all things that Chunky does not render:
 * The flame and hovering crystal part of [Ender Crystals](http://minecraft.gamepedia.com/Ender_crystal)
 * Boats
 * Mine carts
-* [Player heads](http://minecraft.gamepedia.com/Player_head)
+* [Player heads](http://minecraft.gamepedia.com/Player_head) (coming in version 1.3.6)
+* Text on signs (coming in 1.3.6)
