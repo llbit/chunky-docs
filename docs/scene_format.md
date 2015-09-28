@@ -104,7 +104,7 @@ A simple way to process scene files is by using a scripting language like Python
     		scene['spp'] = 0
     		scene['renderTime'] = 0
     		new_scene = os.path.join(scene_dir, scene_name + '.json')
-    		print 'Writing scene file %s' % new_scene
+    		print('Writing scene file %s' % new_scene)
     		with open(new_scene, 'w') as f:
     			json.dump(scene, f)
 
