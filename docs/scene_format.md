@@ -126,5 +126,7 @@ Version History
     * added fogDensity (`=float`)
     * added fogColor (`={"red"=float,"green"=float,"blue"=float}`)
     * added fastFog (`=bool`)
-
+* **Version 5** (Chunky 1.3.5-alpha5)
+    * Changed postprocess from integer to string
+    * Added outputMode (`="PNG"|"TIFF_32"`)
 
