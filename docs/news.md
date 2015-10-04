@@ -1,5 +1,9 @@
 #News
 
+##2015-10-04 Version 1.3.6 released!
+
+Version 1.3.6 has been released. [Download it here!][2]
+
 ##2015-04-20 Version 1.3.5 released!
 
 Version 1.3.5 has been released. [Download it here!][2]
