@@ -27,6 +27,7 @@ These pages provide links to other pages, or downloads of non-HDR skymaps:
 
 * [http://www.wuala.com/Olson/Photos/Optikz_360_Skies/][1]
 * [http://www.reddit.com/r/chunky/comments/17ts4b/some_more_skymaps/][3]
+* [Milky Way Panorama by ESO][11]
 
 HDR Skymaps
 -----------
@@ -85,3 +86,4 @@ And this is what the resulting render should look like:
 [8]: http://www.hdrlabs.com/sibl/archive.html
 [9]: http://hdrmaps.com/freebies
 [10]: http://dativ.at/lightprobes/
+[11]: https://www.eso.org/public/images/eso0932a/
