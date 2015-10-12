@@ -1,33 +1,41 @@
 import org.apache.tools.ant.filters.ReplaceTokens
 
 task copyDocs(type: Copy) {
+	inputs.file file('version.properties')
+
 	from 'docs'
 	into 'tmp'
 
-	Properties props = new Properties()
-	props.load(new FileInputStream(file('version.properties')))
+	Properties version = new Properties()
+	version.load(new FileInputStream(file('version.properties')))
 	filter(ReplaceTokens, tokens: [
-		VERSION: "${props['exe.dl.link']}".toString(),
-		EXE_DL_LINK: "${props['exe.dl.link']}".toString(),
-		DMG_DL_LINK: "${props['dmg.dl.link']}".toString(),
-		ZIP_DL_LINK: "${props['zip.dl.link']}".toString(),
-		BUILD_DATE: "${props['build.date']}".toString(),
+		VERSION: "${version['version']}".toString(),
+		EXE_DL_LINK: "${version['exe.dl.link']}".toString(),
+		DMG_DL_LINK: "${version['dmg.dl.link']}".toString(),
+		ZIP_DL_LINK: "${version['zip.dl.link']}".toString(),
+		BUILD_DATE: "${version['build.date']}".toString(),
 		])
 }
 
+// Build list of markdown tasks.
 List docTasks = []
-FileTree docFiles = fileTree(dir: 'docs').include('**/*.md')
-docFiles.each { docFile ->
+fileTree(dir: 'docs').include('**/*.md').each { docFile ->
 	String filename = file('docs').toURI().relativize(docFile.toURI())
 	docTasks << project.task("docs/$filename") {
+		dependsOn copyDocs
+
 		File sourceFile = new File(file('tmp'), filename)
 		File destFile = new File(file('out'), filename[0..-3] + "html")
-		println "$destFile"
+		println "source: $sourceFile"
+
 		inputs.file sourceFile
 		outputs.file destFile
 
 		doLast {
-			println "$sourceFile"
+			destFile.parentFile.mkdirs()
+			destFile.withWriter { writer ->
+				writer.writeLine 'lalala'
+			}
 		}
 	}
 }
