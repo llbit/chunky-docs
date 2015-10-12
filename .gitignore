@@ -1,11 +1,15 @@
-/out
-/tmp
+# Build artifacts.
+/out/
+/tmp/
 
-# local Node server
+# Gradle files.
+/.gradle/
+
+# Local Node server.
 /server.js
 
-# Vim
+# Vim files.
 *.swp
 
-# FTP update script
+# FTP update script.
 /update
