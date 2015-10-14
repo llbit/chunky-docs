@@ -19,7 +19,7 @@ all documentation pages.
 Dependencies
 ------------
 
-* [Apache Ant][1]
+* [Gradle][1]
 * Python
     * Python-Markdown
     * PIL
@@ -27,9 +27,9 @@ Dependencies
 Testing
 -------
 
-The webpages can be generated in the local directory `out` using the [Apache
-Ant][1] build script in the project root. If you have Ant and the other
-dependencies installed you only need to run Ant using a text terminal in the
+The webpages can be generated in the local directory `out` using the
+[Gradle][1] build script in the project root. If you have Gradle and the other
+dependencies installed you only need to run Gradle using a terminal in the
 project root. The script will do the rest.
 
 The build script runs a Python script named `tools/mdwrapper.py` on all
@@ -54,7 +54,7 @@ script][2].
 Requirements
 ------------
 
-The build script `build.xml` requires [Apache Ant][1] to run.
+The build script `build.gradle` requires [Gradle][1] to run.
 
 Python and python-markdown are required to generate the documentation pages.
 
@@ -69,7 +69,7 @@ Alternatively, for Windows users, you can download Pillow from [here][4].
 
 
 [0]:http://chunky.llbit.se/
-[1]:http://ant.apache.org/
+[1]:http://gradle.org/
 [2]:http://stackoverflow.com/a/13635318
 [3]:http://daringfireball.net/projects/markdown/syntax
 [4]:http://www.lfd.uci.edu/~gohlke/pythonlibs/
