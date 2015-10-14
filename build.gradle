@@ -1,4 +1,7 @@
 import org.apache.tools.ant.filters.ReplaceTokens
+import org.apache.tools.ant.taskdefs.condition.Os;
+
+defaultTasks 'documentation'
 
 task copyDocs(type: Copy) {
 	inputs.file file('version.properties')
@@ -14,31 +17,83 @@ task copyDocs(type: Copy) {
 		DMG_DL_LINK: "${version['dmg.dl.link']}".toString(),
 		ZIP_DL_LINK: "${version['zip.dl.link']}".toString(),
 		BUILD_DATE: "${version['build.date']}".toString(),
-		])
+	])
+}
+
+task copyResources(type: Copy) {
+	from('images') {
+		include '*'
+	}
+	from 'style'
+	into 'out'
+}
+
+task menuTemplate(type: Exec) {
+	outputs.file file('tmp/menu-template.html')
+	commandLine command([ 'python', file('tools/mdwrapper.py').path, 'prepare' ])
+}
+
+def command(cmd) {
+	if (Os.isFamily(Os.FAMILY_WINDOWS)) {
+		[ 'cmd', '/c' ] + cmd
+	} else {
+		cmd
+	}
 }
 
 // Build list of markdown tasks.
 List docTasks = []
 fileTree(dir: 'docs').include('**/*.md').each { docFile ->
 	String filename = file('docs').toURI().relativize(docFile.toURI())
-	docTasks << project.task("docs/$filename") {
-		dependsOn copyDocs
+	def destName = "out/${filename[0..-4]}.html"
+
+	docTasks << project.task(destName, type: Exec) {
+		dependsOn copyDocs, menuTemplate
 
 		File sourceFile = new File(file('tmp'), filename)
-		File destFile = new File(file('out'), filename[0..-3] + "html")
-		println "source: $sourceFile"
+		File destFile = file(destName)
 
 		inputs.file sourceFile
 		outputs.file destFile
 
-		doLast {
+		commandLine command([ 'python', file('tools/mdwrapper.py').path, sourceFile.path ])
+
+		doFirst {
 			destFile.parentFile.mkdirs()
-			destFile.withWriter { writer ->
-				writer.writeLine 'lalala'
-			}
+
+			// Output stream should not be created during configuration to avoid clobbering
+			// up-to-date output file.
+			standardOutput = new FileOutputStream(destFile)
 		}
 	}
 }
 
-task documentation(dependsOn: docTasks) {
+fileTree(dir: 'images/gallery').include('*.png').include('*.jpg').each { image ->
+	String filename = file('images/gallery').toURI().relativize(image.toURI())
+	def destName = "out/gallery/${filename[0..-5]}_thumb.jpg"
+
+	docTasks << project.task(destName, type: Exec) {
+		File dest = file(destName)
+
+		dest.parentFile.mkdirs()
+
+		inputs.file image
+		outputs.file dest
+
+		commandLine command([ 'python', file('tools/thumbnail.py').path, image.path, dest.path ])
+	}
+}
+
+task documentation() {
+	dependsOn docTasks
+	dependsOn copyResources
+}
+
+task test(dependsOn: documentation, type: Exec) {
+	commandLine command([ 'http-server', file('out').path, '-o', '--cors' ])
+}
+
+task clean << {
+	delete 'tmp'
+	delete 'out'
 }
