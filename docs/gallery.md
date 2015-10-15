@@ -20,6 +20,9 @@ Click the images to view a larger version:
 
 ###Build Credits
 
+Builds used in the images on this page:
+
+* Church built and rendered by 04hockey.
 * Broville was built by Oldshoes.
 * The space station was built by Urban Savage. [facebook](https://www.facebook.com/UrbanSavages-Minecraft-Builds-167317633610168/timeline/?ref=aymt_homepage_panel), [twitter](https://twitter.com/UrbantheSavage)
 
