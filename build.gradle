@@ -21,9 +21,7 @@ task copyDocs(type: Copy) {
 }
 
 task copyResources(type: Copy) {
-	from('images') {
-		include '*'
-	}
+	from 'images'
 	from 'style'
 	into 'out'
 }
