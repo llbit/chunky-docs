@@ -4,7 +4,7 @@ import org.apache.tools.ant.taskdefs.condition.Os;
 defaultTasks 'documentation'
 
 task copyDocs(type: Copy) {
-	inputs.file file('version.properties')
+	inputs.file 'version.properties'
 
 	from 'docs'
 	into 'tmp'
@@ -27,8 +27,8 @@ task copyResources(type: Copy) {
 }
 
 task menuTemplate(type: Exec) {
-	inputs.file file('misc/menu.md')
-	outputs.file file('tmp/menu-template.html')
+	inputs.file 'misc/menu.md'
+	outputs.file 'tmp/menu-template.html'
 	commandLine command([ 'python', file('tools/mdwrapper.py').path, 'prepare' ])
 }
 
@@ -93,7 +93,7 @@ task test(dependsOn: documentation, type: Exec) {
 	commandLine command([ 'http-server', file('out').path, '-o', '--cors' ])
 }
 
-task clean << {
+task clean(type: Delete) {
 	delete 'tmp'
 	delete 'out'
 }

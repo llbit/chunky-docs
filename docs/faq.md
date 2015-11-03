@@ -22,8 +22,9 @@ Please post bugs on the [chunky GitHub page.][1]
   more details.
 
 * **Q: Is GPU rendering supported?**
-  Not currently, but in the distant future Chunky may be able to render using
-  GPUs that support OpenCL.
+  GPU support is not actively being worked on right now. GPU rendering *may* be
+  added in the future, and some partial progress has been made toward this goal
+  but there are very many hurdles before it is fully supported.
 
 * **Q: Why are mobs not rendered?**
   Chunky cannot currently render entities, with the exception of paintings. Entities are objects that are separate from the blocks that make up the Minecraft worlds, such as players, mobs, minecarts, projectiles, etc. Future support for rendering entities is planned, but there is no deadline for this feature yet, so stay tuned!
