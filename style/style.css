@@ -1,3 +1,6 @@
+tr:nth-child(even) {
+  background: #E3E3E3;
+}
 ::selection {
   background: #FF0;
 }
