@@ -28,6 +28,7 @@ task copyResources(type: Copy) {
 
 task menuTemplate(type: Exec) {
 	inputs.file 'misc/menu.md'
+	inputs.file 'tools/mdwrapper.py'
 	outputs.file 'tmp/menu-template.html'
 	commandLine command([ 'python', file('tools/mdwrapper.py').path, 'prepare' ])
 }
@@ -54,6 +55,7 @@ fileTree(dir: 'docs').include('**/*.md').each { docFile ->
 
 		inputs.files menuTemplate.outputs.files
 		inputs.file sourceFile
+                inputs.file 'tools/mdwrapper.py'
 		outputs.file destFile
 
 		commandLine command([ 'python', file('tools/mdwrapper.py').path, sourceFile.path ])

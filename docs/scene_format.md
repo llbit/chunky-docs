@@ -1,91 +1,109 @@
 Scene Description Format
 ========================
 
-The JSON format is used to store scene configurations. The JSON files are
-stored in the scene directory and the filename is based on the scene name.
+Most of the settings in a Chunky scene are stored in a JSON plain-text format.
+Such Scene Description files have the extesion `.json`. This page documents the
+structure fields that exist in the Scene Description files and what they mean.
+This page may be out of date with the current version of Chunky as it is not
+updated very frequently. Check the version history at the end of this page to
+see the latest updates made to this documentation.
 
-For a scene named MyScene the corresponding scene description file would be
+The JSON files are stored in the scene directory and the filename is based on
+the scene name. For example, the JSON file for a scene named `MyScene` would be
 `MyScene.json`.
 
-An average scene description file may look like this:
+##Structure
 
-    {
-      "sdfVersion": 2,
-      "name": "flowers",
-      "width": 400,
-      "height": 400,
-      "exposure": 1.0,
-      "postprocess": 1,
-      "renderTime": 81177,
-      "spp": 100,
-      "sppTarget": 1200,
-      "pathTrace": true,
-      "dumpFrequency": 50,
-      "saveSnapshots": true,
-      "emittersEnabled": true,
-      "emitterIntensity": 13.0,
-      "sunEnabled": true,
-      "cloudsEnabled": false,
-      "cloudHeight": 128,
-      "stillWater": false,
-      "clearWater": false,
-      "biomeColorsEnabled": true,
-      "atmosphereEnabled": false,
-      "volumetricFogEnabled": false,
-      "waterHeight": 0,
-      "world": {
-        "path": "C:\\Users\\Steve\\AppData\\Roaming\\.minecraft\\saves\\test_1_7_4",
-        "dimension": 0
-      },
-      "camera": {
-        "position": {
-          "x": 442.6930821130635,
-          "y": 87.1632718486006,
-          "z": 49.918400631443504
-        },
-        "orientation": {
-          "roll": 0.0,
-          "pitch": -1.2276800914515056,
-          "yaw": -2.358491700687768
-        },
-        "projectionMode": "PINHOLE",
-        "fov": 52.599999999999994,
-        "dof": 8.0,
-        "infDof": true,
-        "focalOffset": 2.0
-      },
-      "sun": {
-        "altitude": 1.0471975511965976,
-        "azimuth": 5.711986642890533,
-        "intensity": 1.5,
-        "color": {
-          "red": 1.0,
-          "green": 1.0,
-          "blue": 1.0
-        }
-      },
-      "sky": {
-        "skymap": "C:\\Users\\Steve\\Desktop\\skymap.jpg",
-        "skyYaw": 1.3327968833411243,
-        "skyMirrored": true,
-        "groundColor": {
-          "red": 0.0,
-          "green": 0.0,
-          "blue": 1.0
-        }
-      },
-      "chunkList": [
-        [
-          28,
-          2
-        ]
-      ]
-    }
+[Click here](/example_scene.html) to view an example scene description file.
+
+The JSON file contains one JSON object with these named elements:
+
+Key        | Value range  | Default value | Description
+-----------|--------------|---------------|------------
+sdfVersion | Integer      | 6 | Scene Description Format (SDF) version
+name       | String       | | Scene name
+width      | Integer      | 400 | Canvas width
+height     | Integer      | 400 | Canvas height
+exposure   | Number       | 1.0 | Camera exposure
+postprocess | `{"NONE", "GAMMA", "TONEMAP1"}` | `"GAMMA"` | Tonemapping operator
+outputMode | `{"PNG", "TIFF_32"}` | "PNG" | Image output mode
+renderTime | Number       | | Current cumulative rendering time
+spp        | Integer      | | Current samples per pixel (SPP)
+sppTarget  | Integer      | 1000 | Render SPP target
+rayDepth   | Integer      | 5 | Ray recursion depth
+pathTrace  | Boolean      | false |  Rendering mode (true = path tracing, false = preview)
+dumpFrequency | Integer   | 500 | How often the current render state is saved (samples per state save)
+saveSnapshots | Boolean   | false | Whether a snapshot image is saved for each render dump
+emittersEnabled | Boolean | false |
+emitterIntensity | Number | 13.0 |
+sunEnabled | Boolean      | true |
+stillWater | Boolean      | false |
+waterOpacity | Number (0-1) | 0.42 |
+waterVisibility | Number  | 9.0 |
+useCustomWaterColor | Boolean  | false |
+fogColor   | RGB Object   | | See below
+fastFog    | Boolean      | |
+biomeColorsEnabled | Boolean | true | Color grass and trees differently per biome
+transparentSky | Boolean | false | Renders the sky transparent in the output image so a custom sky background can be easily used
+fogDensity | Number       | 0.0 |  Zero fog density disables fog
+waterHeight | Number      | 0 | Zero water height disables water world mode, non-zero height enables water world mode
+world      | World Object | | See below
+camera     | Camera Object | | See below
+sun        | Sun Object | | See below
+sky        | Sky Object | | See below
+cameraPresets | Camera Preset Object | | See below
+chunkList  | Array of integer arrays | | Chunks in the scene
+entities   | Array of Entity Objects | | Entities in the scene
+
+###RGB Object
+
+Key   | Value range
+------|------------
+red   | Number (0-1)
+green | Number (0-1)
+blue  | Number (0-1)
+
+###XYZ Object
+
+Key   | Value range
+------|------------
+x     | Number
+y     | Number
+z     | Number
+
+###Direction Object
+
+Key   | Value range
+------|------------
+roll  | Number
+pitch | Number
+yaw   | Number
+
+###World Object
+
+Key       | Value range
+----------|------------
+path      | String
+dimension | Integer (0-2)
+
+###Camera Object
+
+Key        | Value range  | Default value | Description
+-----------|--------------|---------------|------------
+position  | XYZ Object | |
+orientation | Direction Object | |
+projectionMode | `{}` | "PINHOLE" | Camera projection mode
+fov | Number | 70.0 | Field of view
+dof | Number | "Infinity" | Depth of field
+focalOffset | Number | | Distance to target
 
 Scripting
 ---------
 
-A simple way to process scene files is by using a scripting language like Python. As an example, here is a Python script that generates individual scenes for each chunk in a square grid of chunks. The script uses an original scene as template for the new scenes.
+A simple way to process scene files is by using a scripting language like
+Python. For example, here is a Python script that generates individual scenes
+for each chunk in a square grid of chunks. The script uses an original scene as
+template for the new scenes.
 
     import json
     import os.path
@@ -112,21 +130,21 @@ A simple way to process scene files is by using a scripting language like Python
 Version History
 ---------------
 
-* **Version 2** (Chunky 1.2.0 through 1.2.3)
-* **Version 3** (Chunky 1.3-alpha1 through 1.3.3)
+* **Version 2** (Chunky 1.2.0 to 1.2.3)
+* **Version 3** (Chunky 1.3-alpha1 to 1.3.3)
 * **Version 4** (Chunky 1.3.4)
-    * removed clearWater
-    * added waterOpacity (`=float`)
-    * added waterVisibility (`=float`)
-    * added waterColor (`={"red"=float,"green"=float,"blue"=float}`)
-    * added useCustomWaterColor (`=bool`)
+    * removed clearWater (Boolean)
+    * added waterOpacity (Number)
+    * added waterVisibility (Number)
+    * added waterColor (RGB Object)
+    * added useCustomWaterColor (Boolean)
 * **Version 5** (Chunky 1.3.5-alpha5)
-    * removed atmosphereEnabled
-    * removed volumetricFogEnabled
-    * added fogDensity (`=float`)
-    * added fogColor (`={"red"=float,"green"=float,"blue"=float}`)
-    * added fastFog (`=bool`)
-* **Version 5** (Chunky 1.3.5-alpha5)
-    * Changed postprocess from integer to string
-    * Added outputMode (`="PNG"|"TIFF_32"`)
+    * removed atmosphereEnabled (Boolean)
+    * removed volumetricFogEnabled (Boolean)
+    * added fogDensity (Number)
+    * added fogColor (RGB Object)
+    * added fastFog (Boolean)
+* **Version 6** (Chunky 1.3.5-alpha5)
+    * Changed postprocess from Integer to Enum
+    * Added outputMode (Enum)
 

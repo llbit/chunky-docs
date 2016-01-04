@@ -9,25 +9,25 @@ if len(sys.argv) > 1 and sys.argv[1] == 'prepare':
     with codecs.open('misc/menu.md', mode='r', encoding='utf-8') as f:
         menu = f.read()
     with codecs.open('tmp/menu-template.html', mode='w', encoding='utf-8') as f:
-        f.write(markdown.markdown(menu, ['extra']).encode('utf-8'))
+        f.write(markdown.markdown(menu, ['extra']))
     sys.exit(0)
 
 if len(sys.argv) > 1:
-	filename = sys.argv[1]
-	filename_relative = os.path.relpath(filename, 'tmp').replace('\\', '/')
-	filename_no_ext = os.path.splitext(filename_relative)[0]
-	with codecs.open(filename, mode='r', encoding='utf-8') as f:
-		text = f.read()
+        filename = sys.argv[1]
+        filename_relative = os.path.relpath(filename, 'tmp').replace('\\', '/')
+        filename_no_ext = os.path.splitext(filename_relative)[0]
+        with codecs.open(filename, mode='r', encoding='utf-8') as f:
+                text = f.read()
 else:
-	filename = 'stdin'
-	filename_relative = 'stdin'
-	filename_no_ext = 'stdin'
-	with codecs.getreader('utf-8')(sys.stdin) as f:
-		text = f.read()
+        filename = 'stdin'
+        filename_relative = 'stdin'
+        filename_no_ext = 'stdin'
+        with codecs.getreader('utf-8')(sys.stdin) as f:
+                text = f.read()
 
 # load menu template
 with codecs.open('tmp/menu-template.html', mode='r', encoding='utf-8') as f:
-	menu = f.read()
+        menu = f.read()
 
 title = text.split('\n', 1)[0]
 title = re.match('#*(.+)', title).group(1)
@@ -67,7 +67,7 @@ sys.stdout.write("""
       <!--Content goes here -->
       <td id="article">
 """)
-sys.stdout.write(markdown.markdown(text, ['extra']).encode('utf-8'))
+sys.stdout.write(markdown.markdown(text, ['extra']))
 sys.stdout.write("""
       <div id="footer"><a href="https://github.com/llbit/chunky-docs/edit/master/docs/%s">Edit page</a></div>
       </td>
