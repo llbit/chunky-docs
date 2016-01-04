@@ -18,42 +18,42 @@ the scene name. For example, the JSON file for a scene named `MyScene` would be
 
 The JSON file contains one JSON object with these named elements:
 
-Key        | Value range  | Default value | Description
------------|--------------|---------------|------------
-sdfVersion | Integer      | 6 | Scene Description Format (SDF) version
-name       | String       | | Scene name
-width      | Integer      | 400 | Canvas width
-height     | Integer      | 400 | Canvas height
-exposure   | Number       | 1.0 | Camera exposure
-postprocess | `{"NONE", "GAMMA", "TONEMAP1"}` | `"GAMMA"` | Tonemapping operator
-outputMode | `{"PNG", "TIFF_32"}` | "PNG" | Image output mode
-renderTime | Number       | | Current cumulative rendering time
-spp        | Integer      | | Current samples per pixel (SPP)
-sppTarget  | Integer      | 1000 | Render SPP target
-rayDepth   | Integer      | 5 | Ray recursion depth
-pathTrace  | Boolean      | false |  Rendering mode (true = path tracing, false = preview)
-dumpFrequency | Integer   | 500 | How often the current render state is saved (samples per state save)
-saveSnapshots | Boolean   | false | Whether a snapshot image is saved for each render dump
-emittersEnabled | Boolean | false |
-emitterIntensity | Number | 13.0 |
-sunEnabled | Boolean      | true |
-stillWater | Boolean      | false |
-waterOpacity | Number (0-1) | 0.42 |
-waterVisibility | Number  | 9.0 |
-useCustomWaterColor | Boolean  | false |
-fogColor   | RGB Object   | | See below
-fastFog    | Boolean      | |
-biomeColorsEnabled | Boolean | true | Color grass and trees differently per biome
-transparentSky | Boolean | false | Renders the sky transparent in the output image so a custom sky background can be easily used
-fogDensity | Number       | 0.0 |  Zero fog density disables fog
-waterHeight | Number      | 0 | Zero water height disables water world mode, non-zero height enables water world mode
-world      | World Object | | See below
-camera     | Camera Object | | See below
-sun        | Sun Object | | See below
-sky        | Sky Object | | See below
-cameraPresets | Camera Preset Object | | See below
-chunkList  | Array of integer arrays | | Chunks in the scene
-entities   | Array of Entity Objects | | Entities in the scene
+Key             | Value range   | Default value | Description
+----------------|---------------|---------------|------------
+sdfVersion      | Integer       | 6 | Scene Description Format (SDF) version
+name            | String        | | Scene name
+width           | Integer       | 400 | Canvas width
+height          | Integer       | 400 | Canvas height
+exposure        | Number        | 1.0 | Camera exposure
+postprocess     | `{"NONE", "GAMMA", "TONEMAP1"}` | `"GAMMA"` | Tonemapping operator
+outputMode      | `{"PNG", "TIFF_32"}` | "PNG" | Image output mode
+renderTime      | Number        | | Current cumulative rendering time
+spp             | Integer       | | Current samples per pixel (SPP)
+sppTarget       | Integer       | 1000 | Render SPP target
+rayDepth        | Integer       | 5 | Ray recursion depth
+pathTrace       | Boolean       | false |  Rendering mode (true = path tracing, false = preview)
+dumpFrequency   | Integer       | 500 | How often the current render state is saved (samples per state save)
+saveSnapshots   | Boolean       | false | Whether a snapshot image is saved for each render dump
+emittersEnabled | Boolean       | false |
+emitterIntensity | Number       | 13.0 |
+sunEnabled      | Boolean       | true |
+stillWater      | Boolean       | false |
+waterOpacity    | Number (0-1)  | 0.42 |
+waterVisibility | Number        | 9.0 |
+useCustomWaterColor | Boolean   | false |
+fogColor        | RGB Object    | | See below
+fastFog         | Boolean       | |
+biomeColorsEnabled | Boolean    | true | Color grass and trees differently per biome
+transparentSky  | Boolean       | false | Renders the sky transparent in the output image so a custom sky background can be easily used
+fogDensity      | Number        | 0.0 |  Zero fog density disables fog
+waterHeight     | Number        | 0 | Zero water height disables water world mode, non-zero height enables water world mode
+world           | World Object  | | See below
+camera          | Camera Object | | See below
+sun             | Sun Object    | | See below
+sky             | Sky Object    | | See below
+cameraPresets   | Camera Preset Object | | See below
+chunkList       | Array of integer arrays | | Chunks in the scene
+entities        | Array of Entity Objects | | Entities in the scene
 
 ###RGB Object
 
@@ -88,14 +88,45 @@ dimension | Integer (0-2)
 
 ###Camera Object
 
-Key        | Value range  | Default value | Description
------------|--------------|---------------|------------
-position  | XYZ Object | |
-orientation | Direction Object | |
-projectionMode | `{}` | "PINHOLE" | Camera projection mode
-fov | Number | 70.0 | Field of view
-dof | Number | "Infinity" | Depth of field
-focalOffset | Number | | Distance to target
+Key             | Value range   | Default value | Description
+----------------|---------------|---------------|------------
+position        | XYZ Object    | |
+orientation     | Direction Object | |
+projectionMode  | `{"PINHOLE", "PARALLEL", "FISHEYE", "STEREOGRAPHIC", "PANORAMIC", "PANORAMIC_SLOT"}` | `"PINHOLE"` | Camera projection mode
+fov             | Number        | 70.0 | Field of view
+dof             | Number        | "Infinity" | Depth of field
+focalOffset     | Number        | | Distance to target
+
+###Sun Object
+
+Key             | Value range   | Default value | Description
+----------------|---------------|---------------|------------
+altitude        | Number (0-PI/2) | | The direction to the sun above the horizon
+azimuth         | Number (0-2PI) | | The direction to the sun measured from north
+intensity       | Number | 1.25 | Sunlight scaling factor
+color           | RGB Object    | |
+
+###Sky Object
+
+Key             | Value range   | Default value | Description
+----------------|---------------|---------------|------------
+skyYaw          | Number (0-2PI) | | Offset angle for the sky map
+skyMirrored     | Boolean       | true | Enables mirroring of the skymap at the horizon (use when the vertical skymap angle is 90 degrees)
+skyLight        | Number        | 1.0 | Sky light scaling factor
+mode            | `{"SIMULATED", "GRADIENT", "SKYMAP_PANORAMIC", "SKYMAP_SPHERICAL", "SKYBOX", "BLACK"}` | `"SIMULATED"` | Sky rendering mode
+horizonOffset   | Number (0-PI/2) | Offset the horizon to simulate a curved earth. This helps hiding the horizon below distant objects.
+cloudsEnabled   | Boolean       | false |
+cloudSize       | Number        | 64.0 |
+cloudOffset     | XYZ Object    | |
+gradient        | Gradient Object | |
+
+###Camera Preset Object
+
+TBD
+
+###Gradient Object
+
+TBD
 
 Scripting
 ---------
