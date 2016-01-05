@@ -1,16 +1,15 @@
 Scene Description Format
 ========================
 
-Most of the settings in a Chunky scene are stored in a JSON plain-text format.
-Such Scene Description files have the extesion `.json`. This page documents the
-structure fields that exist in the Scene Description files and what they mean.
-This page may be out of date with the current version of Chunky as it is not
-updated very frequently. Check the version history at the end of this page to
-see the latest updates made to this documentation.
+Most of the settings in Chunky scenes are stored in Scene Description files
+using a JSON-based file format. This page documents the SDF file format. The
+documentation is currently incomplete, and may lag behind the current Chunky
+version as new versions are released. Check the version history at the end of
+this page to see the latest updates made to the SDF documentation.
 
-The JSON files are stored in the scene directory and the filename is based on
-the scene name. For example, the JSON file for a scene named `MyScene` would be
-`MyScene.json`.
+SDF JSON files are stored in the scene directory and the filename is based on
+the scene name with `.json` appended. For example, the JSON file for a scene
+named `MyScene` would be `MyScene.json`.
 
 ##Structure
 
