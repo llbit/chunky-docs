@@ -1,5 +1,10 @@
 #News
 
+##2015-01-08 First 1.3.8 snapshot
+
+Snapshot 1.3.8-alpha1 is now available. There is also [a new blog
+post](http://llbit.se/?p=2650) discussing upcoming features in 1.3.8.
+
 ##2015-10-04 Version 1.3.6 released!
 
 Version 1.3.6 has been released. [Download it here!][2]
