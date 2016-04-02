@@ -52,7 +52,8 @@ sun             | Sun Object    | | See below
 sky             | Sky Object    | | See below
 cameraPresets   | Camera Preset Object | | See below
 chunkList       | Array of integer arrays | | Chunks in the scene
-entities        | Array of Entity Objects | | Entities in the scene
+actors          | Array of Entity Objects | | Posable entities such as players.
+entities        | Array of Entity Objects | | Static entities in the scene, e.g. paintings
 
 ###RGB Object
 
@@ -177,4 +178,6 @@ Version History
 * **Version 6** (Chunky 1.3.5-alpha5)
     * Changed postprocess from Integer to Enum
     * Added outputMode (Enum)
-
+* **Version 7** (Chunky 1.3.8)
+    * Added renderActors (Boolean)
+    * Added actors (Array of Entity Objects)
