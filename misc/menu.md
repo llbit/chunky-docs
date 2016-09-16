@@ -3,6 +3,7 @@
     * [News](/news.html)
     * [Download](/download.html)
     * [FAQ](/faq.html)
+    * [Troubleshooting](/troubleshooting.html)
 * <a href="/gallery.html"><img src="/gallery.png">&nbsp;Gallery</a>
 * [Getting Started](/getting_started.html)
     * [Installation](/install.html)
