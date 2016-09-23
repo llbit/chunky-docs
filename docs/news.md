@@ -1,6 +1,14 @@
 #News
 
 
+## Version 1.4 released!
+
+*2016-09-23*
+
+Version 1.4 has been released. [Download it here!][2]
+
+NOTE: verison 1.4.0 **REQUIRES** Java 8 update 40 or later to run.
+
 ## New Snapshot: 1.4.0-alpha1
 
 *2016-08-19*
