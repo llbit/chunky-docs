@@ -104,7 +104,7 @@ This is a list of the methods available to plugins currently in the plugin API:
 * `se.llbit.chunky.world.Block`:
     * `set(int, Block)` - used to change the representation for a Minecraft block
     in the renderer. This can be used for simple things like changing textures or
-    material properties (emttiance, shinyness, ...) to more advanced things like
+    material properties (emittiance, shinyness, ...), as well as more advanced things like
     completely changing the block rendering model. See [the demo plugin][4] for
     an example.
 
