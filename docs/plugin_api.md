@@ -18,8 +18,14 @@ these existing demo plugins:
 * [Block model changing (grass into lava)][2]
 * [Custom Render Controls tab][3]
 
+The Chunky plugin API can also be used to build new applications based on Chunky. Here is
+an application that uses parts of the Chunky rendering system to render different kinds of
+Minecraft blocks and items:
 
-For building a plugin you can use [Gradle][5]. Here is the Gradle build script from
+* [Test Renderer][7]
+
+
+For building your plugin you can use [Gradle][5]. Here is the Gradle build script from
 the custom Render Controls tab plugin:
 
 ```
@@ -29,16 +35,13 @@ apply plugin: 'application'
 repositories {
     mavenLocal()
     mavenCentral()
-    maven {
-        url 'https://oss.sonatype.org/content/repositories/snapshots/'
-    }
 }
 
 sourceCompatibility = '1.8'
 targetCompatibility = '1.8'
 
 dependencies {
-    compile 'se.llbit:chunky-core:1.4.1-SNAPSHOT'
+    compile 'se.llbit:chunky-core:1.4.1'
 }
 
 defaultTasks 'jar'
@@ -134,3 +137,4 @@ these things will probably change:
 [4]: https://github.com/llbit/Chunky-PlugMan
 [5]: https://gradle.org/
 [6]: https://github.com/llbit/chunky/issues
+[7]: https://github.com/llbit/Chunky-TestRenderer
