@@ -1,6 +1,7 @@
 * <a href="/search.html"><img src="/search.png">&nbsp;Search Documentation</a>
 * [About](/index.html)
     * [News](/news.html)
+    * [Releases](https://www.reddit.com/user/releasebot.rss)
     * [Download](/download.html)
     * [FAQ](/faq.html)
     * [Troubleshooting](/troubleshooting.html)
