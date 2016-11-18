@@ -184,8 +184,7 @@ h1, h2, h3 {
 }
 
 #menu a[href$=".rss"] {
-	background:url('feed-icon-14x14.png') 0px 50% no-repeat transparent;
-	background-color: #FF4;
+	background:url('github_mark.png') 0px 50% no-repeat transparent;
 	padding-left: 21px;
 }
 
