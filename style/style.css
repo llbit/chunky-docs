@@ -173,24 +173,16 @@ h1, h2, h3 {
 }
 
 #menu a[href^="https://github.com"] {
-	background:url('github_mark.png') 0px 50% no-repeat transparent;
-	padding-left: 21px;
-}
-
-#menu a[href^="https://github.com"]:hover {
-	background:url('github_mark.png') 0px 50% no-repeat transparent;
-	background-color: #FF4;
+	background-image: url('github_mark.png');
+	background-position: 0% 50%;
+	background-repeat: no-repeat;
 	padding-left: 21px;
 }
 
 #menu a[href$=".rss"] {
-	background:url('github_mark.png') 0px 50% no-repeat transparent;
-	padding-left: 21px;
-}
-
-#menu a[href$=".rss"]:hover {
-	background:url('feed-icon-14x14.png') 0px 50% no-repeat transparent;
-	background-color: #FF4;
+	background-image: url('feed-icon-14x14.png');
+	background-position: 0% 50%;
+	background-repeat: no-repeat;
 	padding-left: 21px;
 }
 
