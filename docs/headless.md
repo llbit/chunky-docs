@@ -1,61 +1,60 @@
 Headless Rendering
 ==================
 
-This article describes how to work with Chunkys command-line interface.
-Rendering using the command-line interface is also referred to as Headless
-Rendering.
+Headless rendering in Chunky can be used to render scenes without using the
+GUI, and is useful for example when rendering on a server or when automating
+or scripting renders.
 
 Chunky Launcher
 ---------------
 
-When working with Chunky from the command line, you must be aware of what the
-Chunky launcher does. The launcher is bundled with Chunky since version 1.2.0
-and it is responsible for launching Chunky by starting a new Java process. This
-means that JVM options (memory limit etc.) you use when starting Chunky will
-normally only apply to the launcher and not the actually Chunky process.
+When working with Chunky from the command line, you should be aware of what the
+launcher does. The launcher is bundled with Chunky since version 1.2.0 and it
+is responsible for launching Chunky by starting a new Java process.
 
-To see the command used to start Chunky itself you can add the `--verbose`
-option to your Chunky. This makes the launcher echo the command it used to
-launch Chunky.
+Command-line arguments that start with one dash, like `-snapshot` are sent
+to Chunky, while arguments starting with two dashes, like `--update`, are
+options to the launcher.
 
+### JVM Options
+
+JVM options (memory limit etc.) used when starting Chunky normally only
+apply to the launcher and not the actually Chunky process.
 Any JVM options you want to add to the Chunky command must be added to the
 `javaOptions` variable in the `chunky-launcher.json` file in your local
-Chunky settings directory (`~/.chunky` is the default directory). You can
-also use the `--setup` command which can be used to set up the launcher
-settings via the command-line.
+Chunky settings directory (`~/.chunky` is the default directory).
 
-If you send any command line arguments to the launcher it will assume that
-Chunky should run in headless mode, unless the `--nolauncher` option is
-given in which case Chunky is started as regular, but without showing
-the launcher window. The `--launcher` option overrides everything else
-and forces the launcher to appear.
+To see the Java command line arguments used to start Chunky you can add
+the `--verbose` flag when running Chunky. This makes the launcher print the
+command it used to start Chunky.
 
 Custom Settings Directory
 -------------------------
 
 Since version 1.4 Chunky allows specifying a custom settings directory via
-the `chunky.home` system property. The system property can be passed to the
+the `chunky.home` Java property. The property can be passed to the
 Chunky launcher and the launcher will then pass it on to Chunky itself.
 
 Changing the settings directory can be useful if you need to run multiple
 instances of Chunky on the same computer, or if you just need more control
-over where the Chunky settings are stored.
+over where the settings and scenes are stored.
 
-Here is an example showing how to use a custom scene directory:
+Here is an example showing how to specify a custom scene directory:
 
     $ mkdir ~/chunky
     $ java -Dchunky.home="~/chunky" -jar ChunkyLauncher.jar --update
 
 
-Note that the `-Dchunky.home` argument must be passed before `-jar`.
-It may be convient to make an alias out of the `java` command above.
-For example:
+Note that the `-Dchunky.home` argument must be passed before `-jar`.  If you
+are using Bash it is convient to make an alias for the `java` command
+above, for example:
 
     CHUNKY_HOME=~/chunky
     alias chunky java -Dchunky.home="$CHUNKY_HOME" -jar ChunkyLauncher.jar
 
 
-The above lines could be added to your `.bashrc`.
+The lines above could also be added to your `.bashrc` file.
+
 
 Setting Things Up
 -----------------
@@ -77,42 +76,40 @@ update Chunky or Minecraft:
 
         java -jar ChunkyLauncher.jar --update
 
-3. Make Chunky download some Minecraft version (for example 1.7.4):
+3. Make Chunky download some Minecraft version (for example 1.11.2):
 
-        java -jar ChunkyLauncher.jar -download-mc 1.7.4
-
-4. Optional: create an alias for Chunky. For Bash you can do this:
-
-        echo "alias chunky='java -jar $(pwd)/ChunkyLauncher.jar'" >> ~/.bashrc
+        java -jar ChunkyLauncher.jar -download-mc 1.11.2
 
 
 Rendering
 ---------
 
-Rendering a scene using the command-line interface is simple, assuming that
-you have set up the scene parameters and copied your scene files to your directory
-(default=`~/.chunky/scenes`).
+Rendering a scene using the command-line interface is simple, assuming that you
+have set up the scene parameters and copied your scene files to your scene
+directory (default=`$CHUNKY_HOME/scenes`).
 
-The simplest way to render a scene is to just run the command
+The simplest way to render a scene is to run the command
 
     chunky -render SceneName
 
-Replace `SceneName` with the name of your scene. Omitting the scene name prints
-a list of available scenes and the path to the current scene directory.
 
-Chunky will keep rendering until it reaches the target SPP or until the process
-is ended. You can terminate Chunky prematurely by hitting `Ctrl-C`. However,
-remember that the scene is not saved except for every so many samples, as
-determined by the `dumpFrequency` scene setting, or when the render has
-completed.
+Replace `SceneName` with the name of your scene. Run this command to print
+a list of all available scenes:
 
-If you have rendered a scene for a while and just want to be able to create a
-snapshot without waiting for it to complete you can use the `-snapshot`
-command which takes the latest render dump and creates a snapshot from that:
+    chunky -list-scenes
+
+
+Chunky will keep rendering until it reaches the target SPP. You can stop Chunky
+prematurely by hitting `Ctrl-C`, however this does not save the current
+rendering progress! The render progress is normally saved after intervals
+determined by the `dumpFrequency` scene setting.
+
+Snapshots can be created from a scene with some saved rendering progress by
+using the `-snapshot` command:
 
     chunky -snapshot SceneName snapshot.png
 
-The `snapshot.png` part of the command is the path to the Png file to create.
+The `snapshot.png` part of is the filename for the Png file to create.
 
 Command-Line Options
 --------------------
