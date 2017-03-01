@@ -4,6 +4,8 @@ Plugin API
 Chunky 1.4 added experimental plugin support. This page documents how to build a new plugin
 for Chunky, and the available plugin API interfaces.
 
+The full JavaDoc API documentation is [here](/api/).
+
 
 ## Creating a basic plugin
 
