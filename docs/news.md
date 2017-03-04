@@ -1,5 +1,11 @@
 #News
 
+## Development Update 1
+
+*2017-03-04*
+
+Read development update 1 [here](http://llbit.se/?p=3023).
+
 
 ## Version 1.4 released!
 
