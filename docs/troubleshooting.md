@@ -9,6 +9,20 @@ If you installed Chunky using the Windows installer and later updated the Java i
 Chunky may stop working because the path to the Java-installation has changed. This can
 usually be fixed by uninstalling Chunky and reinstalling it again.
 
+## I see a lot of black blocks with a red X
+
+The black box with a red cross over it is the texture used in place of missing textures.
+
+This happens when Chunky could not find a Minecraft installation to load textures from.
+
+Chunky needs to load textures from a Minecraft installation or a resource pack,
+otherwise it uses its own built-in textures or the missing texutre.
+
+The problem can be fixed by either:
+
+* Updating the path to your Minecraft installation in the Chunky launcher.
+* Loading a resource pack that contains the missing textures.
+
 ## I try to create a new scene but it is empty
 
 First, make sure that you have selected some chunks before creating a new scene.
