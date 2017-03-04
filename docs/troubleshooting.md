@@ -9,7 +9,7 @@ If you installed Chunky using the Windows installer and later updated the Java i
 Chunky may stop working because the path to the Java-installation has changed. This can
 usually be fixed by uninstalling Chunky and reinstalling it again.
 
-## I see a lot of black blocks with a red X
+## Black blocks with a red X
 
 The black box with a red cross over it is the texture used in place of missing textures.
 
