@@ -9,6 +9,21 @@ If you installed Chunky using the Windows installer and later updated the Java i
 Chunky may stop working because the path to the Java-installation has changed. This can
 usually be fixed by uninstalling Chunky and reinstalling it again.
 
+## Trouble launching on Linux
+
+
+On some linux distributions like Ubuntu, Java is not packaged with JavaFX,
+which is needed to run Chunky.
+
+Typicallly, the error message contains a `NoClassDefFoundError`.
+
+On Ubuntu 16.04, this is solved by installing package `openjfx`:
+
+```
+sudo apt-get install openjfx
+```
+
+
 ## Black blocks with a red X
 
 The black box with a red cross over it is the texture used in place of missing textures.
