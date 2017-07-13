@@ -12,8 +12,8 @@ The full JavaDoc API documentation is [here](/api/).
 Chunky plugins are packaged as Jar files with a main class extending the
 interface `se.llbit.chunky.plugin.Plugin`.
 
-The simplest way to get started with your own plugin is perhaps to copy one of
-these existing demo plugins:
+The simplest way to start building a plugin is to copy one of
+these existing sample plugins:
 
 
 * [Ambient occlusion renderer][1]
@@ -59,12 +59,10 @@ needs a main method. Here is how you can launch Chunky from your plugin main cla
 import se.llbit.chunky.Plugin;
 import se.llbit.chunky.main.Chunky;
 import se.llbit.chunky.main.ChunkyOptions;
-import se.llbit.chunky.resources.TexturePackLoader;
 import se.llbit.chunky.ui.ChunkyFx;
 
 public class MyPlugin implements Plugin {
-  public static void main(String[] args)
-      throws FileNotFoundException, TexturePackLoader.TextureLoadingError {
+  public static void main(String[] args) throws Exception {
     // Start Chunky normally with this plugin attached.
     Chunky.loadDefaultTextures();
     Chunky chunky = new Chunky(ChunkyOptions.getDefaults());
@@ -74,20 +72,38 @@ public class MyPlugin implements Plugin {
 }
 ```
 
+## Plugin manifest
+
+Since version 1.4.3, plugins have a metadata file inside their Jar file named
+`plugin.json`, which defines the main class of the plugin, and other metadata about
+the plugin.
+
+This is the current JSON format used in the `plugin.json` file:
+
+Key             | Type    |  Description
+----------------|---------------|--------------
+main            | String  | The main plugin class name (must extend `se.llbit.chunky.plugin.Plugin`).
+name            | String  | Name of the plugin.
+author          | String  | The author of the plugin.
+version         | String  | Plugin version.
+targetVersion   | String  | The Chunky version the plugin is compatible with.
+description     | String  | Plugin description.
+
+
+If you use Gradle to build your plugins, place the `plugin.json` file in the
+directory `src/main/resources/`.
+
 
 ## Plugin manager
 
-Plugin support has not yet been added to the regular Chunky launcher. A
-separate plugin manager application can be used instead. You have to build it
-yourself, but if you have Gradle installed, it should be fairly easy to build.
-The plugin manager is available from [this GitHub repository][4].
+A plugin manager is integrated into the Chunky launcher since version 1.10 of the launcher.
+The plugin manager is accessed via the "Manage Plugins" button under the Advanced tab.
 
 
 ## Plugin API methods
 
 The plugin API will be expanded as needed for future plugins. If you have a
-request for a new plugin API method, please suggest it over at the [Chunky
-Issue Tracker][6].
+request for a new plugin API method, please suggest it [on the issue tracker][6].
 
 This is a list of the methods available to plugins currently in the plugin API:
 
@@ -136,7 +152,6 @@ these things will probably change:
 [1]: https://github.com/llbit/Chunky-AOPlugin
 [2]: https://github.com/llbit/Chunky-BlockMod
 [3]: https://github.com/llbit/Chunky-TabMod
-[4]: https://github.com/llbit/Chunky-PlugMan
 [5]: https://gradle.org/
 [6]: https://github.com/llbit/chunky/issues
 [7]: https://github.com/llbit/Chunky-TestRenderer

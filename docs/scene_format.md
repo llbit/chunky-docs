@@ -37,7 +37,7 @@ emittersEnabled | Boolean       | false |
 emitterIntensity | Number       | 13.0 |
 sunEnabled      | Boolean       | true |
 stillWater      | Boolean       | false |
-waterOpacity    | Number (0-1)  | 0.42 |
+waterOpacity    | Number (0 to 1)  | 0.42 |
 waterVisibility | Number        | 9.0 |
 useCustomWaterColor | Boolean   | false |
 fogColor        | RGB Object    | | See below
@@ -54,14 +54,15 @@ cameraPresets   | Camera Preset Object | | See below
 chunkList       | Array of integer arrays | | Chunks in the scene
 actors          | Array of Entity Objects | | Posable entities such as players.
 entities        | Array of Entity Objects | | Static entities in the scene, e.g. paintings
+materials       | Sky Object    | | Material properties. See below.
 
 ###RGB Object
 
 Key   | Value range
 ------|------------
-red   | Number (0-1)
-green | Number (0-1)
-blue  | Number (0-1)
+red   | Number (0 to 1)
+green | Number (0 to 1)
+blue  | Number (0 to 1)
 
 ###XYZ Object
 
@@ -84,7 +85,7 @@ yaw   | Number
 Key       | Value range
 ----------|------------
 path      | String
-dimension | Integer (0-2)
+dimension | Integer (0 to 2)
 
 ###Camera Object
 
@@ -101,8 +102,8 @@ focalOffset     | Number        | | Distance to target
 
 Key             | Value range   | Default value | Description
 ----------------|---------------|---------------|------------
-altitude        | Number (0-PI/2) | | The direction to the sun above the horizon
-azimuth         | Number (0-2PI) | | The direction to the sun measured from north
+altitude        | Number (0 to PI/2) | | The direction to the sun above the horizon
+azimuth         | Number (0 to 2PI) | | The direction to the sun measured from north
 intensity       | Number | 1.25 | Sunlight scaling factor
 color           | RGB Object    | |
 
@@ -110,11 +111,11 @@ color           | RGB Object    | |
 
 Key             | Value range   | Default value | Description
 ----------------|---------------|---------------|------------
-skyYaw          | Number (0-2PI) | | Offset angle for the sky map
+skyYaw          | Number (0 to 2PI) | | Offset angle for the sky map
 skyMirrored     | Boolean       | true | Enables mirroring of the skymap at the horizon (use when the vertical skymap angle is 90 degrees)
 skyLight        | Number        | 1.0 | Sky light scaling factor
 mode            | `{"SIMULATED", "GRADIENT", "SKYMAP_PANORAMIC", "SKYMAP_SPHERICAL", "SKYBOX", "BLACK"}` | `"SIMULATED"` | Sky rendering mode
-horizonOffset   | Number (0-PI/2) | Offset the horizon to simulate a curved earth. This helps hiding the horizon below distant objects.
+horizonOffset   | Number (0 to PI/2) | Offset the horizon to simulate a curved earth. This helps hiding the horizon below distant objects.
 cloudsEnabled   | Boolean       | false |
 cloudSize       | Number        | 64.0 |
 cloudOffset     | XYZ Object    | |
@@ -127,6 +128,30 @@ TBD
 ###Gradient Object
 
 TBD
+
+###Material Properties
+
+The `materials` entry in the main Scene JSON can look like this:
+
+
+```
+  "materials": {
+    "block:gray_glazed_terracotta": {
+      "emittance": 0.20000000298023224
+    }
+  }
+```
+
+The `materials` object contains mappings from material name to material
+properties. The material properties objects use the following format:
+
+Key             | Value range   | Default value | Description
+----------------|---------------|---------------|------------
+emittance       | Number (0+)   |   | How much light the material emits.
+specular        | Number (0 to 1) | | Specular reflection coefficient.
+ior             | Number        |   | Index of refraction.
+
+
 
 Scripting
 ---------
@@ -181,3 +206,5 @@ Version History
 * **Version 7** (Chunky 1.3.8)
     * Added renderActors (Boolean)
     * Added actors (Array of Entity Objects)
+* **Version 7** (Chunky 1.4.3)
+    * Added materials (material properties)
