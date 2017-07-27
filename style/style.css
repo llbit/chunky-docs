@@ -43,7 +43,7 @@ pre {
   border-bottom: 5px solid #0F889A;
   padding: .6rem;
   margin: 1rem 2rem;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto',Helvetica,sans-serif;
 }
 .button:hover {
   background-color: #0D95AC;
@@ -63,21 +63,21 @@ body{
 	background-image:url(site_background_tile.png);
 }
 h1, h2, h3 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto',Helvetica,sans-serif;
 }
 
 /*-----------------------*/
 /* CLASSES */
 /*-----------------------*/
 .title{
-	font-family: sans-serif;
+  font-family: 'Roboto',Helvetica,sans-serif;
 	font-size: 2.7rem;
 	margin-bottom: 0.5rem;
 }
 .subtitle{
 	margin-top: 0.5rem;
 	font-size: 1rem;
-	font-family: serif;
+  font-family: 'Roboto',Helvetica,sans-serif;
 	font-style: italic;
 	font-weight: 500;
 	color: #666;

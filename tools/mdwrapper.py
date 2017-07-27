@@ -38,6 +38,7 @@ sys.stdout.write("""<!doctype html>
 <title>%s</title>
 <link rel="icon" href="/favicon.ico" sizes="16x16" type="image/vnd.microsoft.icon">
 <link href="/style.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,800' rel='stylesheet' type='text/css'>
 <style>
 #menu a[href="%s.html"] {
