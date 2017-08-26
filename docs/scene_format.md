@@ -206,5 +206,8 @@ Version History
 * **Version 7** (Chunky 1.3.8)
     * Added renderActors (Boolean)
     * Added actors (Array of Entity Objects)
-* **Version 7** (Chunky 1.4.3)
+* **Version 8** (Chunky 1.4.3)
     * Added materials (material properties)
+* **Version 9** (Chunky 1.4.4)
+    * Changed entity pose format.
+    * Added entity armor items.
