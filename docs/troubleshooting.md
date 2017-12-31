@@ -23,6 +23,25 @@ On Ubuntu 16.04, this is solved by installing package `openjfx`:
 sudo apt-get install openjfx
 ```
 
+## Memory Limit won't go above 2Gb
+
+If you are not able to set the memory limit for Chunky greater than 2Gb,
+despite having more than 2Gb of RAM in your computer, then you need to upgrade
+to a 64-bit Java installation.  A 32-bit Java installation does not allow more
+than 2Gb for the Chunky memory limit.
+
+If you try launching Chunky with more than 2Gb of memory in a 32-bit Java installation,
+you will get an error message similar to this:
+
+![Windows 7 heap size error](heapsize_win32.png)
+
+Check the debug console (enable it under Advanced Settings in the launcher):
+
+![windows 7 heap size error](heapsize_win32_console.png)
+
+The line that says "Could not reserve enough space for ...  object heap"
+indicates that the Java installation did not allow the configured memory limit.
+
 
 ## Black blocks with a red X
 
