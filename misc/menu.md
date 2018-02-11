@@ -19,7 +19,7 @@
     * [Scene Format](/scene_format.html)
     * [Minecraft Compatibility](/minecraft_compatibility.html)
     * [Plugin API](/plugin_api.html)
-    * [API Docs](http://javadoc.io/doc/se.llbit/chunky-core)
+    * [API Docs](/api/)
 * Community
     * [GitHub](https://github.com/llbit/chunky)
     * [Issue Tracker](https://github.com/llbit/chunky/issues)
