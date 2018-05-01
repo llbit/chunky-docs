@@ -3,11 +3,26 @@ Troubleshooting Chunky
 
 This page lists some common issues and how to fix them.
 
+## Chunky opens as a blank window (Windows)
+
+If the Chunky or Chunky Launcher window is blank when you start it, this
+is caused by an issue in the JavaFX hardware renderer for Windows.
+The only known solution is to add `-Dprism.order=sw` to the Java command
+when starting Chunky. The option needs to be added in the "Java options"
+field in the launcher. If not even the launcher will open, then the
+start menu shortcuts for Chunky need to be edited, like this:
+
+![Windows 10: editing Chunky shortcut to add -Dprism.order=sw](prism_order_sw_windows.png)
+
+Later releases will fix this issue by adding the `-Dprism.order=sw` option
+by default to the Chunky shortcuts.
+
+
 ## Chunky does not launch anymore (Windows)
 
 If you installed Chunky using the Windows installer and later updated the Java installation,
-Chunky may stop working because the path to the Java-installation has changed. This can
-usually be fixed by uninstalling Chunky and reinstalling it again.
+Chunky may stop working because the path to the Java installation has changed. This can
+be fixed by uninstalling Chunky and reinstalling it again.
 
 ## Trouble launching on Linux
 
