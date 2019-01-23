@@ -1,12 +1,12 @@
-Minecraft Compatibility
-=======================
+# Minecraft Compatibility
 
-Chunky can render most blocks in Minecraft 1.8.1. The oldest version supported
-is Minecraft Beta 1.3, in which the current world format was intorduced.  Older
+Chunky can render most blocks in Minecraft up to version 1.12.2.
+The oldest Minecraft version supported
+is Minecraft 1.2.1, in which the Anvil world format was introduced.  Older
 versions of Minecraft use a different format that is not supported.
+In Minecraft 1.13, the world format changed again and Chunky does not yet support it.
 
-Unsupported Blocks/Entities
----------------------------
+## Unsupported Blocks/Entities
 
 Entities are currently not rendered by Chunky, and some special blocks can not
 be rendered either. Here is a list of all things that Chunky does not render:
