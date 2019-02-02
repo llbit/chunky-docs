@@ -60,17 +60,24 @@ indicates that the Java installation did not allow the configured memory limit.
 
 ## Black blocks with a red X
 
-The black box with a red cross over it is the texture used in place of missing textures.
-
 This happens when Chunky could not find a Minecraft installation to load textures from.
 
+The black box with a red cross over it is the texture used in place of missing textures.
+See the below section for more about how to fix missing/wrong textures.
+
+
+## Wrong Textures / Changing Texture Pack
+
 Chunky needs to load textures from a Minecraft installation or a resource pack,
-otherwise it uses its own built-in textures or the missing texutre.
+otherwise it uses its own built-in textures for the missing texutre.
 
-The problem can be fixed by either:
+If you get the wrong textures when you create a 3D scene, there are two things you can do:
 
-* Updating the path to your Minecraft installation in the Chunky launcher.
-* Loading a resource pack that contains the missing textures.
+* Update the path to your Minecraft installation in the Chunky launcher.
+* Load a resource pack that contains the missing textures:
+    * In the main Chunky window, click the Options tab then click "Edit resource packs".
+    * Use the "Resource Packs" window to select your texture pack.
+
 
 ## I try to create a new scene but it is empty
 
