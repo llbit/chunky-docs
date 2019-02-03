@@ -7,6 +7,7 @@
     * [Troubleshooting](/troubleshooting.html)
 * <a href="/gallery.html"><img src="/gallery.png">&nbsp;Gallery</a>
 * [Getting Started](/getting_started.html)
+    * [Your first render!](/your_first_render.html)
     * [Installation](/install.html)
     * [Tips](/tips.html)
 * [User Interface](/user_interface.html)
