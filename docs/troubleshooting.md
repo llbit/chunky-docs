@@ -78,6 +78,8 @@ If you get the wrong textures when you create a 3D scene, there are two things y
     * In the main Chunky window, click the Options tab then click "Edit resource packs".
     * Use the "Resource Packs" window to select your texture pack.
 
+See also [this reddit thread.](https://www.reddit.com/r/chunky/comments/917h5q/chunky_145_texture_problems/)
+
 
 ## I try to create a new scene but it is empty
 
