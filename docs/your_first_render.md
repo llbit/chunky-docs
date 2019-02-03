@@ -141,7 +141,7 @@ Click the Advanced Tab.
 
 ![Advanced Tab](https://i.imgur.com/hOlrMiQ.png)
 
-Adjust CPU load and threads as you see fit. 
+Adjust CPU load and threads as you see fit. Chunky renders using solely CPU. GPU support may come Soon (tm)
 > If you plan to use your PC while it is rendering / have a weaker computer, reduce CPU load to around 40-60% and reduce threads as you see fit. Be aware that lower CPU load / less threads can significantly increase render times!
 
 Set Ray Depth to whatever you want. 3-8 is usually good enough.
@@ -157,6 +157,7 @@ If you are using emitters, you will need a much higher SPP then if you weren't.
 There is no right or wrong amount of SPP, but 500-3000 is good place to aim :)
 
 When you are ready, hit render, and wait for your beautiful image to be produced!
+> This could take anywhere between two minutes and two days. Sit tight!
 
 > If you get an error complaining about a missing directory, hit OK and let it create the folder for you. It should continue as normal.
 
