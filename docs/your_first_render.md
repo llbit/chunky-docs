@@ -163,8 +163,16 @@ When you are ready, hit render, and wait for your beautiful image to be produced
 
 Here is what my finished image looks like:
 
+![Final](https://i.imgur.com/POsTgzy.png)
 
+Your result will be stored in your .chunky/scenes folder:
 
+- Windows: C:\Users/Your_User_Name/AppData/Local/.chunky/scenes (if it is not in AppData/Local, try AppData/Roaming)
+- Linux: /home/.chunky/scenes
+
+Move the image somewhere safe and delete **everything** inside the scenes folder, ready for your next render!
+
+> The number next to the image name is the number of SPP the image was exported as. You may have multiple images if you set 'Save Snapshot for each dump' to checked. The image with the highest number is your finished result!
 
 > This guide was written by EmeraldSnorlax :)
 
