@@ -46,8 +46,9 @@ List docTasks = []
 fileTree(dir: 'docs').include('**/*.md').each { docFile ->
 	String filename = file('docs').toURI().relativize(docFile.toURI())
 	def destName = "out/${filename[0..-4]}.html"
+	def taskName = destName.replace("/", "_").replace(".", "_")
 
-	docTasks << project.task(destName, type: Exec) {
+	docTasks << project.task(taskName, type: Exec) {
 		dependsOn copyDocs, menuTemplate
 
 		File sourceFile = new File(file('tmp'), filename)
@@ -73,8 +74,9 @@ fileTree(dir: 'docs').include('**/*.md').each { docFile ->
 fileTree(dir: 'images/gallery').include('*.png').include('*.jpg').each { image ->
 	String filename = file('images/gallery').toURI().relativize(image.toURI())
 	def destName = "out/gallery/${filename[0..-5]}_thumb.jpg"
+	def taskName = destName.replace("/", "_").replace(".", "_")
 
-	docTasks << project.task(destName, type: Exec) {
+	docTasks << project.task(taskName, type: Exec) {
 		File dest = file(destName)
 
 		dest.parentFile.mkdirs()

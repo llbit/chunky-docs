@@ -1,5 +1,4 @@
-Chunky Documentation
-====================
+# Chunky Documentation
 
 This is the repository for the [Chunky Documentation][0].  The documentation is
 currently hosted at [http://chunky.llbit.se/][0].
@@ -8,29 +7,28 @@ Any help with keeping this documentation up to date is much appreciated!
 [Click here for more info about editing the documentation.][5]
 
 
-Editing
--------
+## Editing
 
 You can edit any file easily right here on GitHub. All you need is a GitHub
 account. You can navigate to a file you want to edit via the file tree and
 click the `Edit` button after selecting a file. We use [Markdown syntax][3] for
 all documentation pages.
 
-Dependencies
-------------
+## Dependencies
 
-* [Gradle][1]
 * Python
     * Python-Markdown
     * PIL
 
-Testing
--------
+## Testing
 
-The webpages can be generated in the local directory `out` using the
-[Gradle][1] build script in the project root. If you have Gradle and the other
-dependencies installed you only need to run Gradle using a terminal in the
-project root. The script will do the rest.
+The HTML pages can be generated in the local directory `out` using the
+[Gradle][1] build script in the project root. Re-generate the HTML with
+this command:
+
+    ./gradlew documentation
+
+
 
 The build script runs a Python script named `tools/mdwrapper.py` on all
 Markdown files (`*.md`) in the `docs` directory. Before the python script is
@@ -51,10 +49,8 @@ NPM installed, is to run the following commands:
 Another way to do this with nodejs is with your own [small nodejs web server
 script][2].
 
-Requirements
-------------
 
-The build script `build.gradle` requires [Gradle][1] to run.
+## Requirements
 
 Python and python-markdown are required to generate the documentation pages.
 
