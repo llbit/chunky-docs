@@ -24,11 +24,7 @@ all documentation pages.
 
 The HTML pages can be generated in the local directory `out` using the
 [Gradle][1] build script in the project root. Re-generate the HTML with
-this command:
-
-    ./gradlew documentation
-
-
+this command in a terminal: `./gradlew` (use just `gradle` on Windows).
 
 The build script runs a Python script named `tools/mdwrapper.py` on all
 Markdown files (`*.md`) in the `docs` directory. Before the python script is
