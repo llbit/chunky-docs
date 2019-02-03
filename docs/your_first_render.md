@@ -160,4 +160,10 @@ When you are ready, hit render, and wait for your beautiful image to be produced
 
 > If you get an error complaining about a missing directory, hit OK and let it create the folder for you. It should continue as normal.
 
+Here is what my finished image looks like:
+
+
+
+
+> This guide was written by EmeraldSnorlax :)
 
