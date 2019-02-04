@@ -20,6 +20,7 @@ Wiki Editors
 * TheRenderJunkie
 * Theudas
 * DaedalusYoung
+* EmeraldSnorlax
 
 Special Thanks
 --------------
