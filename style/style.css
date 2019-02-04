@@ -223,6 +223,12 @@ h1, h2, h3 {
 	text-decoration: none !important;
 }
 
+code {
+	color: darkblue
+}
+
+
+
 /* Selection Color */
 ::-moz-selection {
 	background: lightblue !important;
