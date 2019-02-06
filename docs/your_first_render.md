@@ -59,7 +59,9 @@ If you aren't already inside of Chunky, go ahead and launch it again. You should
 Hit 'Change World' and select the Minecraft world you want to render.
 
 ![Chunky Chunks](https://i.imgur.com/RqaVU7R.png)
+
 Select the correct dimension using the buttons on the right, then highlight the chunks you want to be loaded in the render.
+
 - Left click a chunk to select / unselect the chunk
 - Shift click + drag to select a rectangular area
 - Crtl Shift click + drag to unselect a rectangular area

@@ -7,7 +7,9 @@ for examples of what Chunky can do!
 <a href="/download.html" class="button">Download version @VERSION@</a>
 
 New users are recommended to look at the [Installation Instructions][13] and
-the [Getting Started Guide][14].
+the [Getting Started Guide][14], or for a full guide check [Your First Render!](./your_first_render.html)
+
+Join Chunky's discord [here.](https://discord.gg/EUVduZj)
 
 Frequently Asked Questions
 --------------------------

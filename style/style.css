@@ -223,6 +223,16 @@ h1, h2, h3 {
 	text-decoration: none !important;
 }
 
+code {
+	color: darkblue
+}
+blockquote {
+	font-style: italic;
+	color: grey;
+	text-align: center;
+}
+
+
 /* Selection Color */
 ::-moz-selection {
 	background: lightblue !important;
