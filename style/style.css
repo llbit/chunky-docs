@@ -7,12 +7,12 @@ tr:nth-child(even) {
   background: #FF0;
 }
 a {
-  color: rgba(88, 164, 176);
+  color: rgb(88, 164, 176);
   text-decoration: none;
 }
 a:hover {
   text-decoration: underline;
-	color: rgba(41, 118, 145)
+	color: rgb(41, 118, 145)
 }
 /*a.download {
   background-image:url(download.png);
@@ -155,14 +155,14 @@ h1, h2, h3 {
 	padding-bottom: 7rem;
 	vertical-align: top;
 	width: 200px;
-	background: rgba(27, 27, 30, 0.8); !important;
+	background: rgb(27, 27, 30); !important;
 }
 #article{
 	padding: 0 2rem 7rem 2rem;
 	vertical-align: top;
 	position: relative;
-	background: rgba(55, 63, 81, 0.9);
-	color: rgba(360, 360, 360)
+	background: rgb(55, 63, 81);
+	color: rgb(360, 360, 360);
 }
 #footer{
 	position: absolute;
