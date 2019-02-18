@@ -51,7 +51,7 @@ You will need them to get your camera in the correct place inside of Chunky.
 
 Close your game.
 ___
-## Highlighting Chunks
+## Selecting Chunks
 If you aren't already inside of Chunky, go ahead and launch it again. You should see something like this:
 
 ![Chunky Open](https://i.imgur.com/KmqSsck.png)
@@ -60,7 +60,7 @@ Hit 'Change World' and select the Minecraft world you want to render.
 
 ![Chunky Chunks](https://i.imgur.com/RqaVU7R.png)
 
-Select the correct dimension using the buttons on the right, then highlight the chunks you want to be loaded in the render.
+Select the correct dimension using the buttons on the right, then select the chunks you want to be loaded in the render.
 
 - Left click a chunk to select / unselect the chunk
 - Shift click + drag to select a rectangular area
@@ -68,7 +68,7 @@ Select the correct dimension using the buttons on the right, then highlight the 
 - Click and drag to pan around the world
 - Zoom in and out using the scroll wheel
 
-> Highlighting less chunks can decrease rendering time, but they will be completely missing from the render. Try and only highlight what the camera can see!
+> Selecting less chunks can decrease rendering time, but they will be completely missing from the render. Try and only select what the camera can see!
 
 ___
 ## Setting up your render:
