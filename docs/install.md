@@ -20,6 +20,12 @@ command in a terminal/command prompt:
 
     java -jar ChunkyLauncher.jar
 
+On later versions of OpenJDK Java, you might need to run it with something like this:
+
+    java --module-path /usr/lib/jvm/java-11-openjdk/lib/ --add-modules javafx.controls,javafx.fxml -jar ChunkyLauncher.jar
+
+You should put these arguments into the launcher too.
+
 The first time you start Chunky or the Chunky Launcher, you will be asked to
 pick a settings directory for Chunky:
 
