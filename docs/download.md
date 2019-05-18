@@ -7,6 +7,7 @@ Download options for [version @VERSION@][1]:
 * [Mac Bundle](@DMG_DL_LINK@)
 * [Cross-platform binaries (Mac, Win, Linux)][3]
 * [Launcher only (Mac, Win, Linux)][4]
+* [1.11+ Alpha Launcher Only (Mac, Win, Linux)][8]
 
 Mac bundles are only tested with the Oracle Java distribution, and may not work
 on all systems.
@@ -30,3 +31,4 @@ See Also
 [5]: install.html
 [6]: getting_started.html
 [7]: /snapshot.html
+[8]: https://mega.nz/#!3wVQnaoA!zVBzXkOJddJdanNQ7k1gVrZVUF6QVwWcKFV2woZeqKI
