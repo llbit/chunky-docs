@@ -26,7 +26,7 @@ See Also
 [1]: release/@VERSION@/release_notes.html
 [2]: @EXE_DL_LINK@
 [3]: @ZIP_DL_LINK@
-[4]: http://chunkyupdate.llbit.se/ChunkyLauncher.jar
+[4]: http://chunkyupdate2.llbit.se/ChunkyLauncher.jar
 [5]: install.html
 [6]: getting_started.html
 [7]: /snapshot.html
