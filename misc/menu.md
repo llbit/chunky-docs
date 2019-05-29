@@ -1,4 +1,5 @@
 * <a href="/search.html"><img src="/search.png">&nbsp;Search Documentation</a>
+* [![Join our Discord server!](discord_icon.png)](https://discord.gg/VqcHpsF)
 * [About](/index.html)
     * [News](/news.html)
     * [Releases](https://www.reddit.com/user/releasebot.rss)
