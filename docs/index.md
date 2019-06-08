@@ -1,5 +1,4 @@
-Chunky
-======
+# Chunky
 
 Chunky is a Minecraft mapping and rendering tool.  Check out [the gallery][15]
 for examples of what Chunky can do!
@@ -9,10 +8,16 @@ for examples of what Chunky can do!
 New users are recommended to look at the [Installation Instructions][13] and
 the [Getting Started Guide][14], or for a full guide check [Your First Render!](./your_first_render.html)
 
-Join Chunky's discord [here.](https://discord.gg/EUVduZj)
+For help and development updates, join our Discord:
 
-Frequently Asked Questions
---------------------------
+[![Join our Discord server!](discord_icon.png)](https://discord.gg/VqcHpsF)
+
+## Chunky 2.0
+
+Chunky 1.4.X only supports Minecraft 1.12 and earlier. For Minecraft 1.13 and beyond, we are developing
+Chunky 2.0. [Read more here.](/chunky2.html)
+
+## Frequently Asked Questions
 
 * **Q: Why is there noise/grain/random bright dots in the render?**
   This is not a bug, but an unfortunate effect of the rendering algorithm used
@@ -38,8 +43,7 @@ Frequently Asked Questions
 
 Question still not answered? [Check the FAQ page.][8]
 
-License & Copyright
--------------------
+## License & Copyright
 
 Chunky is free software and the source code is made available under the [GNU
 General Public License, version 3][16].  The source code is managed on
@@ -49,6 +53,10 @@ Chunky is Copyright (c) 2010-2014, Jesper &Ouml;qvist. Additional contributors
 are listed in the relevant source files and [on the credits page][17].
 Copyright notices for third-party libraries used in Chunky are listed in the
 README file.
+
+## Releases
+
+[RSS feed for releases.](https://www.reddit.com/user/releasebot.rss)
 
 [1]: /release/@VERSION@/release_notes.html
 [2]: @EXE_DL_LINK@

@@ -30,7 +30,7 @@ with codecs.open('tmp/menu-template.html', mode='r', encoding='utf-8') as f:
         menu = f.read()
 
 title = text.split('\n', 1)[0]
-title = re.match('#*(.+)', title).group(1)
+title = re.match('#*\\s*(.+)', title).group(1)
 sys.stdout.write("""<!doctype html>
 <html lang="en">
 <head>

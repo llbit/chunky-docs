@@ -2,8 +2,8 @@
 * [![Join our Discord server!](discord_icon.png)](https://discord.gg/VqcHpsF)
 * [About](/index.html)
     * [News](/news.html)
-    * [Releases](https://www.reddit.com/user/releasebot.rss)
     * [Download](/download.html)
+    * [Chunky 2.0](/chunky2.html)
     * [FAQ](/faq.html)
     * [Troubleshooting](/troubleshooting.html)
 * <a href="/gallery.html"><img src="/gallery.png">&nbsp;Gallery</a>
