@@ -12,7 +12,7 @@ To get the latest beta release of Chunky 2.0, follow these steps:
 
 1. Download the Chunky Launcher (v1.11.1 or later).
 2. Open the launcher (requires Java 8 installed, does not work with Java 9+).
-3. In the launcher, under "Advanced", set the "Update Site" option to `http://chunkyupdate2.llbit.se/`.
+3. In the launcher, under "Advanced", set the "Update Site" option to: `http://chunkyupdate2.llbit.se/`
 4. Click "Check for update" and download the latest Chunky 2.0 release.
 
 ![Chunky 2.0 preview](chunky2preview.png)
