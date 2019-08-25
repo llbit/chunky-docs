@@ -172,7 +172,7 @@ Your result will be stored in your .chunky/scenes folder:
 - Windows: C:\Users/Your_User_Name/AppData/Local/.chunky/scenes (if it is not in AppData/Local, try AppData/Roaming)
 - Linux: /home/.chunky/scenes
 
-Move the image somewhere safe and delete **everything** inside the scenes folder, ready for your next render!
+Move the image somewhere safe and delete what you don't need from inside the scenes folder, ready for your next render. While it isn't required, it helps keep your scene list clean.
 
 > The number next to the image name is the number of SPP the image was exported as. You may have multiple images if you set 'Save Snapshot for each dump' to checked. The image with the highest number is your finished result!
 
