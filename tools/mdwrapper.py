@@ -9,7 +9,7 @@ if len(sys.argv) > 1 and sys.argv[1] == 'prepare':
     with codecs.open('misc/menu.md', mode='r', encoding='utf-8') as f:
         menu = f.read()
     with codecs.open('tmp/menu-template.html', mode='w', encoding='utf-8') as f:
-        f.write(markdown.markdown(menu, ['extra']))
+        f.write(markdown.markdown(menu, extensions=['extra']))
     sys.exit(0)
 
 if len(sys.argv) > 1:
@@ -68,7 +68,7 @@ sys.stdout.write("""
       <!--Content goes here -->
       <td id="article">
 """)
-sys.stdout.write(markdown.markdown(text, ['extra']))
+sys.stdout.write(markdown.markdown(text, extensions=['extra']))
 sys.stdout.write("""
       <div id="footer"><a href="https://github.com/llbit/chunky-docs/edit/master/docs/%s">Edit page</a></div>
       </td>
