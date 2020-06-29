@@ -12,8 +12,8 @@ btnsub{
 }
 .button{
   font-size:25px;
-  line-height: 20px
-  padding-top:0.6rem;
+  line-height: 20px;
+  padding-top:0.8rem;
   padding-bottom:0.6rem;
   padding-right:2rem;
   padding-left:2rem;
