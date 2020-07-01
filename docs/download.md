@@ -6,7 +6,7 @@ Download options for [version @VERSION@][1]:
 * [Windows Installer][2]
 * [Mac Bundle](@DMG_DL_LINK@)
 * [Cross-platform binaries (Mac, Win, Linux)][3]
-* [Launcher only (Mac, Win, Linux)][4]
+* [Launcher only (Mac, Win, Linux)][4] --- RECOMMENDED
 
 Mac bundles are only tested with the Oracle Java distribution, and may not work
 on all systems.

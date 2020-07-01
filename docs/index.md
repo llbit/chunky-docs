@@ -3,7 +3,26 @@
 Chunky is a Minecraft mapping and rendering tool.  Check out [the gallery][15]
 for examples of what Chunky can do!
 
-<a href="/download.html" class="button">Download version @VERSION@</a>
+## Downloads
+<style>
+btnsub{
+  font-size:13px;
+  line-height:5px;
+  color:#e6e6e6;
+}
+.button{
+  font-size:25px;
+  line-height: 20px;
+  padding-top:0.8rem;
+  padding-bottom:0.6rem;
+  padding-right:2rem;
+  padding-left:2rem;
+}
+</style>
+<center>
+	<a href="/download.html" class="button"> Chunky @VERSION@ <br><btnsub>Minecraft 1.12 or older</btnsub></a>
+	<a href="https://chunky.lemaik.de/" class="button"> Chunky 2.2.0 <br><btnsub>Minecraft 1.13 or newer</btnsub></a>
+</center>
 
 New users are recommended to look at the [Installation Instructions][13] and
 the [Getting Started Guide][14], or for a full guide check [Your First Render!](./your_first_render.html)
@@ -12,10 +31,12 @@ For help and development updates, join our Discord:
 
 [![Join our Discord server!](discord_icon.png)](https://discord.gg/VqcHpsF)
 
-## Chunky 2.0
+## Chunky for Minecraft 1.13+
 
-Chunky 1.4.X only supports Minecraft 1.12 and earlier. For Minecraft 1.13 and beyond, we are developing
-Chunky 2.0. [Read more here.](/chunky2.html)
+Chunky 1.4.X only supports Minecraft 1.12 and earlier. For Minecraft 1.13 there is
+Chunky 2.0, [Read more here](/chunky2.html), however this is incomplete. For full Minecraft 1.13+ support, including 1.16, [please see leMaik's site on Chunky 2.2](https://chunky.lemaik.de/).
+
+---
 
 ## Frequently Asked Questions
 
