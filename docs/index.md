@@ -33,8 +33,7 @@ For help and development updates, join our Discord:
 
 ## Chunky for Minecraft 1.13+
 
-Chunky 1.4.X only supports Minecraft 1.12 and earlier. For Minecraft 1.13 there is
-Chunky 2.0, [Read more here](/chunky2.html), however this is incomplete. For full Minecraft 1.13+ support, including 1.16, [please see leMaik's site on Chunky 2.2](https://chunky.lemaik.de/).
+Chunky 1.4.X only supports Minecraft 1.12 and earlier. For full Minecraft 1.13+ support, including 1.16, [please see leMaik's site on Chunky 2.2](https://chunky.lemaik.de/).
 
 ---
 

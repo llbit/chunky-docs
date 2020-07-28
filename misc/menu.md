@@ -3,7 +3,7 @@
 * [About](/index.html)
     * [News](/news.html)
     * [Download](/download.html)
-    * [Chunky 2.0](/chunky2.html)
+    * [Chunky 2](/chunky2.html)
     * [FAQ](/faq.html)
     * [Troubleshooting](/troubleshooting.html)
 * <a href="/gallery.html"><img src="/gallery.png">&nbsp;Gallery</a>

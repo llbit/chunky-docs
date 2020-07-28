@@ -1,28 +1,39 @@
-# Chunky 2.0
+# Chunky 2
 
-Chunky 2.0 is being developed to support Minecraft 1.13 and beyond. With Chunky
-2.0, the whole block handling system is redesigned to handle the new world
-format used by Minecraft 1.13+. Chunky 2.0 does not load pre-1.13 worlds or
+Chunky 2 is being developed to support Minecraft 1.13 and beyond. With Chunky
+2, the whole block handling system is redesigned to handle the new world
+format used by Minecraft 1.13+. Chunky 2 does not load pre-1.13 worlds or
 scenes created with Chunky 1.4.X.
 
-Chunky 2.0 is still being tested and improved and each beta update may break
-existing functionality.
+To get the latest release please follow the button/link below.
 
-To get the latest beta release of Chunky 2.0, follow these steps:
+<style>
+btnsub{
+  font-size:13px;
+  line-height:5px;
+  color:#e6e6e6;
+}
+.button{
+  font-size:25px;
+  line-height: 20px;
+  padding-top:0.8rem;
+  padding-bottom:0.6rem;
+  padding-right:2rem;
+  padding-left:2rem;
+}
+</style>
+<center>
+	<a href="https://chunky.lemaik.de/" class="button"> Chunky 2.2.0 <br><btnsub>Minecraft 1.13 or newer</btnsub></a>
+</center>
+![Chunky 2.2 preview](chunky2preview.png)
 
-1. Download the Chunky Launcher (v1.11.1 or later).
-2. Open the launcher (requires Java 8 installed, does not work with Java 9+).
-3. In the launcher, under "Advanced", set the "Update Site" option to: `http://chunkyupdate2.llbit.se/`
-4. Click "Check for update" and download the latest Chunky 2.0 release.
-
-![Chunky 2.0 preview](chunky2preview.png)
-
-## Change Log
+## Features
 
 * New single-window interface using a new dark theme.
 * Custom themes can be added by adding a stylesheet in the settings directory.
-* Added support for block palettes in Minecraft 1.13.
+* Support for Minecraft 1.13, 1.14, 1.15, and 1.16 ([see a list of supported blocks here](https://chunky.lemaik.de/supported-blocks)).
 * A large part of Chunky internals were redesigned (including plugin API).
+* Numerous other improvements
 
 
 ## Known Bugs
@@ -30,8 +41,7 @@ To get the latest beta release of Chunky 2.0, follow these steps:
 * Rendering speed is lower overall and in particular with water.
 * Pre-1.13 chunks are not loaded (shown with an error icon in the 2D map).
 * Minecraft 1.13 worlds can contain pre-1.13 chunks and need to be converted
-  for Chunky 2.0 to load them.
+  for Chunky 2.2 to load them.
 * Biome colors do not affect water color in Chunky. Set a custom water color
-  under the Water settings tab.
-* Material properties do not work right now.
+  under the Water settings tab or load a 1.12 resource pack.
 
