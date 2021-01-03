@@ -18,6 +18,8 @@ Linux: Open the extracted folder, right click anywhere in the file browser windo
 Run: ```
 java -jar chunky-1.4.5.jar```, making sure to replace 1.4.5 with the correct version number.
 
+Or for later versions of Chunky: ```java -jar chunkylauncher.jar```
+
 ___
 ## Install and Launch
 
