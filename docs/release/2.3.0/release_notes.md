@@ -33,7 +33,7 @@ Performance and memory usage improvements.
 * Add support for exporting rendered images in PFM format
 
 ### Improvements
-* Allow changing the output format in the “Save current frame” dialog
+* Allow changing the output format in the Save current frame dialog
 * Improve alpha computation performance
 * Make fog work underwater
 * Make the fog slider logarithmic
@@ -57,7 +57,8 @@ Performance and memory usage improvements.
 * Fix Chunky not exiting in headless mode
 * Fix scene zip export
 * Fix camera tab not updating when moving the camera in the 2d map view
-* Fix loading of (partially) corrupted chunks, should * Fix loading spigot/papercraft worlds
+* Fix loading of (partially) corrupted chunks, should
+* Fix loading spigot/papercraft worlds
 * Fix tall flowers in the materials tab
 * Fix position of skulls attached to walls
 * Fix missing texture for turtle helmet
