@@ -1,20 +1,28 @@
+<style>
+.warning {
+  padding: 20px;
+  background-color: #3e475b;
+  color: white;
+  opacity: 1;
+  transition: opacity 0.6s;
+  margin-bottom: 15px;
+  border-left: 5px solid #bd5634;
+}
+</style>
+
 Download Chunky
 ===============
 
-Download options for [version @VERSION@][1]:
+Download options for [version 2.3.0][1] for Minecraft 1.13+:
 
-* [Windows Installer][2]
-* [Mac Bundle](@DMG_DL_LINK@)
-* [Cross-platform binaries (Mac, Win, Linux)][3]
-* [Launcher only (Mac, Win, Linux)][4] --- RECOMMENDED
+* [Chunky Launcher (Mac, Win, Linux)][4]
 
-Mac bundles are only tested with the Oracle Java distribution, and may not work
-on all systems.
 
 Release Notes
 -------------
 
-[Click here to go to the release notes][1] for version @VERSION@.
+[Click here to go to the release notes][1] for version 2.3.0.
+
 
 See Also
 --------
@@ -22,13 +30,17 @@ See Also
 * [Installation instructions][5]
 * [Getting started guide][6]
 * [Snapshots][7]
-* [Chunky 2.3.0 release notes][8]
+* [Chunky 1.4.5 for Minecraft 1.12 or older][8]
 
-[1]: release/@VERSION@/release_notes.html
+<div class="warning">
+  <strong>Using Minecraft 1.12 or older?</strong> Chunky 2.X only supports Minecraft 1.13 or later. For Minecraft 1.12 or older you need to download <a href="/release/1.4.5/release_notes.html">Chunky 1.4.5</a>.
+</div>
+
+[1]: release/2.3.0/release_notes.html
 [2]: @EXE_DL_LINK@
 [3]: @ZIP_DL_LINK@
-[4]: http://chunkyupdate2.llbit.se/ChunkyLauncher.jar
+[4]: https://chunkyupdate.lemaik.de/ChunkyLauncher.jar
 [5]: install.html
 [6]: getting_started.html
 [7]: /snapshot.html
-[8]: release/2.3.0/release_notes.html
+[8]: release/1.4.5/release_notes.html
