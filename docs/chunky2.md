@@ -42,6 +42,4 @@ btnsub{
 * Pre-1.13 chunks are not loaded (shown with an error icon in the 2D map).
 * Minecraft 1.13 worlds can contain pre-1.13 chunks and need to be converted
   for Chunky 2.2 to load them.
-* Biome colors do not affect water color in Chunky. Set a custom water color
-  under the Water settings tab or load a 1.12 resource pack.
-
+	NOTE - Worlds made with Spigot, or similar, may not convert automatically and would require manual exploration to function correctly.
