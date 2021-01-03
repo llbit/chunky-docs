@@ -21,7 +21,7 @@ btnsub{
 </style>
 <center>
 	<a href="/download.html" class="button"> Chunky @VERSION@ <br><btnsub>Minecraft 1.12 or older</btnsub></a>
-	<a href="https://chunky.lemaik.de/" class="button"> Chunky 2.2.0 <br><btnsub>Minecraft 1.13 or newer</btnsub></a>
+	<a href="https://chunky.lemaik.de/" class="button"> Chunky 2.3.0 <br><btnsub>Minecraft 1.13 or newer</btnsub></a>
 </center>
 
 New users are recommended to look at the [Installation Instructions][13] and
@@ -33,7 +33,7 @@ For help and development updates, join our Discord:
 
 ## Chunky for Minecraft 1.13+
 
-Chunky 1.4.X only supports Minecraft 1.12 and earlier. For full Minecraft 1.13+ support, including 1.16, [please see leMaik's site on Chunky 2.2](https://chunky.lemaik.de/).
+Chunky 1.4.X only supports Minecraft 1.12 and earlier. For full Minecraft 1.13+ support, including 1.16, [please see leMaik's site on Chunky 2.3.0](https://chunky.lemaik.de/).
 
 ---
 
