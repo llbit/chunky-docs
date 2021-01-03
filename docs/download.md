@@ -22,6 +22,7 @@ See Also
 * [Installation instructions][5]
 * [Getting started guide][6]
 * [Snapshots][7]
+* [Chunky 1.4.5 for Minecraft upto 1.12][8]
 
 [1]: release/@VERSION@/release_notes.html
 [2]: @EXE_DL_LINK@
@@ -30,3 +31,4 @@ See Also
 [5]: install.html
 [6]: getting_started.html
 [7]: /snapshot.html
+[8]: release/1.4.5/release_notes.html
