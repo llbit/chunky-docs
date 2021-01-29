@@ -12,6 +12,8 @@ Please post bugs on the [chunky GitHub page.][1]
   emitters under the Lighting tab in the Render Controls dialog to remove most
   of the random bright dots.  **Note that rendering for a longer time will
   eventually remove the noise**, though it may take a very long time.
+  
+	Note - There are techniques and plugins which can help reduce noise. For more information please visit [jackjt8's Guide to Chunky - Denoising][5].
 
 * **Q: How long does it take to render an image?**
   There is no exact answer to this question. The main thing that affects render
@@ -43,3 +45,4 @@ Please post bugs on the [chunky GitHub page.][1]
 [1]:https://github.com/llbit/chunky/issues
 [3]:/skymaps.html
 [4]:minecraft_compatibility.html
+[5]: https://jackjt8.github.io/ChunkyGuide/docs/advanced_techniques/denoising.html

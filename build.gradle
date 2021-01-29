@@ -17,6 +17,7 @@ task copyDocs(type: Copy) {
 		DMG_DL_LINK: "${version['dmg.dl.link']}".toString(),
 		ZIP_DL_LINK: "${version['zip.dl.link']}".toString(),
 		BUILD_DATE: "${version['build.date']}".toString(),
+		MODERN_VERSION: "${version['modern.version']}".toString(),
 	])
 }
 

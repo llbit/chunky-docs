@@ -117,7 +117,8 @@ Command-Line Options
 Run Chunky with the `-help` command to see a list of all available command-line
 options. Currently these options are available:
 
-* `-render <SCENE>` - render in headless mode
+* `-render <SCENE>` - render in headless mode.
+	You may also need to add the `-f` flag to force a scene to render.
 * `-texture <FILE>` - load the specified texture pack
 * `-snapshot <SCENE> <PNG>` - create a snapshot from a scene
 * `-scene-dir <DIR>` - specify scene directory

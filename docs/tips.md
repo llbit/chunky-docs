@@ -13,6 +13,7 @@ General Render Tips
   process. When the image starts to get finished gamma correction can be
   re-enabled again without losing progress.  Also, hide the [Render Preview
   Window][1] during renders to speed up overall render time.
+	This issue is mostly fixed as of Chunky 2.3.0.
 * Increase the Ray Depth if you have a scene with many transparent or shiny
   blocks.
 * The rendering technique used in Chunky (Path Tracing) is very CPU intensive.
