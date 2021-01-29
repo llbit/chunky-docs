@@ -23,9 +23,9 @@ btnsub{
 }
 </style>
 <center>
-	<a href="https://chunky.lemaik.de/" class="button"> Chunky 2.2.0 <br><btnsub>Minecraft 1.13 or newer</btnsub></a>
+	<a href="https://chunky.lemaik.de/" class="button"> Chunky @MODERN_VERSION@ <br><btnsub>Minecraft 1.13 or newer</btnsub></a>
 </center>
-![Chunky 2.2 preview](chunky2preview.png)
+![Chunky 2 preview](chunky2preview.png)
 
 ## Features
 
@@ -41,5 +41,5 @@ btnsub{
 * Rendering speed is lower overall and in particular with water.
 * Pre-1.13 chunks are not loaded (shown with an error icon in the 2D map).
 * Minecraft 1.13 worlds can contain pre-1.13 chunks and need to be converted
-  for Chunky 2.2 to load them.
+  for Chunky 2 to load them.
 	NOTE - Worlds made with Spigot, or similar, may not convert automatically and would require manual exploration to function correctly.
