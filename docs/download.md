@@ -1,3 +1,6 @@
+Download Chunky
+===============
+
 <style>
 .warning {
   padding: 20px;
@@ -9,9 +12,6 @@
   border-left: 5px solid #bd5634;
 }
 </style>
-
-Download Chunky
-===============
 
 Download options for [version @MODERN_VERSION@][1] for Minecraft 1.13+:
 
@@ -27,6 +27,7 @@ Release Notes
 See Also
 --------
 
+* [jackjt8's Guide to Chunky][9]
 * [Installation instructions][5]
 * [Getting started guide][6]
 * [Snapshots][7]
@@ -34,6 +35,7 @@ See Also
 
 <div class="warning">
   <strong>Using Minecraft 1.12 or older?</strong> Chunky 2.X only supports Minecraft 1.13 or later. For Minecraft 1.12 or older you need to download <a href="/release/1.4.5/release_notes.html">Chunky @VERSION@</a>.
+  </strong>
 </div>
 
 [1]: release/2.3.0/release_notes.html
@@ -44,3 +46,4 @@ See Also
 [6]: getting_started.html
 [7]: /snapshot.html
 [8]: release/1.4.5/release_notes.html
+[9]: https://jackjt8.github.io/ChunkyGuide/
