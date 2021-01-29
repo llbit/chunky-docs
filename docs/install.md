@@ -6,7 +6,7 @@ Before installing Chunky you will need Java 8 update 40 or later.
 
 On Ubuntu, some other Linux distributions, and with Java 11 or greater you may have to install a JavaFX
 library to be able to run Chunky. On Ubuntu 16.04, just have to install the
-package `OpenJFX`.
+package `openjfx` (ie apt-get install openjfx).
 
 There are several different ways to install Chunky. If you are using Windows
 then the [Windows Installer](@EXE_DL_LINK@) is probably the best option.
@@ -21,7 +21,7 @@ command in a terminal/command prompt:
 
     java -jar ChunkyLauncher.jar
 
-On later versions of OpenJDK Java, you might need to run it with `--module-path` & `--add-modules` like below:
+On later versions of OpenJDK Java, you might need to run it with `--module-path` and `--add-modules` like below:
 
     java --module-path /usr/lib/jvm/java-11-openjdk/lib/ --add-modules javafx.controls,javafx.fxml -jar ChunkyLauncher.jar
 

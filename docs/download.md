@@ -13,7 +13,7 @@
 Download Chunky
 ===============
 
-Download options for [version 2.3.0][1] for Minecraft 1.13+:
+Download options for [version @MODERN_VERSION@][1] for Minecraft 1.13+:
 
 * [Chunky Launcher (Mac, Win, Linux)][4]
 
@@ -21,7 +21,7 @@ Download options for [version 2.3.0][1] for Minecraft 1.13+:
 Release Notes
 -------------
 
-[Click here to go to the release notes][1] for version 2.3.0.
+[Click here to go to the release notes][1] for version @MODERN_VERSION@.
 
 
 See Also
@@ -30,10 +30,10 @@ See Also
 * [Installation instructions][5]
 * [Getting started guide][6]
 * [Snapshots][7]
-* [Chunky 1.4.5 for Minecraft 1.12 or older][8]
+* [Chunky @VERSION@ for Minecraft 1.12 or older][8]
 
 <div class="warning">
-  <strong>Using Minecraft 1.12 or older?</strong> Chunky 2.X only supports Minecraft 1.13 or later. For Minecraft 1.12 or older you need to download <a href="/release/1.4.5/release_notes.html">Chunky 1.4.5</a>.
+  <strong>Using Minecraft 1.12 or older?</strong> Chunky 2.X only supports Minecraft 1.13 or later. For Minecraft 1.12 or older you need to download <a href="/release/1.4.5/release_notes.html">Chunky @VERSION@</a>.
 </div>
 
 [1]: release/2.3.0/release_notes.html
