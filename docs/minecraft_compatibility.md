@@ -2,7 +2,7 @@
 
 Bedrock Edition worlds are not supported.
 
-Entities are currently not rendered by Chunky, and some special blocks can not
+Most entities are currently not rendered by Chunky, and some special blocks can not
 be rendered either. Here is a list of the supported Minecraft versions in addtion to all the things that Chunky cannot render.
 
 <style type="text/css">
