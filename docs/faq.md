@@ -31,7 +31,7 @@ Please post bugs on the [chunky GitHub page.][1]
 * **Q: Can Chunky render custom block models and mod blocks?**
   Support for custom block models and mod blocks is currently in development on the [json-block-models branch within leMaik/chunky][7]; as the name implies this would enable support for block models defined with json files. Support will initially roll out as a plugin before, hopefully, being integrated directly into Chunky.
   
-  Otherwise for information on currently supported blocks check out the article on [Minecraft Compatibility][4].
+	Otherwise for information on currently supported blocks check out the article on [Minecraft Compatibility][4].
 
 * **Q: Why does the sky look bad?**
   You might have a low resolution skymap, or it may be the wrong format.
