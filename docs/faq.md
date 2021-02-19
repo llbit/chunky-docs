@@ -19,20 +19,19 @@ Please post bugs on the [chunky GitHub page.][1]
   There is no exact answer to this question. The main thing that affects render
   time is your CPU, the size of the image, and the lighting conditions in the
   scene you are rendering. It can take anywhere from an hour to a couple of
-  days to render a nice image. You can reduce the size of the canvas or disable
-  emitters to speed up the convergence rate. See the [Path Tracing](/path_tracing.html) article for
-  more details.
+  days to render a nice image. You can reduce the size of the canvas, disable
+  emitters, enable ESS, or use a denoising technique to speed up the convergence rate. See the [Path Tracing](/path_tracing.html) article or [jackjt8's Guide to Chunky - Denoising][5] for more details.
 
 * **Q: Is GPU rendering supported?**
-  GPU support is not actively being worked on right now. GPU rendering *may* be
-  added in the future, and some partial progress has been made toward this goal
-  but there are very many hurdles before it is fully supported.
+  GPU rendering support for Chunky 2.3 is currently in development in the form of an OpenCL 1.2 renderer plugin. This renderer is still under development and many features of the CPU renderer are not yet supported. For more information and WIP builds please visit [the plugins GitHub][6].
 
 * **Q: Why are mobs not rendered?**
   Chunky cannot currently render entities, with the exception of paintings. Entities are objects that are separate from the blocks that make up the Minecraft worlds, such as players, mobs, minecarts, projectiles, etc. Future support for rendering entities is planned, but there is no deadline for this feature yet, so stay tuned!
 
-* **Q: Can Chunky render mod blocks?**
-  No, only Vanilla blocks. It is not likely that any mod blocks will be supported as there are far too many for it to be feasible. Check out [this page][4] to read more about which blocks Chunky can render.
+* **Q: Can Chunky render custom block models and mod blocks?**
+  Support for custom block models and mod blocks is currently in development on the [json-block-models branch within leMaik/chunky][7]; as the name implies this would enable support for block models defined with json files. Support will initially roll out as a plugin before, hopefully, being integrated directly into Chunky.
+  
+	Otherwise for information on currently supported blocks check out the article on [Minecraft Compatibility][4].
 
 * **Q: Why does the sky look bad?**
   You might have a low resolution skymap, or it may be the wrong format.
@@ -46,3 +45,5 @@ Please post bugs on the [chunky GitHub page.][1]
 [3]:/skymaps.html
 [4]:minecraft_compatibility.html
 [5]: https://jackjt8.github.io/ChunkyGuide/docs/advanced_techniques/denoising.html
+[6]: https://github.com/alexhliu/ChunkyClPlugin
+[7]: https://github.com/leMaik/chunky/tree/json-block-models

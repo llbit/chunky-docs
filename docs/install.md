@@ -1,20 +1,8 @@
 Installing Chunky
 =================
 
-<style>
-.warning {
-  padding: 20px;
-  background-color: #3e475b;
-  color: white;
-  opacity: 1;
-  transition: opacity 0.6s;
-  margin-bottom: 15px;
-  border-left: 5px solid #bd5634;
-}
-</style>
-
 <div class="warning">
-  <strong> If you are looking for installation instructions for Chunky 2.X+ please refer to <a href="https://jackjt8.github.io/ChunkyGuide/docs/setup/installation.html">jackjt8's Guide to Chunky - Installation</a>
+  <strong> If you wish to render Minecraft 1.13+ worlds, please see <a href="/chunky2.html">Chunky 2</a>
   </strong>
 </div>
 
