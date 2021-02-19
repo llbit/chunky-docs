@@ -14,7 +14,7 @@ Installing Chunky
 </style>
 
 <div class="warning">
-  <strong> If you are looking for installation instructions for Chunky 2.X+ please refer to <a href="https://jackjt8.github.io/ChunkyGuide/docs/setup/installation.html">jackjt8's Guide to Chunky - Installation</a>
+  <strong> If you wish to render Minecraft 1.13+ worlds, please see <a href="/chunky2.html">Chunky 2</a>
   </strong>
 </div>
 
