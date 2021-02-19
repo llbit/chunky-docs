@@ -23,7 +23,7 @@ Please post bugs on the [chunky GitHub page.][1]
   emitters, enable ESS, or use a denoising technique to speed up the convergence rate. See the [Path Tracing](/path_tracing.html) article or [jackjt8's Guide to Chunky - Denoising][5] for more details.
 
 * **Q: Is GPU rendering supported?**
-  GPU rendering support for Chunky 2.3 is currently in development in the form of an OpenCL 1.2 renderer plugin. This renderer is still under development and many features of the CPU renderer are not yet supported. For more information and WIP builds please visit the plugins GitHub - [ChunkyCL][6].
+  GPU rendering support for Chunky 2.3 is currently in development in the form of an OpenCL 1.2 renderer plugin. This renderer is still under development and many features of the CPU renderer are not yet supported. For more information and WIP builds please visit [the plugins GitHub][6].
 
 * **Q: Why are mobs not rendered?**
   Chunky cannot currently render entities, with the exception of paintings. Entities are objects that are separate from the blocks that make up the Minecraft worlds, such as players, mobs, minecarts, projectiles, etc. Future support for rendering entities is planned, but there is no deadline for this feature yet, so stay tuned!
