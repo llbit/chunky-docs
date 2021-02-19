@@ -36,13 +36,13 @@ be rendered either. Here is a list of the supported Minecraft versions in addtio
   <tr>
     <td class="left">Mod blocks</td>
     <td class="center">No</td>
-    <td class="center">WIP-Branch/Plugin</td>
+    <td class="center">No</td>
     <td class="center"> <a href="https://github.com/chunky-dev/chunky/issues/88">#88</a>, <a href="https://github.com/chunky-dev/chunky/issues/426">#426</a>, <a href="https://github.com/chunky-dev/chunky/issues/266">#266</a> </td>
   </tr>
   <tr>
     <td class="left">Custom block models</td>
     <td class="center">No</td>
-    <td class="center">WIP-Branch/Plugin</td>
+    <td class="center">No</td>
     <td class="center"> <a href="https://github.com/chunky-dev/chunky/issues/88">#88</a>, <a href="https://github.com/chunky-dev/chunky/issues/426">#426</a>, <a href="https://github.com/chunky-dev/chunky/issues/266">#266</a> </td>
   </tr>
   <tr>
