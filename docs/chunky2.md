@@ -7,21 +7,6 @@ scenes created with Chunky 1.4.X.
 
 To get the latest release please follow the button/link below.
 
-<style>
-btnsub{
-  font-size:13px;
-  line-height:5px;
-  color:#e6e6e6;
-}
-.button{
-  font-size:25px;
-  line-height: 20px;
-  padding-top:0.8rem;
-  padding-bottom:0.6rem;
-  padding-right:2rem;
-  padding-left:2rem;
-}
-</style>
 <center>
 	<a href="https://chunky.lemaik.de/" class="button"> Chunky @MODERN_VERSION@ <br><btnsub>Minecraft 1.13 or newer</btnsub></a>
 </center>

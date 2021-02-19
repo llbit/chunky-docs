@@ -1,18 +1,6 @@
 Download Chunky
 ===============
 
-<style>
-.warning {
-  padding: 20px;
-  background-color: #3e475b;
-  color: white;
-  opacity: 1;
-  transition: opacity 0.6s;
-  margin-bottom: 15px;
-  border-left: 5px solid #bd5634;
-}
-</style>
-
 Download options for [version @MODERN_VERSION@][1] for Minecraft 1.13+:
 
 * [Chunky Launcher (Mac, Win, Linux)][4]
