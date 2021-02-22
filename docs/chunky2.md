@@ -8,7 +8,7 @@ scenes created with Chunky 1.4.X.
 To get the latest release please follow the button/link below.
 
 <center>
-	<a href="https://chunky.lemaik.de/" class="button"> Chunky @MODERN_VERSION@ <br><btnsub>Minecraft 1.13 or newer</btnsub></a>
+	<a href="/download.html" class="button"> Chunky @MODERN_VERSION@ <br><btnsub>Minecraft 1.13 or newer</btnsub></a>
 </center>
 ![Chunky 2 preview](chunky2preview.png)
 
