@@ -9,7 +9,9 @@ Download options for [version @MODERN_VERSION@][1] for Minecraft 1.13+:
 Release Notes
 -------------
 
-[Click here to go to the release notes][1] for version @MODERN_VERSION@.
+[Click here to go to the release highlights][1] for version @MODERN_VERSION@.
+
+[See the release notes on Github](https://github.com/chunky-dev/chunky/releases/tag/@MODERN_VERSION@)
 
 
 See Also

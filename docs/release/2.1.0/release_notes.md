@@ -7,7 +7,7 @@ Chunky 2.1.0
 
 ## Release Notes
 
-See the release notes of Github:
+See the release notes on Github:
 
 [2.1.0-187](https://github.com/chunky-dev/chunky/releases/tag/2.1.0-187)
 
