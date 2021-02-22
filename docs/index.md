@@ -50,8 +50,8 @@ Chunky is free software and the source code is made available under the [GNU
 General Public License, version 3][16].  The source code is managed on
 [GitHub][9].
 
-Chunky is Copyright (c) 2010-2014, Jesper &Ouml;qvist. Additional contributors
-are listed in the relevant source files and [on the credits page][17].
+Chunky is Copyright (c) 2010-2021, Jesper &Ouml;qvist and [Chunky Contributors][18];
+these are also listed in the relevant source files and on the [Credits][17] page.
 Copyright notices for third-party libraries used in Chunky are listed in the
 README file.
 
@@ -73,3 +73,4 @@ README file.
 [15]: /gallery.html
 [16]: http://opensource.org/licenses/gpl-3.0.html
 [17]: /credits.html
+[18]: https://github.com/chunky-dev/chunky/graphs/contributors
