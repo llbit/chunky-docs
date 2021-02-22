@@ -16,10 +16,6 @@ For help and development updates, join our Discord:
 
 [![Join our Discord server!](discord_icon.png)](https://discord.gg/VqcHpsF)
 
-## Chunky for Minecraft 1.13+
-
-Chunky 1.4.X only supports Minecraft 1.12 and earlier. For full Minecraft 1.13+ support, including Minecraft 1.16, [please see leMaik's site on Chunky @MODERN_VERSION@](https://chunky.lemaik.de/).
-
 ---
 
 ## Frequently Asked Questions
