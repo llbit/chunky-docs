@@ -5,8 +5,8 @@ for examples of what Chunky can do!
 
 ## Downloads
 <center>
-	<a href="/download.html" class="button"> Chunky @VERSION@ <br><btnsub>Minecraft 1.12 or older</btnsub></a>
-	<a href="https://chunky.lemaik.de/" class="button"> Chunky @MODERN_VERSION@ <br><btnsub>Minecraft 1.13 or newer</btnsub></a>
+	<a href="/release/@VERSION@/release_notes.html" class="button"> Chunky @VERSION@ <br><btnsub>Minecraft 1.12 or older</btnsub></a>
+	<a href="/download.html" class="button"> Chunky @MODERN_VERSION@ <br><btnsub>Minecraft 1.13 or newer</btnsub></a>
 </center>
 
 New users are recommended to look at the [Installation Instructions][13] and
