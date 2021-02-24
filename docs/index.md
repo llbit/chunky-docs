@@ -28,19 +28,18 @@ For help and development updates, join our Discord:
   emitters under the Lighting tab in the Render Controls dialog to remove most
   of the random bright dots.  **Note that rendering for a longer time will
   eventually remove the noise**, though it may take a very long time.
+  
+	Note - There are techniques and plugins which can help reduce noise. For more information please visit [jackjt8's Guide to Chunky - Denoising][5].
 
 * **Q: How long does it take to render an image?**
   There is no exact answer to this question. The main thing that affects render
   time is your CPU, the size of the image, and the lighting conditions in the
   scene you are rendering. It can take anywhere from an hour to a couple of
-  days to render a nice image. You can reduce the size of the canvas or disable
-  emitters to speed up the convergence rate. See the [Path Tracing](/path_tracing.html) article for
-  more details.
+  days to render a nice image. You can reduce the size of the canvas, disable
+  emitters, enable ESS, or use a denoising technique to speed up the convergence rate. See the [Path Tracing](/path_tracing.html) article or [jackjt8's Guide to Chunky - Denoising][5] for more details.
 
 * **Q: Is GPU rendering supported?**
-  GPU support is not actively being worked on right now. GPU rendering *may* be
-  added in the future, and some partial progress has been made toward this goal
-  but there are very many hurdles before it is fully supported.
+  GPU rendering support for Chunky 2.3 is currently in development in the form of an OpenCL 1.2 renderer plugin. This renderer is still under development and many features of the CPU renderer are not yet supported. For more information and WIP builds please visit [the plugins GitHub][6].
 
 Question still not answered? [Check the FAQ page.][8]
 
