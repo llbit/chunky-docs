@@ -1,6 +1,6 @@
 # Chunky
 
-Chunky is a Minecraft mapping and rendering tool.  Check out [the gallery][15]
+Chunky is a Minecraft rendering tool that uses Path Tracing to create realistic images of your Minecraft worlds.  Check out [the gallery][15]
 for examples of what Chunky can do!
 
 ## Downloads
