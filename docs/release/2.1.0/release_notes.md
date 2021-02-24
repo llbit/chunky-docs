@@ -23,40 +23,8 @@ See the release notes on Github:
 
 [2.1.0](https://github.com/chunky-dev/chunky/releases/tag/2.1.0)
 
-## Changelog
+### Highlights
 
-### New Features
-Add barrel and loom blocks
-Add support for new sign types
-Add cartography table, fletching table, smithing table, blast furnace and smoker
-Add sweet berry bush, cornflower, lily of the valley, wither rose and bamboo saplings
-Support potted variants of the new flower types
-Add honey, bee nest, beehive and honeycomb blocks
-Add the composter block
-Add cut sandstone slab and cut red sandstone slab
-Add bamboo and potted bamboo
-Add the stonecutter
-Add the grindstone
-Add the lectern
-Add the campfire
-Add lanterns
-Add dragon egg
-Add a button to copy the current frame to the clipboard
-Render cauldron water levels
+Added support for 1.14 and 1.15 block rendering.
 
-### Improvements
-Improve slime block rendering
-Append a timestamp to the default scene name to prevent overwriting scene files by accident
-Update the cauldron model
-
-### Bug Fixes
-Fix snow rendering
-Fix textures of smooth quartz blocks, slabs and stairs
-Fix slab textures
-Fix block below top slabs being rendered as stone
-Fix nether portal transparency
-Fix end stone brick stairs and stone stairs textures
-Fix the ACES tone map operator
-Fix jack-o-lantern not emitting light
-Fix actors not being loaded if the scene doesn't contain any other entities
-Fix blocks below fern being rendered as stone
+Numerous bug fixes and improvements.
