@@ -38,6 +38,9 @@ Please post bugs on the [chunky GitHub page.][1]
 
 * **Q: Where can I find Skymaps?**
   The [Skymap][3] page has some useful links for obtaining high quality skymaps.
+  
+* **Q: What about the SpigotMC Plugin?**
+  [Chunky (SpigotMC)](https://www.spigotmc.org/resources/chunky.81534/) is an unrelated project which has an unfortunate name collision. Said plugin is used to quickly pre-generate server chunks.
 
 
 [0]:http://www.reddit.com/r/chunky
