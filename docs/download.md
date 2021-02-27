@@ -9,8 +9,21 @@ Download options for [version @MODERN_VERSION@][1] for Minecraft 1.13+:
 Release Notes
 -------------
 
-[Click here to go to the release notes][1] for version @MODERN_VERSION@.
+[Click here to see the release notes](https://github.com/chunky-dev/chunky/releases/tag/@MODERN_VERSION@) for version @MODERN_VERSION@.
 
+### Highlights
+
+* Add emitter sampling for faster convergence and less emitter noise.
+
+* Add support for player head blocks with custom skins.
+
+* Render the books on lecterns and enchanting tables and make them poseable in the entities panel.
+
+* Fix jello water caused by interaction between water plane and normal water.
+
+* Add biome-based water color.
+
+* Performance and memory usage improvements.
 
 See Also
 --------

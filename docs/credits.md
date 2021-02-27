@@ -13,6 +13,8 @@ respective earliest contribution:
 * AEnterprise
 * Austin Bonander
 
+For a full list of code contributions please visit the [Contributors](https://github.com/chunky-dev/chunky/graphs/contributors) Insight page on GitHub.
+
 Wiki Editors
 ------------
 
@@ -21,6 +23,8 @@ Wiki Editors
 * Theudas
 * DaedalusYoung
 * EmeraldSnorlax
+
+For a full list of contributors to the wiki, chunky-docs, please visit the [Contribtuors](https://github.com/llbit/chunky-docs/graphs/contributors) Insight page on GitHub.
 
 Special Thanks
 --------------
@@ -38,9 +42,8 @@ Libraries Used
 Chunky uses the following libraries:
 
 * Apache Commons Math
-* JOCL
-* MWC64X
 * Markdown
+* fastutil
 
 These libraries are also listed with copyright notices in the legal part of the
 README file that ships with Chunky.
