@@ -40,7 +40,7 @@ samples available:
 
 * [CGSkies][2]
 * [openfootage.net][4]
-* [HDRMill][5]
+* [HDRI Haven][5]
 * [nordicFX][6]
 * [HDRI-Hub.com][7]
 * [sIBL Archive][8]
@@ -80,7 +80,7 @@ And this is what the resulting render should look like:
 [2]: http://www.cgskies.com/skies.php
 [3]: http://www.reddit.com/r/chunky/comments/17ts4b/some_more_skymaps/
 [4]: http://www.openfootage.net/?cat=15
-[5]: http://www.hdrmill.com/Freebies.htm
+[5]: https://hdrihaven.com/hdris/?c=skies
 [6]: http://www.nordicfx.net/?works=hdri
 [7]: http://www.hdri-hub.com/free-samples
 [8]: http://www.hdrlabs.com/sibl/archive.html
