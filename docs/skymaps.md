@@ -46,6 +46,7 @@ samples available:
 * [sIBL Archive][8]
 * [hdrmaps.com][9]
 * [Light probes by Bernhard Vogl][10]
+* [HDRI Skies][11]
 
 You can also try searcing Google for [Panoramic Sky Texture][0]
 
@@ -87,3 +88,4 @@ And this is what the resulting render should look like:
 [9]: http://hdrmaps.com/freebies
 [10]: http://dativ.at/lightprobes/
 [11]: https://www.eso.org/public/images/eso0932a/
+[12]: https://hdri-skies.com/
