@@ -45,7 +45,7 @@ samples available:
 * [sIBL Archive][8]
 * [hdrmaps.com][9]
 * [Light probes by Bernhard Vogl][10]
-* [HDRI Skies][11]
+* [HDRI Skies][12]
 
 You can also try searcing Google for [Panoramic Sky Texture][0]
 
