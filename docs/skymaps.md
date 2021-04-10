@@ -25,7 +25,6 @@ Where to find skymaps
 
 These pages provide links to other pages, or downloads of non-HDR skymaps:
 
-* [http://www.wuala.com/Olson/Photos/Optikz_360_Skies/][1]
 * [http://www.reddit.com/r/chunky/comments/17ts4b/some_more_skymaps/][3]
 * [Milky Way Panorama by ESO][11]
 
@@ -77,7 +76,7 @@ And this is what the resulting render should look like:
 
 
 [0]: https://www.google.com/search?q=panoramic+sky+texture
-[1]: http://www.wuala.com/Olson/Photos/Optikz_360_Skies/
+
 [2]: http://www.cgskies.com/skies.php
 [3]: http://www.reddit.com/r/chunky/comments/17ts4b/some_more_skymaps/
 [4]: http://www.openfootage.net/?cat=15
