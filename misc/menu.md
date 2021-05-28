@@ -28,5 +28,6 @@
     * [Reddit](http://www.reddit.com/r/chunky)
 * Resources
     * [Skymaps](/skymaps.html)
+    * [Helpful Guide (by jackjt8)](https://jackjt8.github.io/ChunkyGuide/)
     * [Contributing](/contributing.html)
     * [Credits](/credits.html)
