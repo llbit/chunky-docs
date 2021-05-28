@@ -66,3 +66,8 @@ Alternatively, for Windows users, you can download Pillow from [here][4].
 [3]:http://daringfireball.net/projects/markdown/syntax
 [4]:http://www.lfd.uci.edu/~gohlke/pythonlibs/
 [5]:http://chunky.llbit.se/contributing.html#documentation
+
+#Useful Guides
+
+Users are welcome to make their own guides for using Chunky. Here are some that users have found helpful:
+https://jackjt8.github.io/ChunkyGuide/
