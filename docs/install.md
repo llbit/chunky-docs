@@ -1,11 +1,6 @@
 Installing Chunky
 =================
 
-<div class="warning">
-  <strong> If you wish to render Minecraft 1.13+ worlds, please see <a href="/chunky2.html">Chunky 2</a>
-  </strong>
-</div>
-
 Before installing Chunky you will need Java 8 update 40 or later.
 [You can download Java here.](http://java.com)
 

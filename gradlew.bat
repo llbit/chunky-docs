@@ -33,7 +33,7 @@ goto fail
 
 :findJavaFromJavaHome
 set JAVA_HOME=%JAVA_HOME:"=%
-set JAVA_EXE=%JAVA_HOME%/bin/java.exe
+set JAVA_EXE=D:/Games/MinecraftLauncher/runtime/jre-x64/bin/java.exe
 
 if exist "%JAVA_EXE%" goto init
 
@@ -75,6 +75,7 @@ if "%ERRORLEVEL%"=="0" goto mainEnd
 :fail
 rem Set variable GRADLE_EXIT_CONSOLE if you need the _script_ return code instead of
 rem the _cmd.exe /c_ return code!
+PAUSE
 if  not "" == "%GRADLE_EXIT_CONSOLE%" exit 1
 exit /b 1
 
