@@ -2,13 +2,12 @@
 
 Chunky 2 is being developed to support Minecraft 1.13 and beyond. With Chunky
 2, the whole block handling system is redesigned to handle the new world
-format used by Minecraft 1.13+. Chunky 2 does not load pre-1.13 worlds or
-scenes created with Chunky 1.4.X.
+format used by Minecraft 1.13+. As of Chunky 2.4 it is possible to load worlds between Minecraft 1.2.1 and 1.17.1.
 
 To get the latest release please follow the button/link below.
 
 <center>
-	<a href="/download.html" class="button"> Chunky @MODERN_VERSION@ <br><btnsub>Minecraft 1.13 or newer</btnsub></a>
+	<a href="/download.html" class="button"> Chunky @MODERN_VERSION@ <br><btnsub>Minecraft 1.2.1 to 1.17.1</btnsub></a>
 </center>
 ![Chunky 2 preview](chunky2preview.png)
 
@@ -16,7 +15,7 @@ To get the latest release please follow the button/link below.
 
 * New single-window interface using a new dark theme.
 * Custom themes can be added by adding a stylesheet in the settings directory.
-* Support for Minecraft 1.13, 1.14, 1.15, and 1.16 ([see a list of supported blocks here](https://chunky.lemaik.de/supported-blocks)).
+* Support for Minecraft 1.2.1 to 1.17.1 ([see a list of supported blocks here](https://chunky.lemaik.de/supported-blocks)).
 * A large part of Chunky internals were redesigned (including plugin API).
 * Numerous other improvements
 
@@ -24,7 +23,5 @@ To get the latest release please follow the button/link below.
 ## Known Bugs
 
 * Rendering speed is lower overall and in particular with water.
-* Pre-1.13 chunks are not loaded (shown with an error icon in the 2D map).
-* Minecraft 1.13 worlds can contain pre-1.13 chunks and need to be converted
-  for Chunky 2 to load them.
-	NOTE - Worlds made with Spigot, or similar, may not convert automatically and would require manual exploration to function correctly.
+* Some blocks in pre-1.13 worlds may not render correctly.
+
