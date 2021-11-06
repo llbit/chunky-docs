@@ -57,6 +57,7 @@ sys.stdout.write("""<!doctype html>
   ga('create', 'UA-52069457-1', 'llbit.se');
   ga('send', 'pageview');
 </script>
+  <div class="hint">&#x1F389; Chunky 2.4.1 is out! Visit the <a href="https://chunky-dev.github.io/docs" target="_blank">new website</a> for detailed guides, downloads, plugins and more.</div>
   <table id="wrapper">
     <tr id="content">
       <td id="menu">

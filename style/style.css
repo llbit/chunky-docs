@@ -6,7 +6,7 @@ tr:nth-child(even) {
 }
 
 ::selection {
-  background: #FF0;
+  background: #ff0;
 }
 
 a {
@@ -16,9 +16,8 @@ a {
 
 a:hover {
   text-decoration: underline;
-  color: rgb(41, 118, 145)
+  color: rgb(41, 118, 145);
 }
-
 
 /*a.download {
   background-image:url(download.png);
@@ -28,9 +27,9 @@ a:hover {
 }*/
 
 code {
-  background-color: #F8F8F8;
+  background-color: #f8f8f8;
   color: darkblue;
-  border: 1px solid #CCC;
+  border: 1px solid #ccc;
   border-radius: 3px;
   padding: 0 5px;
   white-space: nowrap;
@@ -41,8 +40,8 @@ img {
 }
 
 pre {
-  background-color: #F8F8F8;
-  border: 1px solid #CCC;
+  background-color: #f8f8f8;
+  border: 1px solid #ccc;
   border-radius: 3px;
   padding: 6px 10px;
   overflow: auto;
@@ -57,13 +56,13 @@ btnsub {
 
 .button {
   display: inline-block;
-  background-color: #0D95AC;
-  color: #FFF;
+  background-color: #0d95ac;
+  color: #fff;
   border-radius: 3px;
-  border-bottom: 5px solid #0F889A;
-  padding: .6rem;
+  border-bottom: 5px solid #0f889a;
+  padding: 0.6rem;
   margin: 1rem 2rem;
-  font-family: 'Roboto', Helvetica, sans-serif;
+  font-family: "Roboto", Helvetica, sans-serif;
   font-size: 25px;
   line-height: 20px;
   padding-top: 0.8rem;
@@ -73,15 +72,12 @@ btnsub {
 }
 
 .button:hover {
-  background-color: #0D95AC;
+  background-color: #0d95ac;
 }
-
 
 /*-----------------------*/
 
-
 /* GLOBALS */
-
 
 /*-----------------------*/
 
@@ -95,10 +91,10 @@ body {
   margin: 0;
   padding: 0;
   height: 100%;
-  font-family: 'Roboto', Helvetica, sans-serif;
+  font-family: "Roboto", Helvetica, sans-serif;
   min-height: 100%;
   /* background */
-  background-image: url('https://i.imgur.com/IBOOboS.png');
+  background-image: url("https://i.imgur.com/IBOOboS.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
@@ -108,20 +104,17 @@ body {
 h1,
 h2,
 h3 {
-  font-family: 'Roboto', Helvetica, sans-serif;
+  font-family: "Roboto", Helvetica, sans-serif;
 }
-
 
 /*-----------------------*/
 
-
 /* CLASSES */
-
 
 /*-----------------------*/
 
 .title {
-  font-family: 'Roboto', Helvetica, sans-serif;
+  font-family: "Roboto", Helvetica, sans-serif;
   font-size: 2.7rem;
   margin-bottom: 0.5rem;
 }
@@ -129,7 +122,7 @@ h3 {
 .subtitle {
   margin-top: 0.5rem;
   font-size: 1rem;
-  font-family: 'Roboto', Helvetica, sans-serif;
+  font-family: "Roboto", Helvetica, sans-serif;
   font-style: italic;
   font-weight: 500;
   color: #666;
@@ -146,7 +139,7 @@ h3 {
 }
 
 #menu {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 1rem;
 }
 
@@ -155,7 +148,7 @@ h3 {
   padding: 0;
 }
 
-#menu>ul>li {
+#menu > ul > li {
   padding: 0.5rem 0.3rem 0.5rem 1.3rem;
 }
 
@@ -169,12 +162,9 @@ h3 {
   padding-bottom: 5px;
 }
 
-
 /*-----------------------*/
 
-
 /* CONTAINERS */
-
 
 /*-----------------------*/
 
@@ -182,20 +172,20 @@ h3 {
   width: 860px;
   margin: 20px auto;
   border-collapse: collapse;
-  -webkit-box-shadow: 0px 0px 7px #91897E;
-  box-shadow: 0px 0px 7px #91897E;
+  -webkit-box-shadow: 0px 0px 7px #91897e;
+  box-shadow: 0px 0px 7px #91897e;
 }
 
 #header {
   width: inherit;
   background: white;
   height: 140px;
-  border-bottom: 2px solid #E9E8E2;
+  border-bottom: 2px solid #e9e8e2;
 }
 
 #logo {
   display: inline-block;
-  background-image: url('logo.png');
+  background-image: url("logo.png");
   background-size: 64px 64px;
   background-repeat: no-repeat;
   font-size: 24px;
@@ -203,7 +193,7 @@ h3 {
   margin: 10px;
   padding-left: 70px;
   padding-top: 30px;
-  color: #FFF;
+  color: #fff;
 }
 
 #logo:hover {
@@ -223,8 +213,7 @@ h3 {
   padding-bottom: 7rem;
   vertical-align: top;
   width: 200px;
-  background: rgb(27, 27, 30);
-  !important;
+  background: rgb(27, 27, 30) !important;
 }
 
 #article {
@@ -240,13 +229,13 @@ h3 {
   bottom: 0;
   padding-top: 0.5rem;
   padding-bottom: 1rem;
-  border-top: 2px solid #E9E8E2;
+  border-top: 2px solid #e9e8e2;
   width: 80%;
   font-size: 1rem;
 }
 
 #footer a {
-  color: #AFAFAF;
+  color: #afafaf;
 }
 
 @media all and (max-width: 1024px) {
@@ -256,15 +245,16 @@ h3 {
   }
 }
 
-#menu a[href^="https://github.com"] {
-  background-image: url('github_mark.png');
+#menu a[href^="https://github.com"]
+{
+  background-image: url("github_mark.png");
   background-position: 0% 50%;
   background-repeat: no-repeat;
   padding-left: 21px;
 }
 
 #menu a[href$=".rss"] {
-  background-image: url('feed-icon-14x14.png');
+  background-image: url("feed-icon-14x14.png");
   background-position: 0% 50%;
   background-repeat: no-repeat;
   padding-left: 21px;
@@ -277,7 +267,6 @@ h3 {
 #menu li {
   color: white !important;
 }
-
 
 /* Custom Search */
 
@@ -302,7 +291,6 @@ blockquote {
   text-align: center;
 }
 
-
 /* Selection Color */
 
 ::-moz-selection {
@@ -311,4 +299,28 @@ blockquote {
 
 ::selection {
   background: lightblue !important;
+}
+
+/* New documentation hint */
+.hint {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 0 8px;
+  line-height: 36px;
+  background: #2094f3;
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  box-shadow: 0 0 0.2rem rgb(0 0 0 / 10%), 0 0.2rem 0.4rem rgb(0 0 0 / 20%);
+}
+
+.hint a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.hint + #wrapper {
+  margin-top: 66px;
 }
